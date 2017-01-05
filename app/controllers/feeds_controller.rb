@@ -2,6 +2,8 @@ require 'rss'
 require 'open-uri'
 
 class FeedsController < ApplicationController
+  CACHE_EXPIRING_TIME = Rails.env.production? ? 30.minutes : 5.minutes
+
   def index
     # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}
 
@@ -16,7 +18,7 @@ class FeedsController < ApplicationController
       "http://kwang82.hankyung.com/feeds/posts/default",
       "http://feeds.feedburner.com/goodhyun",
       "http://nolboo.github.io/feed.xml",
-      "http://html5lab.kr/feed/",
+      # "http://html5lab.kr/feed/",
       "http://www.kmshack.kr/rss",
       "http://rss.egloos.com/blog/minjang",
       "http://bomjun.tistory.com/rss",
@@ -65,7 +67,7 @@ class FeedsController < ApplicationController
       "https://arload.wordpress.com/feed/",
       "http://blog.saltfactory.net/feed",
       "http://emptydream.tistory.com/rss",
-      "http://www.talk-with-hani.com/rss",
+      # "http://www.talk-with-hani.com/rss",
       "http://feeds.feedburner.com/codewiz",
       "http://zetlos.tistory.com/rss",
       "http://hyeonseok.com/rss/",
@@ -82,7 +84,7 @@ class FeedsController < ApplicationController
       "http://changsuk.me/?feed=rss2",
       "https://justhackem.wordpress.com/feed/",
       "http://genesis8.tistory.com/rss",
-      "http://www.buggymind.com/rss",
+      # "http://www.buggymind.com/rss",
       "http://feeds.feedburner.com/sangwook?format=xml",
       "http://www.shalomeir.com/feed/",
       "http://blog.scaloid.org/feeds/posts/default",
@@ -101,7 +103,7 @@ class FeedsController < ApplicationController
       "http://blrunner.com/rss",
       "http://rss.egloos.com/blog/benelog",
       "http://www.sysnet.pe.kr/rss/getrss.aspx?boardId=635954948",
-      "http://health20.kr/rss",
+      # "http://health20.kr/rss",
       "http://bcho.tistory.com/rss",
       "http://sungmooncho.com/feed/",
       "http://blog.kivol.net/rss",
@@ -117,22 +119,22 @@ class FeedsController < ApplicationController
       "http://blog.dahlia.kr/rss",
       "http://blog.fupfin.com/?feed=rss2",
       "http://xrath.com/feed/",
-      "http://pragmaticstory.com/feed/",
+      # "http://pragmaticstory.com/feed/",
       "http://rss.egloos.com/blog/recipes",
       "http://iam-hs.com/rss",
       "http://feeds.feedburner.com/gamedevforever?format=xml",
       "http://helloworld.naver.com/rss",
       "http://www.nextree.co.kr/feed/",
       "http://blog.secmem.org/rss",
-      "https://blogs.idincu.com/dev/feed/",
-      "http://dev.rsquare.co.kr/feed/",
+      # "https://blogs.idincu.com/dev/feed/",
+      # "http://dev.rsquare.co.kr/feed/",
       "http://feeds.feedburner.com/acornpub",
       "http://blog.embian.com/rss",
-      "http://eclipse.or.kr/index.php?title=특수기능:최근바뀜&amp;feed=atom",
+      # "http://eclipse.or.kr/index.php?title=특수기능:최근바뀜&amp;feed=atom",
       "http://blog.weirdx.io/feed/",
       "http://bigmatch.i-um.net/feed/",
       "http://blog.insightbook.co.kr/rss",
-      "http://www.codingnews.net/?feed=rss2",
+      # "http://www.codingnews.net/?feed=rss2",
       "http://www.techsuda.com/feed",
       "http://tmondev.blog.me/rss",
       "http://gameplanner.cafe24.com/feed/",
@@ -149,15 +151,24 @@ class FeedsController < ApplicationController
       maker.channel.title = '온동네 개발자 피드 모음'
 
       feed_urls.each do |url|
-        feed = Feedjira::Feed.fetch_and_parse(url)
-
-        feed.entries.each do |entry|
-          maker.items.new_item do |item|
-            item.link = entry.url.tap { |x| puts x }
-            item.title = entry.title.tap { |x| puts x }
-            item.updated = entry.published.tap { |x| puts x }
-            item.summary = entry.summary.tap { |x| puts x }
+        begin
+          feed = Rails.cache.fetch(url, expires_in: CACHE_EXPIRING_TIME) do
+            puts "cache missed: #{url}"
+            Feedjira::Feed.fetch_and_parse(url)
           end
+
+          feed.entries.each do |entry|
+            maker.items.new_item do |item|
+              item.link = entry.url
+              item.title = entry.title
+              item.updated = entry.published
+              item.summary = entry.summary
+            end
+          end
+        rescue => e
+          puts "ERROR: #{e.inspect}"
+          puts "ERROR: URL => #{url}"
+          next
         end
       end
       maker.channel.updated = maker.items.max_by { |x| x.updated.to_i }.updated

@@ -158,6 +158,10 @@ class FeedsController < ApplicationController
           end
 
           feed.entries.each do |entry|
+            if entry.published < Time.now - 15.days
+              puts "SKIPPED: #{entry.title}"
+              next
+            end
             maker.items.new_item do |item|
               item.link = entry.url
               item.title = entry.title

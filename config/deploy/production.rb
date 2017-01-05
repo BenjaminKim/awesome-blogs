@@ -68,7 +68,7 @@ set :puma_state, "#{shared_path}/tmp/pids/puma.state"
 set :puma_pid, "#{shared_path}/tmp/pids/puma.pid"
 set :puma_bind, "unix://#{shared_path}/tmp/sockets/puma.sock"    #accept array for multi-bind
 set :puma_default_control_app, "unix://#{shared_path}/tmp/sockets/pumactl.sock"
-set :puma_conf, "#{current_path}/config/puma_production.rb"
+set :puma_conf, "#{shared_path}/puma_production.rb"
 set :puma_access_log, "#{shared_path}/log/production.log"
 set :puma_error_log, "#{shared_path}/log/production.log"
 set :puma_role, :app

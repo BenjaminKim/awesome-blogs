@@ -165,7 +165,7 @@ class FeedsController < ApplicationController
             maker.items.new_item do |item|
               item.link = entry.url
               item.title = entry.title
-              item.updated = entry.published
+              item.updated = entry.published.localtime
               item.summary = entry.summary
             end
           end
@@ -175,7 +175,7 @@ class FeedsController < ApplicationController
           next
         end
       end
-      maker.channel.updated = maker.items.max_by { |x| x.updated.to_i }.updated
+      maker.channel.updated = maker.items.max_by { |x| x.updated.to_i }.updated.localtime
     end
 
     render xml: rss.to_xml

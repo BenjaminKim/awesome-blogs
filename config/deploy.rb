@@ -1,8 +1,8 @@
 # config valid only for current version of Capistrano
 lock '3.7.1'
 
-set :application, 'awesome-korea-blogs'
-set :repo_url, 'git@github.com:BenjaminKim/awesome-korea-blogs.git'
+set :application, 'awesome-blogs'
+set :repo_url, 'git@github.com:BenjaminKim/awesome-blogs.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp

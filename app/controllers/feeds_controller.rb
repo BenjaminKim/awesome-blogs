@@ -158,7 +158,7 @@ class FeedsController < ApplicationController
           end
 
           feed.entries.each do |entry|
-            if entry.published < Time.now - 15.days
+            if entry.published < Time.now - 7.days
               next
             end
             maker.items.new_item do |item|

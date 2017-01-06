@@ -146,9 +146,9 @@ class FeedsController < ApplicationController
     ]
 
     rss = RSS::Maker.make('atom') do |maker|
-      maker.channel.author = 'Benjamin'
-      maker.channel.about = '한국의 좋은 개발자 블로그 글들을 매일 배달해줍니다.'
-      maker.channel.title = '한국 개발자 블로그 모음'
+      maker.channel.author = 'Benjamin'.freeze
+      maker.channel.about = '한국의 좋은 개발자 블로그 글들을 매일 배달해줍니다.'.freeze
+      maker.channel.title = '한국 개발자 블로그 모음'.freeze
 
       feed_urls.each do |url|
         begin
@@ -167,6 +167,7 @@ class FeedsController < ApplicationController
               item.title = entry.title
               item.updated = entry.published.localtime
               item.summary = entry.summary
+              item.author = entry.author || feed.title
             end
           end
         rescue => e

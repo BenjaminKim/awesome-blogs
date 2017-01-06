@@ -150,7 +150,7 @@ class FeedsController < ApplicationController
       maker.channel.about = '한국의 좋은 개발자 블로그 글들을 매일 배달해줍니다.'.freeze
       maker.channel.title = '한국 개발자 블로그 모음'.freeze
 
-      feed_urls.each do |url|
+      Parallel.each(feed_urls, in_threads: 30) do |url|
         begin
           feed = Rails.cache.fetch(url, expires_in: CACHE_EXPIRING_TIME) do
             puts "cache missed: #{url}"

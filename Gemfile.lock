@@ -103,6 +103,7 @@ GEM
     nio4r (1.2.1)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
+    parallel (1.10.0)
     puma (3.6.2)
     rack (2.0.1)
     rack-test (0.6.3)
@@ -178,6 +179,7 @@ DEPENDENCIES
   capistrano3-puma
   feedjira
   listen (~> 3.0.5)
+  parallel
   puma (~> 3.0)
   rails (~> 5.0.1)
   rest-client

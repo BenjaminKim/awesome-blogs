@@ -123,8 +123,8 @@ class FeedsController < ApplicationController
       "http://rss.egloos.com/blog/recipes",
       "http://iam-hs.com/rss",
       "http://feeds.feedburner.com/gamedevforever?format=xml",
-      "http://helloworld.naver.com/rss",
-      "http://www.nextree.co.kr/feed/",
+      # "http://helloworld.naver.com/rss",
+      # "http://www.nextree.co.kr/feed/",
       "http://blog.secmem.org/rss",
       # "https://blogs.idincu.com/dev/feed/",
       # "http://dev.rsquare.co.kr/feed/",
@@ -159,7 +159,6 @@ class FeedsController < ApplicationController
 
           feed.entries.each do |entry|
             if entry.published < Time.now - 15.days
-              puts "SKIPPED: #{entry.title}"
               next
             end
             maker.items.new_item do |item|

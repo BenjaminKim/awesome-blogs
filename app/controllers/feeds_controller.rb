@@ -2,7 +2,7 @@ require 'rss'
 require 'open-uri'
 
 class FeedsController < ApplicationController
-  CACHE_EXPIRING_TIME = Rails.env.production? ? 20.minutes : 2.minutes
+  CACHE_EXPIRING_TIME = Rails.env.production? ? 2.hours : 2.minutes
 
   def index
     # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}

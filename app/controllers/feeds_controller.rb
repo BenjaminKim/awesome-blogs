@@ -178,6 +178,24 @@ class FeedsController < ApplicationController
       maker.channel.updated = maker.items.max_by { |x| x.updated.to_i }.updated.localtime
     end
 
+    group = params[:group] || 'none'
+    report_google_analytics(group, group, request.user_agent)
+
     render xml: rss.to_xml
+  end
+
+  def report_google_analytics(cid, title, ua)
+    RestClient.post('http://www.google-analytics.com/collect',
+      {
+        v: '1',
+        tid: 'UA-90528160-1',
+        cid: SecureRandom.uuid,
+        t: 'pageview',
+        dh: 'awesome-blogs.petabytes.org',
+        dp: cid.to_s,
+        dt: title,
+      },
+      user_agent: ua
+    )
   end
 end

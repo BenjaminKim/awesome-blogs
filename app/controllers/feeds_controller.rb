@@ -165,7 +165,7 @@ class FeedsController < ApplicationController
               item.link = entry.url
               item.title = entry.title
               item.updated = entry.published.localtime
-              item.summary = entry.summary
+              item.summary = entry.summary || entry.content
               item.author = entry.author || feed.title
             end
           end

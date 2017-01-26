@@ -162,10 +162,12 @@ class FeedsController < ApplicationController
               next
             end
             maker.items.new_item do |item|
+
+              #puts entry.inspect  if entry.title == '밟아야 사는 사회'
               item.link = entry.url
               item.title = entry.title
               item.updated = entry.published.localtime
-              item.summary = entry.summary || entry.content
+              item.summary = entry.content || entry.summary
               item.author = entry.author || feed.title
             end
           end

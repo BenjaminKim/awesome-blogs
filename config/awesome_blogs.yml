@@ -1,0 +1,16 @@
+dev:
+  - url: 'http://benjaminlog.com'
+    title: '벤자민로그'
+    author_name: '벤자민로그'
+    tags: ['c++', 'ruby', 'rails']
+  - url: 'http://benjaminlog.com2'
+    name: '스칼라로그'
+    tags: ['scala']
+
+company:
+  - url: 'http://benjaminlog.com3'
+    name: '네이버의 헬로월드'
+    tags: ['java']
+  - url: 'http://benjaminlog.com4'
+    name: '카카오의 스몰토크'
+    tags: ['rails']

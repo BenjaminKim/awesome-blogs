@@ -1,0 +1,455 @@
+production: &production
+  dev:
+    - :author_name: 강규영
+      :feed_url: http://www.ecogwiki.com/sp.posts?_type=atom
+    - :author_name: 강대명
+      :feed_url: https://charsyam.wordpress.com/feed/
+    - :author_name: 강성일
+      :feed_url: https://b.luavis.kr/feed.xml
+    - :author_name: 강성훈
+      :feed_url: http://j.mearie.org/rss
+    - :author_name: 강성희
+      :feed_url: https://medium.com/feed/@shaynekang
+    - :author_name: 강진우
+      :feed_url: https://brunch.co.kr/rss/@@3Y0
+    - :author_name: 고형호
+      :feed_url: http://hhko.tistory.com/rss
+    - :author_name: 구교준
+      :feed_url: http://danielku.com/atom.xml
+    - :author_name: 구종만
+      :feed_url: http://feeds.feedburner.com/theyearlyprophet/GGGO?format=xml
+    - :author_name: 권남
+      :feed_url: http://rss.egloos.com/blog/kwon37xi
+    - :author_name: 권정혁
+      :feed_url: http://feeds.feedburner.com/xguru?format=xml
+    - :author_name: 권창현
+      :feed_url: http://thoughts.chkwon.net/feed/
+    - :author_name: 김놀부
+      :feed_url: http://nolboo.github.io/feed.xml
+    - :author_name: 김대권
+      :feed_url: http://blog.nacyot.com/feed.xml
+    - :author_name: 김대기
+      :feed_url: http://daegi.kim/feed
+    - :author_name: 김덕홍
+      :feed_url: http://insanehong.kr/rss.xml
+    - :author_name: 김도균
+      :feed_url: http://www.dokyun.pe.kr/rss
+    - :author_name: 김명신
+      :feed_url: http://rss.egloos.com/blog/himskim
+    - :author_name: 김민수
+      :feed_url: http://www.kmshack.kr/rss
+    - :author_name: 김민장
+      :feed_url: http://rss.egloos.com/blog/minjang
+    - :author_name: 김범준
+      :feed_url: http://bomjun.tistory.com/rss
+    - :author_name: 김범진
+      :feed_url: https://medium.com/feed/@beejei
+    - :author_name: 김병환
+      :feed_url: http://kimbyeonghwan.tumblr.com/rss
+    - :author_name: 김석준
+      :feed_url: http://seokjun.kr/rss/
+    - :author_name: 김성현
+      :feed_url: http://greemate.tistory.com/rss
+    - :author_name: 김성호
+      :feed_url: http://raccoonyy.github.io/rss/index.rss
+    - :author_name: 김성훈
+      :feed_url: http://www.se.or.kr/rss
+    - :author_name: 김수보
+      :feed_url: https://subokim.wordpress.com/feed/
+    - :author_name: 김순식
+      :feed_url: http://i-bada.blogspot.com/feeds/posts/default?alt=rss
+    - :author_name: 김슬기
+      :feed_url: http://blog.seulgi.kim/feeds/posts/default
+    - :author_name: 김영재
+      :feed_url: https://youngjaekim.wordpress.com/feed/
+    - :author_name: 김용균
+      :feed_url: http://haruair.com/blog/feed
+    - :author_name: 김용묵
+      :feed_url: http://moogi.new21.org/tc/rss
+    - :author_name: 김용환
+      :feed_url: http://knight76.tistory.com/rss
+    - :author_name: 김용현
+      :feed_url: http://blog.rss.naver.com/drvoss.xml
+    - :author_name: 김우섭
+      :feed_url: https://brunch.co.kr/atom/@@tcN
+    - :author_name: 김우승
+      :feed_url: https://kimws.wordpress.com/feed/
+    - :author_name: 김우용
+      :feed_url: https://brunch.co.kr/atom/@@13x1
+    - :author_name: 김정환
+      :feed_url: http://blog.jeonghwan.net/feed.xml
+    - :author_name: 김원일
+      :feed_url: http://androidkr.blogspot.com/feeds/posts/default
+    - :author_name: 김재호
+      :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
+    - :author_name: 김진국
+      :feed_url: http://forensic-proof.com/feed
+    - :author_name: 김진욱
+      :feed_url: http://feeds.feedburner.com/reinblog
+    - :author_name: 김창준
+      :feed_url: http://rss.egloos.com/blog/agile
+    - :author_name: 김코딩
+      :feed_url: http://huns.me/feed
+    - :author_name: 김태곤
+      :feed_url: http://taegon.kim/feed
+    - :author_name: 김태균
+      :feed_url: http://feeds.feedburner.com/GaeraeBlog?format=xml
+    - :author_name: 김태기
+      :feed_url: https://beyondj2ee.wordpress.com/feed/
+    - :author_name: 김태호
+      :feed_url: http://androidhuman.com/rss
+    - :author_name: 김태헌
+      :feed_url: https://brunch.co.kr/rss/@@ydx
+    - :author_name: 김포프
+      :feed_url: http://kblog.popekim.com/feeds/posts/default
+    - :author_name: 김형준
+      :feed_url: http://www.gisdeveloper.co.kr/rss
+    - :author_name: 김환희
+      :feed_url: http://rss.egloos.com/blog/greentec
+    - :author_name: 김훈민
+      :feed_url: http://huns.me/feed
+    - :author_name: 남정현
+      :feed_url: http://www.rkttu.com/atom
+    - :author_name: 남주명
+      :feed_url: http://namjmnam.blog.me/rss
+    - :author_name: 노용환
+      :feed_url: http://bugsfixed.blogspot.com/feeds/posts/default
+    - :author_name: 도경태
+      :feed_url: https://medium.com/feed/@keendev
+    - :author_name: 류광
+      :feed_url: http://occamsrazr.net/tt/index.xml
+    - :author_name: 류종택
+      :feed_url: http://ryulib.tistory.com/rss
+    - :author_name: 마경욱
+      :feed_url: https://brunch.co.kr/rss/@@JJj
+    - :author_name: 모상우
+      :feed_url: https://brunch.co.kr/rss/@@FOY
+    - :author_name: 문형환
+      :feed_url: http://blog.lael.be/feed
+    - :author_name: 박경훈
+      :feed_url: http://hoonsbara.tistory.com/rss
+    - :author_name: 박민근
+      :feed_url: http://agebreak.blog.me/rss
+    - :author_name: 박민우
+      :feed_url: http://earlybird.kr/feed
+    - :author_name: 박상길
+      :feed_url: http://likejazz.com/rss
+    - :author_name: 박상민
+      :feed_url: https://sangminpark.wordpress.com/feed/
+    - :author_name: 박일
+      :feed_url: http://rss.egloos.com/blog/parkpd
+    - :author_name: 박재호
+      :feed_url: http://feeds.feedburner.com/blogspot/ASpE
+    - :author_name: 박정규
+      :feed_url: http://bagjunggyu.blogspot.com/feeds/posts/default
+    - :author_name: 박종명
+      :feed_url: http://m.mkexdev.net/rss
+    - :author_name: 박현우
+      :feed_url: http://lqez.github.io/blog/feeds/all.atom.xml
+    - :author_name: 방준영
+      :feed_url: http://feeds.feedburner.com/junyoung?format=xml
+    - :author_name: 배성혁
+      :feed_url: http://debop.tumblr.com/rss
+    - :author_name: 배진호
+      :feed_url: https://medium.com/feed/@baejinho
+    - :author_name: 백기선
+      :feed_url: http://whiteship.me/?feed=rss2
+    - :author_name: 백명석
+      :feed_url: https://brunch.co.kr/rss/@@2xm
+    - :author_name: 범이
+      :feed_url: http://blog.daum.net/xml/rss/funfunction
+    - :author_name: 변정훈
+      :feed_url: http://feeds.feedburner.com/rss_outsider_dev?format=xml
+    - :author_name: 변수민
+      :feed_url: http://blog.suminb.com/feed.xml
+    - :author_name: 서광열
+      :feed_url: http://gamecodingschool.org/feed/
+    - :author_name: 서오석
+      :feed_url: https://brunch.co.kr/rss/@@2YE
+    - :author_name: 서주영
+      :feed_url: http://rss.egloos.com/blog/seoz
+    - :author_name: 손영수
+      :feed_url: https://arload.wordpress.com/feed/
+    - :author_name: 송성광
+      :feed_url: http://blog.saltfactory.net/feed
+    - :author_name: 송영길
+      :feed_url: http://youngsong.com/feed/
+    - :author_name: 송영환
+      :feed_url: http://purluno.wordpress.com/feed/
+    - :author_name: 송주성
+      :feed_url: http://emptydream.tistory.com/rss
+    - :author_name: 송효진
+      :feed_url: https://lovetoken.github.io/feed.xml
+    - :author_name: 신영진
+      :feed_url: http://feeds.feedburner.com/codewiz
+    - :author_name: 신용윤
+      :feed_url: http://uni2u.tistory.com/rss
+    - :author_name: 신현묵
+      :feed_url: http://zetlos.tistory.com/rss
+    - :author_name: 신현석
+      :feed_url: http://hyeonseok.com/rss/
+    - :author_name: 신현식
+      :feed_url: https://medium.com/feed/ics-lab
+    - :author_name: 안성현
+      :feed_url: http://ash84.net/feed/
+    - :author_name: 안오균
+      :feed_url: http://ohgyun.com/rss
+    - :author_name: 안윤호
+      :feed_url: http://toyfab.tistory.com/rss
+    - :author_name: 안재우
+      :feed_url: http://blog.rss.naver.com/saltynut.xml
+    - :author_name: 안재하
+      :feed_url: http://programmingsummaries.tistory.com/rss
+    - :author_name: 안정호
+      :feed_url: http://blog.ahnjungho.org/atom.xml
+    - :author_name: 안정훈
+      :feed_url: http://www.andrewahn.co/feed/
+    - :author_name: 안종태
+      :feed_url: http://qnibus.com/feed/
+    - :author_name: 안중원
+      :feed_url: http://postgame.tistory.com/rss
+    - :author_name: 양병규
+      :feed_url: http://blog.rss.naver.com/delmadang.xml
+    - :author_name: 양준철
+      :feed_url: https://brunch.co.kr/rss/@@lIP
+    - :author_name: 엄태웅
+      :feed_url: http://t-robotics.blogspot.com/feeds/posts/default
+    - :author_name: 염재현
+      :feed_url: https://only2sea.wordpress.com/feed/
+    - :author_name: 오광신
+      :feed_url: http://kwangshin.pe.kr/blog/feed/
+    - :author_name: 오동권
+      :feed_url: http://www.flowdas.com/blog/feeds/rss/
+    - :author_name: 오종빈
+      :feed_url: http://feeds.feedburner.com/ohyecloudy-network?format=xml
+    - :author_name: 오현석
+      :feed_url: http://www.enshahar.me/feeds/posts/default
+    - :author_name: 용현택
+      :feed_url: http://yonght.tumblr.com/rss
+    - :author_name: 우준혁
+      :feed_url: http://sarojaba.tumblr.com/rss
+    - :author_name: 유동곤
+      :feed_url: http://blog.rss.naver.com/ehdrhs1004.xml
+    - :author_name: 유동환
+      :feed_url: https://brunch.co.kr/rss/@@6dD
+    - :author_name: 유병후
+      :feed_url: https://libsora.so/index.xml
+    - :author_name: 유영재
+      :feed_url: https://blog.asamaru.net/atom.xml
+    - :author_name: 유진호
+      :feed_url: https://brunch.co.kr/atom/@@z8s
+    - :author_name: 유차영
+      :feed_url: https://yous.be/atom.xml
+    - :author_name: 윤석찬
+      :feed_url: http://feeds.feedburner.com/channy
+    - :author_name: 윤영식
+      :feed_url: http://mobicon.tistory.com/rss
+    - :author_name: 윤창석
+      :feed_url: http://changsuk.me/?feed=rss2
+    - :author_name: 윤청하
+      :feed_url: https://brunch.co.kr/rss/@@zav
+    - :author_name: 이경원
+      :feed_url: http://blog.woniper.net/rss
+    - :author_name: 이경일
+      :feed_url: http://blog.leekyoungil.com/?feed=rss2
+    - :author_name: 이규원
+      :feed_url: https://justhackem.wordpress.com/feed/
+    - :author_name: 이도현
+      :feed_url: http://genesis8.tistory.com/rss
+    - :author_name: 이동련
+      :feed_url: http://start.goodtime.co.kr/feed/
+    - :author_name: 이민호
+      :feed_url: http://lumiamitie.github.io/feed.xml
+    - :author_name: 이상욱
+      :feed_url: http://feeds.feedburner.com/sangwook?format=xml
+    - :author_name: 이상주
+      :feed_url: https://feeds.feedburner.com/surpreem
+    - :author_name: 이성규
+      :feed_url: http://www.shalomeir.com/feed/
+    - :author_name: 이성몽
+      :feed_url: http://blog.rss.naver.com/santalsm.xml?atom=0.3
+    - :author_name: 이성호
+      :feed_url: http://blog.scaloid.org/feeds/posts/default
+    - :author_name: 이세우
+      :feed_url: http://blog.xcoda.net/rss
+    - :author_name: 이수홍
+      :feed_url: https://brunch.co.kr/rss/@@so6
+    - :author_name: 이윤창
+      :feed_url: http://daddycat.blogspot.com/feeds/posts/default
+    - :author_name: 이재홍
+      :feed_url: http://feeds.feedburner.com/pyrasis?format=xml
+    - :author_name: 이해영
+      :feed_url: http://feeds.feedburner.com/haeyounglee
+    - :author_name: 이현섭
+      :feed_url: http://hyunseob.github.io/atom.xml
+    - :author_name: 장기효
+      :feed_url: https://joshuajangblog.wordpress.com/feed/
+    - :author_name: 장선진
+      :feed_url: http://blog.java2game.com/rss
+    - :author_name: 장성민
+      :feed_url: http://feeds.feedburner.com/jangkunblog
+    - :author_name: 장영철
+      :feed_url: http://dkdlel072.tistory.com/rss
+    - :author_name: 장요셉
+      :feed_url: http://blog.lastmind.net/feed
+    - :author_name: 장용석
+      :feed_url: http://devyongsik.tistory.com/rss
+    - :author_name: 장현정
+      :feed_url: http://naleejang.tistory.com/rss
+    - :author_name: 장혜식
+      :feed_url: http://openlook.org/wp/feed/
+    - :author_name: 전규현
+      :feed_url: http://feeds.feedburner.com/allofsoftware?format=xml
+    - :author_name: 전동규
+      :feed_url: http://www.php5.me/blog/feed/
+    - :author_name: 전호상
+      :feed_url: http://guruble.com/?feed=rss2
+    - :author_name: 전희원
+      :feed_url: http://feeds.feedburner.com/gogamza?format=xml
+    - :author_name: 정도현
+      :feed_url: http://www.moreagile.net/feeds/posts/default
+    - :author_name: 정재화
+      :feed_url: http://blrunner.com/rss
+    - :author_name: 정상혁
+      :feed_url: http://rss.egloos.com/blog/benelog
+    - :author_name: 정성태
+      :feed_url: http://www.sysnet.pe.kr/rss/getrss.aspx?boardId=635954948
+    - :author_name: 정윤성
+      :feed_url: http://sadang-hobbits.github.io/atom.xml
+    - :author_name: 정윤진
+      :feed_url: http://kerberosj.tistory.com/rss
+    - :author_name: 정창훈
+      :feed_url: https://blog.iamseapy.com/feed
+    - :author_name: 조만석
+      :feed_url: http://manseok.blogspot.com/feeds/posts/default
+    - :author_name: 조만영
+      :feed_url: https://medium.com/feed/@manyoung
+    - :author_name: 조병욱
+      :feed_url: http://bcho.tistory.com/rss
+    - :author_name: 조승연
+      :feed_url: http://blog.kivol.net/rss
+    - :author_name: 조영호
+      :feed_url: http://rss.egloos.com/blog/aeternum
+    - :author_name: 조우진
+      :feed_url: http://www.notforme.kr/feed
+    - :author_name: 조인석
+      :feed_url: https://brunch.co.kr/rss/@@102g
+    - :author_name: 조현영
+      :feed_url: https://www.zerocho.com/api/rss.xml
+    - :author_name: 주우영
+      :feed_url: http://blog.coderifleman.com/atom.xml
+    - :author_name: 지국환
+      :feed_url: http://wlhermit.blog.me/rss/atom
+    - :author_name: 진성주
+      :feed_url: http://softwaregeeks.org/feed/
+    - :author_name: 진용진
+      :feed_url: https://brunch.co.kr/rss/@@2rV
+    - :author_name: 채수원
+      :feed_url: http://blog.doortts.com/rss
+    - :author_name: 최근우
+      :feed_url: https://keunwoochoi.wordpress.com/feed/
+    - :author_name: 최범균
+      :feed_url: http://javacan.tistory.com/rss
+    - :author_name: 최유석
+      :feed_url: http://whitechoi.tistory.com/rss
+    - :author_name: 최재훈
+      :feed_url: https://andromedarabbit.net/feed
+    - :author_name: 최정대
+      :feed_url: http://blog.woosum.net/feed
+    - :author_name: 최종찬
+      :feed_url: http://blog.0xabcdef.com/rss/atom
+    - :author_name: 최준건
+      :feed_url: http://junegunn.kr/atom.xml
+    - :author_name: 최창원
+      :feed_url: http://qwefgh90.github.io/feed.xml
+    - :author_name: 최충엽
+      :feed_url: https://medium.com/feed/@albertseewhy
+    - :author_name: 최흥배
+      :feed_url: http://jacking.tistory.com/rss
+    - :author_name: 하호진
+      :feed_url: http://feeds.feedburner.com/Smartmob
+    - :author_name: 한승훈
+      :feed_url: http://kkamagui.tistory.com/rss
+    - :author_name: 한정현
+      :feed_url: http://blog.kazikai.net/?feed=rss2
+    - :author_name: 허준회
+      :feed_url: https://joone.wordpress.com/feed/
+    - :author_name: 홍민희
+      :feed_url: http://blog.dahlia.kr/rss
+    - :author_name: 홍성철
+      :feed_url: http://blog.fupfin.com/?feed=rss2
+    - :author_name: 황장호
+      :feed_url: http://xrath.com/feed/
+    - :author_name: 히언
+      :feed_url: http://rss.egloos.com/blog/recipes
+    - :author_name: 현승
+      :feed_url: http://iam-hs.com/rss
+  non-dev:
+    - :author_name: 김광현
+      :feed_url: http://kwang82.hankyung.com/feeds/posts/default
+    - :author_name: 김국현
+      :feed_url: http://feeds.feedburner.com/goodhyun
+    - :author_name: 김창원
+      :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
+    - :author_name: 김현유
+      :feed_url: http://www.mickeykim.com/rss
+    - :author_name: 배기홍
+      :feed_url: http://feeds.feedburner.com/baenefit/slXh
+    - :author_name: 이민석
+      :feed_url: http://hl1itj.tistory.com/rss
+    - :author_name: 임지훈
+      :feed_url: http://www.jimmyrim.com/rss
+    - :author_name: 조성문
+      :feed_url: http://sungmooncho.com/feed/
+
+  company:
+    - :author_name: 게임개발포에버
+      :feed_url: http://feeds.feedburner.com/gamedevforever?format=xml
+    - :author_name: 네이버
+      :feed_url: http://d2.naver.com/d2.atom
+    - :author_name: 에이콘
+      :feed_url: http://feeds.feedburner.com/acornpub
+    - :author_name: 엠비안
+      :feed_url: http://blog.embian.com/rss
+    - :author_name: 이상한모임
+      :feed_url: http://blog.weirdx.io/feed/
+    - :author_name: 이음소시어스
+      :feed_url: http://bigmatch.i-um.net/feed/
+    - :author_name: 인사이트
+      :feed_url: http://blog.insightbook.co.kr/rss
+    - :author_name: 테크수다
+      :feed_url: http://www.techsuda.com/feed
+    - :author_name: 티몬
+      :feed_url: http://tmondev.blog.me/rss
+    - :author_name: 한국게임기획자모임
+      :feed_url: http://gameplanner.cafe24.com/feed/
+    - :author_name: SK플래닛
+      :feed_url: http://feeds.feedburner.com/skpreadme?format=xml
+    - :author_name: VCNC
+      :feed_url: http://engineering.vcnc.co.kr/atom.xml
+    - :author_name: Google
+      :feed_url: http://feeds.feedburner.com/GoogleDevelopersKorea?format=xml
+    - :author_name: Mozilla
+      :feed_url: http://hacks.mozilla.or.kr/feed/
+    - :author_name: Spoqa
+      :feed_url: http://spoqa.github.io/rss
+#development:
+#  dev:
+#    - :author_name: 김재호
+#      :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
+#    - :author_name: 강대명
+#      :feed_url: https://charsyam.wordpress.com/feed/
+#  non-dev:
+#    - :author_name: 김광현
+#      :feed_url: http://kwang82.hankyung.com/feeds/posts/default
+#    - :author_name: 김국현
+#      :feed_url: http://feeds.feedburner.com/goodhyun
+#    - :author_name: 김창원
+#      :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
+#  company:
+#    - :author_name: 게임개발포에버
+#      :feed_url: http://feeds.feedburner.com/gamedevforever?format=xml
+#    - :author_name: 네이버
+#      :feed_url: http://helloworld.naver.com/rss
+development:
+  <<: *production

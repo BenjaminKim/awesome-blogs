@@ -9,7 +9,8 @@ class MarkdownTest < ActiveSupport::TestCase
   #   assert true
   # end
   test 'the crawl' do
-    Tasks::Crawl.do
+    # Tasks::Crawl.do
+    Tasks::Crawl.openml
     assert true
   end
 end

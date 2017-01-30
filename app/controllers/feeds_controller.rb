@@ -10,7 +10,7 @@ class FeedsController < ApplicationController
 
     feeds = Rails.configuration.feeds[category]
 
-    rss = RSS::Maker.make('atom') do |maker|
+    @rss = RSS::Maker.make('atom') do |maker|
       maker.channel.author = 'Benjamin'.freeze
       maker.channel.about = '한국의 좋은 개발자 블로그 글들을 매일 배달해줍니다.'.freeze
       maker.channel.title = channel_title(category)
@@ -52,7 +52,11 @@ class FeedsController < ApplicationController
     group = params[:group] || 'none'
     report_google_analytics(group, group, request.user_agent)
 
-    render xml: rss.to_xml
+    # binding.pry
+    respond_to do |format|
+      format.xml { render xml: @rss.to_xml }
+      format.json
+    end
   end
 
   def report_google_analytics(cid, title, ua)

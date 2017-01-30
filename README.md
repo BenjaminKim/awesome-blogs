@@ -4,13 +4,13 @@
 현재 제공되는 카테고리는 다음처럼 3가지가 있습니다. 모든 목록은 [이 곳](https://github.com/BenjaminKim/awesome-blogs/blob/master/config/feeds.yml)에서 확인하실 수 있습니다. 아직 알려지지 않은 좋은 블로그들에 대한 피드백을 환영합니다.
 
 ### 개발자 블로그 피드 모음
-http://awesome-blogs.petabytes.org/feeds?category=dev
+https://awesome-blogs.petabytes.org/feeds?category=dev
 
 ### 기술 회사 블로그 피드 주소
-http://awesome-blogs.petabytes.org/feeds?category=company
+https://awesome-blogs.petabytes.org/feeds?category=company
 
 ### 그 외 블로그 피드 주소(기획자 창업자 투자자 등)
-http://awesome-blogs.petabytes.org/feeds?category=non-dev
+https://awesome-blogs.petabytes.org/feeds?category=non-dev
 
 ## 앞으로의 계획
 * 기술 뉴스 카테고리 신설.

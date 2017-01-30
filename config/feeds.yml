@@ -100,8 +100,6 @@ production: &production
       :feed_url: http://androidhuman.com/rss
     - :author_name: 김태헌
       :feed_url: https://brunch.co.kr/rss/@@ydx
-    - :author_name: 김포프
-      :feed_url: http://kblog.popekim.com/feeds/posts/default
     - :author_name: 김형준
       :feed_url: http://www.gisdeveloper.co.kr/rss
     - :author_name: 김환희

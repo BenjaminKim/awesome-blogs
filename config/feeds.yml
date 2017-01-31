@@ -353,7 +353,7 @@ production: &production
     - :author_name: 최정대
       :feed_url: http://blog.woosum.net/feed
     - :author_name: 최종찬
-      :feed_url: http://blog.0xabcdef.com/rss/atom
+      :feed_url: http://blog.0xabcdef.com/rss
     - :author_name: 최준건
       :feed_url: http://junegunn.kr/atom.xml
     - :author_name: 최창원

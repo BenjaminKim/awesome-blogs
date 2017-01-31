@@ -18,7 +18,7 @@ class FeedsController < ApplicationController
 
     @rss = RSS::Maker.make('atom') do |maker|
       maker.channel.author = 'Benjamin'.freeze
-      maker.channel.about = '한국의 좋은 개발자 블로그 글들을 매일 배달해줍니다.'.freeze
+      maker.channel.about = '한국의 좋은 블로그 글들을 매일 배달해줍니다.'.freeze
       maker.channel.title = channel_title(group)
 
       Parallel.each(feeds, in_threads: 30) do |feed_h|
@@ -35,7 +35,6 @@ class FeedsController < ApplicationController
               next
             end
             maker.items.new_item do |item|
-              #puts entry.inspect  if entry.title == '밟아야 사는 사회'
               item.link = entry.url || entry.entry_id
               item.title = entry.title
               item.updated = entry.published.localtime
@@ -86,7 +85,7 @@ class FeedsController < ApplicationController
       'Korea Awesome Developers'.freeze
     when 'company'
       'Korea Tech Companies Blogs'.freeze
-    when 'non-dev'
+    when 'insightful'
       'Korea Insightful Blogs'.freeze
     when 'all'
       'Korea Awesome Blogs'.freeze

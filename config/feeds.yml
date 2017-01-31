@@ -382,7 +382,7 @@ production: &production
       :feed_url: http://rss.egloos.com/blog/recipes
     - :author_name: 현승
       :feed_url: http://iam-hs.com/rss
-  non-dev:
+  insightful:
     - :author_name: 김광현
       :feed_url: http://kwang82.hankyung.com/feeds/posts/default
     - :author_name: 김국현
@@ -437,7 +437,7 @@ production: &production
 #      :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
 #    - :author_name: 강대명
 #      :feed_url: https://charsyam.wordpress.com/feed/
-#  non-dev:
+#  insightful:
 #    - :author_name: 김광현
 #      :feed_url: http://kwang82.hankyung.com/feeds/posts/default
 #    - :author_name: 김국현

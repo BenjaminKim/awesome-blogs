@@ -2,8 +2,6 @@ require 'rss'
 require 'open-uri'
 
 class FeedsController < ApplicationController
-  CACHE_EXPIRING_TIME = Rails.env.production? ? 2.hours : 2.minutes
-
   def index
     # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}
     group = params[:group] || 'dev'
@@ -24,7 +22,7 @@ class FeedsController < ApplicationController
       Parallel.each(feeds, in_threads: 30) do |feed_h|
         begin
           feed_url = feed_h[:feed_url]
-          feed = Rails.cache.fetch(feed_url, expires_in: CACHE_EXPIRING_TIME) do
+          feed = Rails.cache.fetch(feed_url, expires_in: cache_expiring_time) do
             puts "cache missed: #{feed_url}"
             Feedjira::Feed.fetch_and_parse(feed_url)
           end
@@ -91,6 +89,14 @@ class FeedsController < ApplicationController
       'Korea Awesome Blogs'.freeze
     else
       raise ArgumentError.new
+    end
+  end
+
+  def cache_expiring_time
+    if Rails.env.production?
+      [1, 2, 3].sample.hours
+    else
+      2.minutes
     end
   end
 end

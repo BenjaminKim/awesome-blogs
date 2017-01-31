@@ -172,8 +172,6 @@ production: &production
       :feed_url: http://youngsong.com/feed/
     - :author_name: 송영환
       :feed_url: http://purluno.wordpress.com/feed/
-    - :author_name: 송주성
-      :feed_url: http://emptydream.tistory.com/rss
     - :author_name: 송효진
       :feed_url: https://lovetoken.github.io/feed.xml
     - :author_name: 신영진

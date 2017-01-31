@@ -100,8 +100,6 @@ production: &production
       :feed_url: http://androidhuman.com/rss
     - :author_name: 김태헌
       :feed_url: https://brunch.co.kr/rss/@@ydx
-    - :author_name: 김형준
-      :feed_url: http://www.gisdeveloper.co.kr/rss
     - :author_name: 김환희
       :feed_url: http://rss.egloos.com/blog/greentec
     - :author_name: 김훈민
@@ -294,8 +292,8 @@ production: &production
       :feed_url: http://devyongsik.tistory.com/rss
     - :author_name: 장현정
       :feed_url: http://naleejang.tistory.com/rss
-    - :author_name: 장혜식
-      :feed_url: http://openlook.org/wp/feed/
+#    - :author_name: 장혜식
+#      :feed_url: http://openlook.org/wp/feed/
     - :author_name: 전규현
       :feed_url: http://feeds.feedburner.com/allofsoftware?format=xml
     - :author_name: 전동규

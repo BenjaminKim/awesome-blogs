@@ -411,6 +411,8 @@ production: &production
       :feed_url: https://woowabros.github.io/feed.xml
     - :author_name: SK플래닛
       :feed_url: http://feeds.feedburner.com/skpreadme?format=xml
+    - :author_name: 스타일쉐어
+      :feed_url: https://styleshare.github.io/feed.xml
     - :author_name: Spoqa
       :feed_url: https://spoqa.github.io/rss
     - :author_name: 이음소시어스

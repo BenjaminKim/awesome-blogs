@@ -6,14 +6,20 @@ class FeedsController < ApplicationController
 
   def index
     # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}
-    category = params[:category] || 'dev'
+    group = params[:group] || 'dev'
 
-    feeds = Rails.configuration.feeds[category]
+    if group == 'all'
+      feeds = Rails.configuration.feeds.inject([]) do |array, e|
+        array + e.second
+      end
+    else
+      feeds = Rails.configuration.feeds[group]
+    end
 
     @rss = RSS::Maker.make('atom') do |maker|
       maker.channel.author = 'Benjamin'.freeze
       maker.channel.about = '한국의 좋은 개발자 블로그 글들을 매일 배달해줍니다.'.freeze
-      maker.channel.title = channel_title(category)
+      maker.channel.title = channel_title(group)
 
       Parallel.each(feeds, in_threads: 30) do |feed_h|
         begin

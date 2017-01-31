@@ -39,7 +39,7 @@ production: &production
     - :author_name: 김민수
       :feed_url: http://www.kmshack.kr/rss
     - :author_name: 김민장
-      :feed_url: http://rss.egloos.com/blog/minjang
+      :feed_url: https://minjang.github.io/feed.xml
     - :author_name: 김범준
       :feed_url: http://bomjun.tistory.com/rss
     - :author_name: 김범진

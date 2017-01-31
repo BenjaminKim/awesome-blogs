@@ -167,7 +167,7 @@ production: &production
     - :author_name: 손영수
       :feed_url: https://arload.wordpress.com/feed/
     - :author_name: 송성광
-      :feed_url: http://blog.saltfactory.net/feed
+      :feed_url: http://blog.saltfactory.net/rss
     - :author_name: 송영길
       :feed_url: http://youngsong.com/feed/
     - :author_name: 송영환
@@ -403,36 +403,31 @@ production: &production
   company:
     - :author_name: 카카오
       :feed_url: http://tech.kakao.com/rss
-    - :author_name: 게임개발포에버
-      :feed_url: http://feeds.feedburner.com/gamedevforever?format=xml
     - :author_name: 네이버
       :feed_url: http://d2.naver.com/d2.atom
-    - :author_name: 에이콘
-      :feed_url: http://feeds.feedburner.com/acornpub
+    - :author_name: VCNC
+      :feed_url: http://engineering.vcnc.co.kr/atom.xml
+    - :author_name: 우아한형제들 기술 블로그
+      :feed_url: https://woowabros.github.io/feed.xml
+    - :author_name: SK플래닛
+      :feed_url: http://feeds.feedburner.com/skpreadme?format=xml
+    - :author_name: Spoqa
+      :feed_url: https://spoqa.github.io/rss
+    - :author_name: 이음소시어스
+      :feed_url: http://bigmatch.i-um.net/feed/
+    - :author_name: 토스랩(잔디)
+      :feed_url: https://tosslab.github.io/feed.xml
+    - :author_name: 굿닥 엔지니어링 블로그
+      :feed_url: http://dev.goodoc.co.kr/?feed=rss2
+    - :author_name: 티몬
+      :feed_url: http://tmondev.blog.me/rss
     - :author_name: 엠비안
       :feed_url: http://blog.embian.com/rss
     - :author_name: 이상한모임
       :feed_url: http://blog.weirdx.io/feed/
-    - :author_name: 이음소시어스
-      :feed_url: http://bigmatch.i-um.net/feed/
-    - :author_name: 인사이트
-      :feed_url: http://blog.insightbook.co.kr/rss
-    - :author_name: 테크수다
-      :feed_url: http://www.techsuda.com/feed
-    - :author_name: 티몬
-      :feed_url: http://tmondev.blog.me/rss
-    - :author_name: 한국게임기획자모임
-      :feed_url: http://gameplanner.cafe24.com/feed/
-    - :author_name: SK플래닛
-      :feed_url: http://feeds.feedburner.com/skpreadme?format=xml
-    - :author_name: VCNC
-      :feed_url: http://engineering.vcnc.co.kr/atom.xml
-    - :author_name: Google
-      :feed_url: http://feeds.feedburner.com/GoogleDevelopersKorea?format=xml
-    - :author_name: Mozilla
+    - :author_name: Mozilla 웹 기술 블로그
       :feed_url: http://hacks.mozilla.or.kr/feed/
-    - :author_name: Spoqa
-      :feed_url: http://spoqa.github.io/rss
+
 #development:
 #  dev:
 #    - :author_name: 김재호

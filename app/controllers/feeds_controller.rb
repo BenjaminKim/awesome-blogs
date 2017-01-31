@@ -83,11 +83,13 @@ class FeedsController < ApplicationController
   def channel_title(category)
     case category
     when 'dev'
-      '한국 개발자 블로그 모음'.freeze
+      'Korea Awesome Developers'.freeze
     when 'company'
-      '한국 회사 기술 블로그 모음'.freeze
+      'Korea Tech Companies Blogs'.freeze
     when 'non-dev'
-      '기획 및 창업/투자자 블로그 모음'.freeze
+      'Korea Insightful Blogs'.freeze
+    when 'all'
+      'Korea Awesome Blogs'.freeze
     else
       raise ArgumentError.new
     end

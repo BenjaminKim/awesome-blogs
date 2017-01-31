@@ -382,6 +382,8 @@ production: &production
       :feed_url: http://rss.egloos.com/blog/recipes
     - :author_name: 현승
       :feed_url: http://iam-hs.com/rss
+    - :author_name: Harfang
+      :feed_url: https://harfangk.github.io/feed_ko.xml
   insightful:
     - :author_name: 김광현
       :feed_url: http://kwang82.hankyung.com/feeds/posts/default
@@ -401,6 +403,8 @@ production: &production
       :feed_url: http://sungmooncho.com/feed/
 
   company:
+    - :author_name: 카카오
+      :feed_url: http://tech.kakao.com/rss
     - :author_name: 게임개발포에버
       :feed_url: http://feeds.feedburner.com/gamedevforever?format=xml
     - :author_name: 네이버

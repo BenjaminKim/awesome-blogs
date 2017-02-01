@@ -106,8 +106,6 @@ production: &production
       :feed_url: http://huns.me/feed
     - :author_name: 남정현
       :feed_url: http://www.rkttu.com/atom
-    - :author_name: 남주명
-      :feed_url: http://namjmnam.blog.me/rss
     - :author_name: 노용환
       :feed_url: http://bugsfixed.blogspot.com/feeds/posts/default
     - :author_name: 도경태

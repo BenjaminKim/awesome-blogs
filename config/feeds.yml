@@ -326,8 +326,6 @@ production: &production
       :feed_url: http://www.notforme.kr/feed
     - :author_name: 조인석
       :feed_url: https://brunch.co.kr/rss/@@102g
-    - :author_name: 조현영
-      :feed_url: https://www.zerocho.com/api/rss.xml
     - :author_name: 주우영
       :feed_url: http://blog.coderifleman.com/atom.xml
     - :author_name: 지국환

@@ -24,8 +24,12 @@ class FeedsController < ApplicationController
           feed_url = feed_h[:feed_url]
           feed = Rails.cache.fetch(feed_url, expires_in: cache_expiring_time) do
             puts "cache missed: #{feed_url}"
-            Feedjira::Feed.fetch_and_parse(feed_url)
+            Timeout::timeout(3) {
+              Feedjira::Feed.fetch_and_parse(feed_url)
+            }
           end
+
+          next if feed.nil?
           # puts "FEED: #{feed.inspect}"
 
           feed.entries.each do |entry|

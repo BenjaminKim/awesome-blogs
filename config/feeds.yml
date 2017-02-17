@@ -419,8 +419,8 @@ production: &production
       :feed_url: http://tmondev.blog.me/rss
     - :author_name: 엠비안
       :feed_url: http://blog.embian.com/rss
-    - :author_name: 이상한모임
-      :feed_url: http://blog.weirdx.io/feed/
+    - :author_name: 데일리호텔
+      :feed_url: https://dailyhotel.io/feed
     - :author_name: Mozilla 웹 기술 블로그
       :feed_url: http://hacks.mozilla.or.kr/feed/
 

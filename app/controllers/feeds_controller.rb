@@ -39,7 +39,7 @@ class FeedsController < ApplicationController
             maker.items.new_item do |item|
               item.link = entry.url || entry.entry_id
               item.title = entry.title
-              item.updated = entry.published.localtime > Time.zone.now ? Time.zone.now : entry.published.localtime
+              item.updated = entry.published.localtime > Time.now ? Time.now : entry.published.localtime
               item.summary = entry.content || entry.summary
               item.author = entry.author || feed_h[:author_name] || feed.title
               if item.link.blank?

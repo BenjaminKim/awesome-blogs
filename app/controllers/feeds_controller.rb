@@ -1,5 +1,6 @@
 require 'rss'
 require 'open-uri'
+require 'addressable/uri'
 
 class FeedsController < ApplicationController
   def index
@@ -41,6 +42,8 @@ class FeedsController < ApplicationController
               item.title = entry.title
               item.updated = entry.published.localtime > Time.now ? Time.now : entry.published.localtime
               item.summary = entry.content || entry.summary
+              item.summary = replace_relative_image_url(item.summary, item.link)
+              # Rails.logger.debug("SUMMARY: #{item.summary.inspect}")
               item.author = entry.author || feed_h[:author_name] || feed.title
               if item.link.blank?
                 Rails.logger.error("ERROR - url shouldn't be null: #{entry.inspect}")
@@ -102,5 +105,39 @@ class FeedsController < ApplicationController
     else
       2.minutes
     end
+  end
+
+  def replace_relative_image_url(html_string, site_url)
+    doc = Nokogiri::HTML(html_string)
+    tags = {
+      'img' => 'src',
+      'script' => 'src',
+      'a' => 'href'
+    }
+
+    base_uri = Addressable::URI.parse(site_url)
+    doc.search(tags.keys.join(',')).each do |node|
+      url_param = tags[node.name]
+
+      src = node[url_param]
+      unless src.blank?
+        begin
+          uri = Addressable::URI.parse(src)
+          unless uri.host
+            uri.scheme = base_uri.scheme
+            uri.host = base_uri.host
+            node[url_param] = uri.to_s
+          end
+        rescue Addressable::URI::InvalidURIError => e
+          Rails.logger.error("ERROR: #{e.inspect}")
+        end
+      end
+    end
+
+    doc.to_html
+  rescue Exception => e
+    Rails.logger.error("ERROR: #{e.inspect}")
+    #Rails.logger.error("HTML: #{html_string}")
+    '글 읽으러 가기'
   end
 end

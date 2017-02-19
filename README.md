@@ -15,6 +15,5 @@ https://awesome-blogs.petabytes.org/feeds?group=insightful
 ### 위의 모든 블로그들을 한 주소로 구독하고 싶다면
 https://awesome-blogs.petabytes.org/feeds?group=all
 
-## 앞으로의 계획
-* 기술 뉴스 카테고리 신설.
-* 카테고리가 아니라 태그를 통해 원하는 분야만 구독할 수 있는 기능 추가.
+# 안드로이드 전용앱
+<a href="https://play.google.com/store/apps/details?id=org.petabytes.awesomeblogs"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="20%"></a>

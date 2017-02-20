@@ -232,8 +232,6 @@ production: &production
       :feed_url: https://blog.asamaru.net/atom.xml
     - :author_name: 유진호
       :feed_url: https://brunch.co.kr/atom/@@z8s
-    - :author_name: 유차영
-      :feed_url: https://yous.be/atom.xml
     - :author_name: 윤석찬
       :feed_url: http://feeds.feedburner.com/channy
     - :author_name: 윤영식

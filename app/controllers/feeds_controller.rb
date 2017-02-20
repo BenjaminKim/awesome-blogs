@@ -101,7 +101,7 @@ class FeedsController < ApplicationController
 
   def cache_expiring_time
     if Rails.env.production?
-      [1, 2, 3].sample.hours
+      [10, 30, 60].sample.minutes
     else
       2.minutes
     end

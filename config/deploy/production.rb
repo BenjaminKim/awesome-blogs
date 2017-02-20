@@ -73,10 +73,10 @@ set :puma_access_log, "#{shared_path}/log/production.log"
 set :puma_error_log, "#{shared_path}/log/production.log"
 set :puma_role, :app
 set :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))
-set :puma_threads, [1, 8]
-set :puma_workers, 2
+set :puma_threads, [3, 3]
+set :puma_workers, 4
 set :puma_worker_timeout, 30
 set :puma_init_active_record, true
 set :puma_preload_app, false
 set :puma_plugins, [:tmp_restart]  #accept array of plugins
-set :nginx_use_ssl, false
+set :nginx_use_ssl, true

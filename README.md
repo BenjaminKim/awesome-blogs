@@ -15,5 +15,8 @@ https://awesome-blogs.petabytes.org/feeds?group=insightful
 ### 위의 모든 블로그들을 한 주소로 구독하고 싶다면
 https://awesome-blogs.petabytes.org/feeds?group=all
 
-# 안드로이드 전용앱
+### 안드로이드 전용앱 다운로드
 <a href="https://play.google.com/store/apps/details?id=org.petabytes.awesomeblogs"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="20%"></a>
+
+### 안드로이드 코드 저장소
+https://github.com/jungilhan/awesome-blogs-android

@@ -31,23 +31,33 @@ class FeedsController < ApplicationController
           end
 
           next if feed.nil?
-          # puts "FEED: #{feed.inspect}"
 
           feed.entries.each do |entry|
             if entry.published < Time.now - 15.days
               next
             end
             maker.items.new_item do |item|
-              item.link = entry.url || entry.entry_id
+              link_uri = entry.url || entry.entry_id
+              Rails.logger.info("LINK: #{link_uri}") unless link_uri.start_with?('http')
+              if link_uri.blank?
+                Rails.logger.error("ERROR - url shouldn't be null: #{entry.inspect}")
+              else
+                begin
+                  uri = Addressable::URI.parse(link_uri)
+                  uri.host ||= Addressable::URI.parse(feed_url).host
+                  uri.scheme ||= Addressable::URI.parse(feed_url).scheme
+                  item.link = uri.to_s
+                rescue Exception => e
+                  Rails.logger.error("ERROR!: #{item.link}")
+                  item.link = link_uri
+                end
+              end
+
               item.title = entry.title
               item.updated = entry.published.localtime > Time.now ? Time.now : entry.published.localtime
               item.summary = entry.content || entry.summary
               item.summary = replace_relative_image_url(item.summary, item.link)
-              # Rails.logger.debug("SUMMARY: #{item.summary.inspect}")
               item.author = entry.author || feed_h[:author_name] || feed.title
-              if item.link.blank?
-                Rails.logger.error("ERROR - url shouldn't be null: #{entry.inspect}")
-              end
             end
           end
         rescue => e
@@ -62,7 +72,6 @@ class FeedsController < ApplicationController
     group = params[:group] || 'none'
     report_google_analytics(group, group, request.user_agent)
 
-    # binding.pry
     respond_to do |format|
       format.xml { render xml: @rss.to_xml }
       format.json

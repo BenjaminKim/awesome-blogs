@@ -378,6 +378,24 @@ production: &production
       :feed_url: http://iam-hs.com/rss
     - :author_name: Harfang
       :feed_url: https://harfangk.github.io/feed_ko.xml
+    - :author_name: 허준회
+      :feed_url: https://joone.net/feed/
+    - :author_name: 박상권
+      :feed_url: http://gun0912.tistory.com/rss
+    - :author_name: 권태환
+      :feed_url: http://thdev.net/rss
+    - :author_name: Kunny
+      :feed_url: http://kunny.github.io/feed.xml
+    - :author_name: 정승욱
+      :feed_url: https://medium.com/feed/@jsuch2362
+    - :author_name: Haze Lee
+      :feed_url: http://realignist.me/feed.xml
+    - :author_name: Renn Seo
+      :feed_url: http://seorenn.blogspot.com/feeds/posts/default
+    - :author_name: jd
+      :feed_url: http://sunphiz.me/wp/feed
+
+
   insightful:
     - :author_name: 김광현
       :feed_url: http://kwang82.hankyung.com/feeds/posts/default
@@ -425,7 +443,9 @@ production: &production
       :feed_url: https://dailyhotel.io/feed
     - :author_name: Mozilla 웹 기술 블로그
       :feed_url: http://hacks.mozilla.or.kr/feed/
-
+    - :author_name: Google Developers Korea 블로그
+      :feed_url: http://googledevkr.blogspot.in//atom.xml
+      
 #development:
 #  dev:
 #    - :author_name: 김재호

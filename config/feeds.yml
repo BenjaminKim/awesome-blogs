@@ -24,6 +24,8 @@ production: &production
       :feed_url: http://feeds.feedburner.com/xguru?format=xml
     - :author_name: 권창현
       :feed_url: http://thoughts.chkwon.net/feed/
+    - :author_name: 권태환
+      :feed_url: http://thdev.net/rss
     - :author_name: 김놀부
       :feed_url: http://nolboo.github.io/feed.xml
     - :author_name: 김대권
@@ -127,7 +129,9 @@ production: &production
     - :author_name: 박민근
       :feed_url: http://agebreak.blog.me/rss
     - :author_name: 박민우
-      :feed_url: http://earlybird.kr/feed
+      :feed_url: http://earlybird.kr/fee
+    - :author_name: 박상권
+      :feed_url: http://gun0912.tistory.com/rss
     - :author_name: 박상길
       :feed_url: http://likejazz.com/rss
     - :author_name: 박상민
@@ -302,12 +306,14 @@ production: &production
       :feed_url: http://feeds.feedburner.com/gogamza?format=xml
     - :author_name: 정도현
       :feed_url: http://www.moreagile.net/feeds/posts/default
-    - :author_name: 정재화
-      :feed_url: http://blrunner.com/rss
     - :author_name: 정상혁
       :feed_url: http://rss.egloos.com/blog/benelog
     - :author_name: 정성태
       :feed_url: http://www.sysnet.pe.kr/rss/getrss.aspx?boardId=635954948
+    - :author_name: 정승욱
+      :feed_url: https://medium.com/feed/@jsuch2362
+    - :author_name: 정재화
+      :feed_url: http://blrunner.com/rss
     - :author_name: 정윤성
       :feed_url: http://sadang-hobbits.github.io/atom.xml
     - :author_name: 정윤진
@@ -380,14 +386,8 @@ production: &production
       :feed_url: https://harfangk.github.io/feed_ko.xml
     - :author_name: 허준회
       :feed_url: https://joone.net/feed/
-    - :author_name: 박상권
-      :feed_url: http://gun0912.tistory.com/rss
-    - :author_name: 권태환
-      :feed_url: http://thdev.net/rss
     - :author_name: Kunny
       :feed_url: http://kunny.github.io/feed.xml
-    - :author_name: 정승욱
-      :feed_url: https://medium.com/feed/@jsuch2362
     - :author_name: Haze Lee
       :feed_url: http://realignist.me/feed.xml
     - :author_name: Renn Seo

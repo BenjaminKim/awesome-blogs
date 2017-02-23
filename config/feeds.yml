@@ -220,6 +220,8 @@ production: &production
       :feed_url: http://www.enshahar.me/feeds/posts/default
     - :author_name: 용현택
       :feed_url: http://yonght.tumblr.com/rss
+    - :author_name: 우연화
+      :feed_url: http://novafactory.net/feed
     - :author_name: 우준혁
       :feed_url: http://sarojaba.tumblr.com/rss
     - :author_name: 유동곤

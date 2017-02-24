@@ -20,7 +20,6 @@ class FeedsController < ApplicationController
       maker.channel.author = 'Benjamin'.freeze
       maker.channel.about = '한국의 좋은 블로그 글들을 매일 배달해줍니다.'.freeze
       maker.channel.title = channel_title(group)
-      maker.channel.title += "(#{now})"
 
       Parallel.each(feeds, in_threads: 30) do |feed_h|
         begin
@@ -55,7 +54,7 @@ class FeedsController < ApplicationController
                 end
               end
 
-              if Rails.env.development?
+              if Rails.env.development? && [1, 2].sample == 1
                 item.link += "##{now}"
               end
 

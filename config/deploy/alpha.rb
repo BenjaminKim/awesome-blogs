@@ -80,4 +80,4 @@ set :puma_worker_timeout, 30
 set :puma_init_active_record, true
 set :puma_preload_app, false
 set :puma_plugins, [:tmp_restart]  #accept array of plugins
-set :nginx_use_ssl, true
+set :nginx_use_ssl, false

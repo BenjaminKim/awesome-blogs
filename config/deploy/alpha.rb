@@ -4,7 +4,7 @@ set :rails_env, :development
 set :application, 'alpha-awesome-blogs'
 set :deploy_to, "/home/deploy/#{fetch(:application)}"
 
-set :bundle_without, [:test]
+set :bundle_without, :test
 
 # server-based syntax
 # ======================

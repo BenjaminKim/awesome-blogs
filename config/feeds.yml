@@ -447,23 +447,23 @@ production: &production
     - :author_name: Google Developers Korea 블로그
       :feed_url: http://googledevkr.blogspot.in//atom.xml
       
-#development:
-#  dev:
-#    - :author_name: 김재호
-#      :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
-#    - :author_name: 강대명
-#      :feed_url: https://charsyam.wordpress.com/feed/
-#  insightful:
-#    - :author_name: 김광현
-#      :feed_url: http://kwang82.hankyung.com/feeds/posts/default
-#    - :author_name: 김국현
-#      :feed_url: http://feeds.feedburner.com/goodhyun
-#    - :author_name: 김창원
-#      :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
-#  company:
-#    - :author_name: 게임개발포에버
-#      :feed_url: http://feeds.feedburner.com/gamedevforever?format=xml
-#    - :author_name: 네이버
-#      :feed_url: http://helloworld.naver.com/rss
 development:
-  <<: *production
+  dev:
+    - :author_name: 김재호
+      :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
+    - :author_name: 강대명
+      :feed_url: https://charsyam.wordpress.com/feed/
+  insightful:
+    - :author_name: 김광현
+      :feed_url: http://kwang82.hankyung.com/feeds/posts/default
+    - :author_name: 김국현
+      :feed_url: http://feeds.feedburner.com/goodhyun
+    - :author_name: 김창원
+      :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
+  company:
+    - :author_name: 게임개발포에버
+      :feed_url: http://feeds.feedburner.com/gamedevforever?format=xml
+    - :author_name: 네이버
+      :feed_url: http://helloworld.naver.com/rss
+#development:
+#  <<: *production

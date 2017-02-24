@@ -396,8 +396,6 @@ production: &production
       :feed_url: http://sunphiz.me/wp/feed
     - :author_name: tiii
       :feed_url: http://tiii.tistory.com/rss
-    - :author_name: 흑곰맨
-      :feed_url: http://javaexpert.tistory.com/rss
 
   insightful:
     - :author_name: 김광현

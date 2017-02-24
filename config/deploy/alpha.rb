@@ -1,3 +1,9 @@
+set :stage, :alpha
+set :rails_env, :development
+
+set :application, 'alpha-awesome-blogs'
+set :deploy_to, "/home/deploy/#{fetch(:application)}"
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
@@ -6,8 +12,7 @@
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
-
-
+server 'b.petabytes.org', user: 'deploy', roles: %w{app}
 
 # role-based syntax
 # ==================
@@ -20,7 +25,6 @@
 # role :app, %w{deploy@example.com}, my_property: :my_value
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
-
 
 
 # Configuration
@@ -59,3 +63,21 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
+set :puma_user, fetch(:user)
+set :puma_rackup, -> { File.join(current_path, 'config.ru') }
+set :puma_state, "#{shared_path}/tmp/pids/puma.state"
+set :puma_pid, "#{shared_path}/tmp/pids/puma.pid"
+set :puma_bind, "unix://#{shared_path}/tmp/sockets/puma.sock"    #accept array for multi-bind
+set :puma_default_control_app, "unix://#{shared_path}/tmp/sockets/pumactl.sock"
+set :puma_conf, "#{shared_path}/puma_development.rb"
+set :puma_access_log, "#{shared_path}/log/development.log"
+set :puma_error_log, "#{shared_path}/log/development.log"
+set :puma_role, :app
+set :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))
+set :puma_threads, [1, 1]
+set :puma_workers, 2
+set :puma_worker_timeout, 30
+set :puma_init_active_record, true
+set :puma_preload_app, false
+set :puma_plugins, [:tmp_restart]  #accept array of plugins
+set :nginx_use_ssl, true

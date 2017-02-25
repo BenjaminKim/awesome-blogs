@@ -396,6 +396,12 @@ production: &production
       :feed_url: http://sunphiz.me/wp/feed
     - :author_name: tiii
       :feed_url: http://tiii.tistory.com/rss
+    - :author_name: 창천향로
+      :feed_url: http://jojoldu.tistory.com/rss
+    - :author_name: canapio 
+      :feed_url: http://canapio.tistory.com/rss
+    - :author_name: Pluu
+      :feed_url: https://pluu.github.io/feed.xml
 
   insightful:
     - :author_name: 김광현
@@ -414,6 +420,10 @@ production: &production
       :feed_url: http://www.jimmyrim.com/rss
     - :author_name: 조성문
       :feed_url: http://sungmooncho.com/feed/
+    - :author_name: 박상훈
+      :feed_url: https://brunch.co.kr/rss/@sanghoonpak
+    - :author_name: 최혁재
+      :feed_url: https://brunch.co.kr/rss/@mirr5510
 
   company:
     - :author_name: 카카오

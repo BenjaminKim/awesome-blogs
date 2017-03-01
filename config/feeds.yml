@@ -402,6 +402,12 @@ production: &production
       :feed_url: http://canapio.tistory.com/rss
     - :author_name: Pluu
       :feed_url: https://pluu.github.io/feed.xml
+    - :author_name: 줌구
+      :feed_url: https://wckhg89.github.io/feed.xml
+    - :author_name: 김우섭
+      :feed_url: https://brunch.co.kr/rss/@linterpreteur
+    - :author_name: 이승현
+      :feed_url: http://hamait.tistory.com/rss
 
   insightful:
     - :author_name: 김광현

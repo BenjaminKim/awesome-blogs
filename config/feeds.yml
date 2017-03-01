@@ -78,6 +78,8 @@ production: &production
       :feed_url: https://kimws.wordpress.com/feed/
     - :author_name: 김우용
       :feed_url: https://brunch.co.kr/atom/@@13x1
+    - :author_name: 김우섭
+      :feed_url: https://brunch.co.kr/rss/@@tcN
     - :author_name: 김정환
       :feed_url: http://blog.jeonghwan.net/feed.xml
     - :author_name: 김원일
@@ -272,6 +274,8 @@ production: &production
       :feed_url: http://blog.xcoda.net/rss
     - :author_name: 이수홍
       :feed_url: https://brunch.co.kr/rss/@@so6
+    - :author_name: 이승현
+      :feed_url: http://hamait.tistory.com/rss
     - :author_name: 이윤창
       :feed_url: http://daddycat.blogspot.com/feeds/posts/default
     - :author_name: 이재홍
@@ -292,6 +296,8 @@ production: &production
       :feed_url: http://blog.lastmind.io/feed
     - :author_name: 장용석
       :feed_url: http://devyongsik.tistory.com/rss
+    - :author_name: 창천향로
+      :feed_url: http://jojoldu.tistory.com/rss
     - :author_name: 장현정
       :feed_url: http://naleejang.tistory.com/rss
 #    - :author_name: 장혜식
@@ -336,6 +342,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@102g
     - :author_name: 주우영
       :feed_url: http://blog.coderifleman.com/atom.xml
+    - :author_name: 줌구
+      :feed_url: https://wckhg89.github.io/feed.xml
     - :author_name: 지국환
       :feed_url: http://wlhermit.blog.me/rss/atom
     - :author_name: 진성주
@@ -382,10 +390,10 @@ production: &production
       :feed_url: http://rss.egloos.com/blog/recipes
     - :author_name: 현승
       :feed_url: http://iam-hs.com/rss
-    - :author_name: Harfang
-      :feed_url: https://harfangk.github.io/feed_ko.xml
     - :author_name: 허준회
       :feed_url: https://joone.net/feed/
+    - :author_name: Harfang
+      :feed_url: https://harfangk.github.io/feed_ko.xml
     - :author_name: Kunny
       :feed_url: http://kunny.github.io/feed.xml
     - :author_name: Haze Lee
@@ -396,18 +404,10 @@ production: &production
       :feed_url: http://sunphiz.me/wp/feed
     - :author_name: tiii
       :feed_url: http://tiii.tistory.com/rss
-    - :author_name: 창천향로
-      :feed_url: http://jojoldu.tistory.com/rss
     - :author_name: canapio 
       :feed_url: http://canapio.tistory.com/rss
     - :author_name: Pluu
       :feed_url: https://pluu.github.io/feed.xml
-    - :author_name: 줌구
-      :feed_url: https://wckhg89.github.io/feed.xml
-    - :author_name: 김우섭
-      :feed_url: https://brunch.co.kr/rss/@linterpreteur
-    - :author_name: 이승현
-      :feed_url: http://hamait.tistory.com/rss
 
   insightful:
     - :author_name: 김광현
@@ -429,7 +429,7 @@ production: &production
     - :author_name: 박상훈
       :feed_url: https://brunch.co.kr/rss/@sanghoonpak
     - :author_name: 최혁재
-      :feed_url: https://brunch.co.kr/rss/@mirr5510
+      :feed_url: https://brunch.co.kr/rss/@@kDx
 
   company:
     - :author_name: 카카오

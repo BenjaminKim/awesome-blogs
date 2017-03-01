@@ -103,6 +103,7 @@ GEM
     minitest (5.10.1)
     multi_json (1.12.1)
     multipart-post (2.0.0)
+    mysql2 (0.4.5)
     net-scp (1.2.1)
       net-ssh (>= 2.6.5)
     net-ssh (4.1.0)
@@ -194,6 +195,7 @@ DEPENDENCIES
   feedjira
   jbuilder (~> 2.5)
   listen (~> 3.0.5)
+  mysql2
   parallel
   pry
   puma (~> 3.0)

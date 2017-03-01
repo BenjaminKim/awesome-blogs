@@ -92,6 +92,8 @@ production: &production
       :feed_url: http://feeds.feedburner.com/reinblog
     - :author_name: 김창준
       :feed_url: http://rss.egloos.com/blog/agile
+    - :author_name: 김충섭
+      :feed_url: https://subicura.com/feed.xml
     - :author_name: 김코딩
       :feed_url: http://huns.me/feed
     - :author_name: 김태곤

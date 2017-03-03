@@ -20,6 +20,8 @@ production: &production
       :feed_url: http://feeds.feedburner.com/theyearlyprophet/GGGO?format=xml
     - :author_name: 권남
       :feed_url: http://rss.egloos.com/blog/kwon37xi
+    - :author_name: 권민재
+      :feed_url: https://mingrammer.com/feed.xml
     - :author_name: 권정혁
       :feed_url: http://feeds.feedburner.com/xguru?format=xml
     - :author_name: 권창현
@@ -146,6 +148,8 @@ production: &production
       :feed_url: http://feeds.feedburner.com/blogspot/ASpE
     - :author_name: 박정규
       :feed_url: http://bagjunggyu.blogspot.com/feeds/posts/default
+    - :author_name: 박정운
+      :feed_url: https://jungwoon.github.io/feed.xml
     - :author_name: 박종명
       :feed_url: http://m.mkexdev.net/rss
     - :author_name: 박현우

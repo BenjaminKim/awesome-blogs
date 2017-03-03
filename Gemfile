@@ -52,3 +52,5 @@ gem 'feedjira'
 gem 'parallel'
 gem 'addressable'
 gem 'mysql2'
+gem 'rpush'
+

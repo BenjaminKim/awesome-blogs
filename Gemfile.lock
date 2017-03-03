@@ -84,6 +84,7 @@ GEM
     ffi (1.9.17)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
+    hiredis (0.6.1)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
     i18n (0.8.1)
@@ -152,6 +153,7 @@ GEM
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
+    redis (3.3.3)
     rest-client (2.0.1)
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
@@ -203,7 +205,9 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   capistrano3-puma
+  connection_pool
   feedjira
+  hiredis
   jbuilder (~> 2.5)
   listen (~> 3.0.5)
   mysql2
@@ -211,6 +215,7 @@ DEPENDENCIES
   pry
   puma (~> 3.0)
   rails (~> 5.0.1)
+  redis
   rest-client
   rpush
   spring

@@ -53,4 +53,6 @@ gem 'parallel'
 gem 'addressable'
 gem 'mysql2'
 gem 'rpush'
-
+gem 'redis'
+gem 'hiredis'
+gem 'connection_pool'

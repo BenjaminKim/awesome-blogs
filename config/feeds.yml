@@ -436,6 +436,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@sanghoonpak
     - :author_name: 최혁재
       :feed_url: https://brunch.co.kr/rss/@@kDx
+    - :author_name: 쿠도
+      :feed_url: https://blog.kudokun.me/feed
 
   company:
     - :author_name: 카카오

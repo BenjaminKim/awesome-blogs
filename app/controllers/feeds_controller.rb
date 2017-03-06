@@ -137,7 +137,7 @@ class FeedsController < ApplicationController
       unless src.blank?
         begin
           uri = Addressable::URI.parse(src)
-          unless uri.host
+          if uri.host.blank? || uri.scheme.blank?
             uri.scheme = base_uri.scheme
             uri.host = base_uri.host
             node[url_param] = uri.to_s

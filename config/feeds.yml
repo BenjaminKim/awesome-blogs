@@ -380,6 +380,8 @@ production: &production
       :feed_url: http://jacking.tistory.com/rss
     - :author_name: 하호진
       :feed_url: http://feeds.feedburner.com/Smartmob
+    - :author_name: 한주영
+      :feed_url: https://medium.com/feed/@jooyunghan
     - :author_name: 한승훈
       :feed_url: http://kkamagui.tistory.com/rss
     - :author_name: 한정현

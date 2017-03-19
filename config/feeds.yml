@@ -112,10 +112,6 @@ production: &production
       :feed_url: http://rss.egloos.com/blog/greentec
     - :author_name: 김훈민
       :feed_url: http://huns.me/feed
-    - :author_name: 남정현
-      :feed_url: http://www.rkttu.com/atom
-    - :author_name: 노용환
-      :feed_url: http://bugsfixed.blogspot.com/feeds/posts/default
     - :author_name: 노정석
       :feed_url: http://blog.rss.naver.com/chesterroh.xml
     - :author_name: 도경태
@@ -394,8 +390,6 @@ production: &production
       :feed_url: http://blog.fupfin.com/?feed=rss2
     - :author_name: 황장호
       :feed_url: http://xrath.com/feed/
-    - :author_name: 히언
-      :feed_url: http://rss.egloos.com/blog/recipes
     - :author_name: 현승
       :feed_url: http://iam-hs.com/rss
     - :author_name: 허준회

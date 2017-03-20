@@ -112,6 +112,8 @@ production: &production
       :feed_url: http://rss.egloos.com/blog/greentec
     - :author_name: 김훈민
       :feed_url: http://huns.me/feed
+    - :author_name: 꼬젯
+      :feed_url: https://cojette.github.io/feed.xml
     - :author_name: 노정석
       :feed_url: http://blog.rss.naver.com/chesterroh.xml
     - :author_name: 도경태
@@ -424,6 +426,8 @@ production: &production
       :feed_url: http://feeds.feedburner.com/baenefit/slXh
     - :author_name: 이민석
       :feed_url: http://hl1itj.tistory.com/rss
+    - :author_name: 임정욱
+      :feed_url: https://estimastory.com/feed/
     - :author_name: 임지훈
       :feed_url: http://www.jimmyrim.com/rss
     - :author_name: 조성문

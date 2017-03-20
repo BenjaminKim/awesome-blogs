@@ -466,7 +466,23 @@ production: &production
       :feed_url: http://hacks.mozilla.or.kr/feed/
     - :author_name: Google Developers Korea 블로그
       :feed_url: http://googledevkr.blogspot.in//atom.xml
-      
+    - :author_name: 달리웍스
+      :feed_url: http://techblog.daliworks.net/feed.xml
+    - :author_name: 조이코퍼레이션
+      :feed_url: https://medium.com/feed/zoyi-blog/tagged/technology
+    - :author_name: 후이서울
+      :feed_url: https://engineering.huiseoul.com/feed
+    - :author_name: 당근마켓
+      :feed_url: https://medium.com/feed/n42-corp
+    - :author_name: 드라마앤컴퍼니
+      :feed_url: http://blog.dramancompany.com/feed
+    - :author_name: 꿈많은청년들
+      :feed_url: https://blog.dreamyoungs.com/feed
+    - :author_name: Realm
+      :feed_url: https://realm.io/kr/news/feed.xml
+    - :author_name: 망고플레이트
+      :feed_url: https://medium.com/feed/team-mangoplate
+
 development:
   dev:
     - :author_name: 김재호

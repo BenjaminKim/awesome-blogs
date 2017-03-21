@@ -352,6 +352,8 @@ production: &production
       :feed_url: http://softwaregeeks.org/feed/
     - :author_name: 진용진
       :feed_url: https://brunch.co.kr/rss/@@2rV
+    - :author_name: 찜토끼
+      :feed_url: http://wlaxhrl.tistory.com/rss
     - :author_name: 채수원
       :feed_url: http://blog.doortts.com/rss
     - :author_name: 최근우

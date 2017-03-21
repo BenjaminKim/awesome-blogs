@@ -439,7 +439,7 @@ production: &production
     - :author_name: 행동촉발 노란초
       :feed_url: https://brunch.co.kr/rss/@@Utc
     - :author_name: 김홍익
-      :feed_url: http://sttora2.net/rss
+      :feed_url: http://blog.rss.naver.com/sttora2.xml
     - :author_name: 노정석
       :feed_url: http://blog.rss.naver.com/chesterroh.xml
 

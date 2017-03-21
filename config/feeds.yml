@@ -114,8 +114,6 @@ production: &production
       :feed_url: http://huns.me/feed
     - :author_name: 꼬젯
       :feed_url: https://cojette.github.io/feed.xml
-    - :author_name: 노정석
-      :feed_url: http://blog.rss.naver.com/chesterroh.xml
     - :author_name: 도경태
       :feed_url: https://medium.com/feed/@keendev
     - :author_name: 류광
@@ -438,6 +436,12 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@kDx
     - :author_name: 쿠도
       :feed_url: https://blog.kudokun.me/feed
+    - :author_name: 행동촉발 노란초
+      :feed_url: https://brunch.co.kr/rss/@@Utc
+    - :author_name: 김홍익
+      :feed_url: http://sttora2.net/rss
+    - :author_name: 노정석
+      :feed_url: http://blog.rss.naver.com/chesterroh.xml
 
   company:
     - :author_name: 카카오

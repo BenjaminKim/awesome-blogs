@@ -121,6 +121,8 @@ class FeedsController < ApplicationController
       'Korea Insightful Blogs'.freeze
     when 'all'
       'Korea Awesome Blogs'.freeze
+    when 'real_estate'
+      '부동산 어썸블로그'.freeze
     else
       raise ArgumentError.new
     end

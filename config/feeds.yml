@@ -131,7 +131,7 @@ production: &production
     - :author_name: 박민근
       :feed_url: http://agebreak.blog.me/rss
     - :author_name: 박민우
-      :feed_url: http://earlybird.kr/fee
+      :feed_url: http://earlybird.kr/feed
     - :author_name: 박상권
       :feed_url: http://gun0912.tistory.com/rss
     - :author_name: 박상길

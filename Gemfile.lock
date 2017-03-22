@@ -61,9 +61,10 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    capistrano3-puma (1.2.1)
-      capistrano (~> 3.0)
-      puma (>= 2.6)
+    capistrano3-puma (3.0.2)
+      capistrano (~> 3.7)
+      capistrano-bundler
+      puma (~> 3.4)
     coderay (1.1.1)
     concurrent-ruby (1.0.5)
     connection_pool (2.2.1)
@@ -112,7 +113,7 @@ GEM
     net-ssh (4.1.0)
     netrc (0.11.0)
     nio4r (2.0.0)
-    nokogiri (1.7.0.1)
+    nokogiri (1.7.1)
       mini_portile2 (~> 2.1.0)
     parallel (1.11.1)
     pry (0.10.4)
@@ -222,4 +223,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.14.5
+   1.14.6

@@ -15,7 +15,11 @@ class FeedsController < ApplicationController
 
     if group == 'all'
       feeds = Rails.configuration.feeds.inject([]) do |array, e|
-        array + e.second
+        if e.first == 'real_estate'
+          array
+        else
+          array + e.second
+        end
       end
     else
       feeds = Rails.configuration.feeds[group]

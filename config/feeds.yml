@@ -492,6 +492,20 @@ production: &production
       :feed_url: https://realm.io/kr/news/feed.xml
     - :author_name: 망고플레이트
       :feed_url: https://medium.com/feed/team-mangoplate
+    - :author_name: 네이버캐스트 용어로보는 IT
+      :feed_url: https://navercast.petabytes.org?cid=122
+
+  real_estate:
+    - :author_name: 아기곰
+      :feed_url: http://blog.rss.naver.com/a-cute-bear
+    - :author_name: 김학렬
+      :feed_url: http://blog.rss.naver.com/ppassong
+    - :author_name: 정지영
+      :feed_url: http://blog.rss.naver.com/iammentor
+    - :author_name: 구피생이
+      :feed_url: http://blog.rss.naver.com/unimk
+    - :author_name: 네이버캐스트 건축법
+      :feed_url: https://navercast.petabytes.org?cid=2901
 
 development:
   dev:

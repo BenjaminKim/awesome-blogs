@@ -20,3 +20,7 @@ https://awesome-blogs.petabytes.org/feeds?group=all
 
 ### 안드로이드 코드 저장소
 https://github.com/jungilhan/awesome-blogs-android
+
+## Experimental
+### 부동산 관련 블로그 피드 주소
+https://awesome-blogs.petabytes.org/feeds?group=real_estate

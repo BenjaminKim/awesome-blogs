@@ -7,6 +7,12 @@ class FeedsController < ApplicationController
     # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}
     group = params[:group] || 'dev'
 
+    headers = request.headers
+    device_uid = headers['X-Device-Uid']
+    push_token = headers['X-Push-Token']
+    access_token = headers['X-Access-Token']
+    Rails.logger.info("DEVICE_UID: #{device_uid}\nPUSH_TOKEN: #{push_token}\nACCESS_TOKEN: #{access_token}")
+
     if group == 'all'
       feeds = Rails.configuration.feeds.inject([]) do |array, e|
         array + e.second
@@ -75,7 +81,7 @@ class FeedsController < ApplicationController
     end
 
     group = params[:group] || 'none'
-    report_google_analytics(group, group, request.user_agent)
+    report_google_analytics(device_uid, group, request.user_agent, request.url)
 
     respond_to do |format|
       format.xml { render xml: @rss.to_xml }
@@ -83,16 +89,23 @@ class FeedsController < ApplicationController
     end
   end
 
-  def report_google_analytics(cid, title, ua)
+  def report_google_analytics(cid, title, ua, document_url)
+    # https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters
     RestClient.post('http://www.google-analytics.com/collect',
       {
+        # Protocol Version
         v: '1',
+        # Tracking ID
         tid: 'UA-90528160-1',
-        cid: SecureRandom.uuid,
+        # Client ID
+        cid: cid || SecureRandom.uuid,
+        # Hit type
         t: 'pageview',
-        dh: 'awesome-blogs.petabytes.org',
-        dp: cid.to_s,
+        # Document location URL
+        dl: document_url,
+        # Document Title
         dt: title,
+        ua: ua,
       },
       user_agent: ua
     )

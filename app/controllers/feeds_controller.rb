@@ -93,6 +93,17 @@ class FeedsController < ApplicationController
     end
   end
 
+  def read
+    url = params[:url]
+    return if url.blank?
+    $redis.zincrby('read_articles', 1, url)
+    render json: { status: 0 }
+  end
+
+  def top
+    render json: $redis.zrevrangebyscore('read_articles', '+inf', 0, with_scores: true)
+  end
+
   def report_google_analytics(cid, title, ua, document_url)
     # https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters
     RestClient.post('http://www.google-analytics.com/collect',
@@ -173,4 +184,5 @@ class FeedsController < ApplicationController
     #Rails.logger.error("HTML: #{html_string}")
     '글 읽으러 가기'
   end
+
 end

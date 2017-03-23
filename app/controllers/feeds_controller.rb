@@ -11,7 +11,10 @@ class FeedsController < ApplicationController
     device_uid = headers['X-Device-Uid']
     push_token = headers['X-Push-Token']
     access_token = headers['X-Access-Token']
-    Rails.logger.info("DEVICE_UID: #{device_uid}\nPUSH_TOKEN: #{push_token}\nACCESS_TOKEN: #{access_token}")
+    Rails.logger.info("DEVICE_UID: #{device_uid}")
+    Rails.logger.info("PUSH_TOKEN: #{push_token}")
+    Rails.logger.info("ACCESS_TOKEN: #{access_token}")
+    Rails.logger.info("USER_AGENT: #{request.user_agent}")
 
     if group == 'all'
       feeds = Rails.configuration.feeds.inject([]) do |array, e|

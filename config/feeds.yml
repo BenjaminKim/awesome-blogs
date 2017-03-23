@@ -340,6 +340,8 @@ production: &production
       :feed_url: http://rss.egloos.com/blog/aeternum
     - :author_name: 조우진
       :feed_url: http://www.notforme.kr/feed
+    - :author_name: 조은
+      :feed_url: https://brunch.co.kr/rss/@@3FX
     - :author_name: 조인석
       :feed_url: https://brunch.co.kr/rss/@@102g
     - :author_name: 주우영

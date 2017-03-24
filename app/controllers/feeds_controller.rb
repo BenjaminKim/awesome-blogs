@@ -3,18 +3,30 @@ require 'open-uri'
 require 'addressable/uri'
 
 class FeedsController < ApplicationController
+  before_action :update_device_uid
+  def update_device_uid
+    headers = request.headers
+    @access_token = headers['X-Access-Token']
+    @device_uid = headers['X-Device-Uid']
+    @push_token = headers['X-Push-Token']
+
+    Rails.logger.info("DEVICE_UID: #{@device_uid}")
+    Rails.logger.info("PUSH_TOKEN: #{@push_token}")
+    Rails.logger.info("ACCESS_TOKEN: #{access_token}")
+    Rails.logger.info("USER_AGENT: #{request.user_agent}")
+
+    return unless @device_uid
+
+    Device.find_or_create_by(uid: @device_uid).update(
+      push_token: @push_token,
+      meta: request.user_agent
+    )
+  end
+
   def index
     # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}
     group = params[:group] || 'dev'
 
-    headers = request.headers
-    device_uid = headers['X-Device-Uid']
-    push_token = headers['X-Push-Token']
-    access_token = headers['X-Access-Token']
-    Rails.logger.info("DEVICE_UID: #{device_uid}")
-    Rails.logger.info("PUSH_TOKEN: #{push_token}")
-    Rails.logger.info("ACCESS_TOKEN: #{access_token}")
-    Rails.logger.info("USER_AGENT: #{request.user_agent}")
 
     if group == 'all'
       feeds = Rails.configuration.feeds.inject([]) do |array, e|

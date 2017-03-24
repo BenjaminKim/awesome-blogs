@@ -100,7 +100,7 @@ class FeedsController < ApplicationController
     end
 
     group = params[:group] || 'none'
-    report_google_analytics(device_uid, group, request.user_agent, request.url)
+    report_google_analytics(@device_uid, group, request.user_agent, request.url)
 
     respond_to do |format|
       format.xml { render xml: @rss.to_xml }

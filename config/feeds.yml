@@ -416,6 +416,8 @@ production: &production
       :feed_url: http://canapio.tistory.com/rss
     - :author_name: Pluu
       :feed_url: https://pluu.github.io/feed.xml
+    - :author_name: Leop0ld
+      :feed_url: https://leop0ld.github.io/feed.xml
 
   insightful:
     - :author_name: 김광현

@@ -210,6 +210,8 @@ production: &production
       :feed_url: http://qnibus.com/feed/
     - :author_name: 안중원
       :feed_url: http://postgame.tistory.com/rss
+    - :author_name: 야곰
+      :feed_url: http://blog.yagom.net/rss
     - :author_name: 양병규
       :feed_url: http://blog.rss.naver.com/delmadang.xml
     - :author_name: 양준철

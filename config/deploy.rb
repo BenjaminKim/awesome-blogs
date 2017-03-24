@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.8.0'
+# lock '3.8.0'
 
 set :application, 'awesome-blogs'
 set :repo_url, 'git@github.com:BenjaminKim/awesome-blogs.git'
@@ -30,6 +30,6 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/syst
 # Default value for default_env is {}
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 set :default_env, { rvm_bin_path: '~/.rvm/bin' }
-set :rvm_ruby_version, '2.4.0'
+# set :rvm_ruby_version, '2.4.1'
 # Default value for keep_releases is 5
 set :keep_releases, 15

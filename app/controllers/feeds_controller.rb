@@ -12,7 +12,7 @@ class FeedsController < ApplicationController
 
     Rails.logger.info("DEVICE_UID: #{@device_uid}")
     Rails.logger.info("PUSH_TOKEN: #{@push_token}")
-    Rails.logger.info("ACCESS_TOKEN: #{access_token}")
+    Rails.logger.info("ACCESS_TOKEN: #{@access_token}")
     Rails.logger.info("USER_AGENT: #{request.user_agent}")
 
     return unless @device_uid

@@ -114,11 +114,28 @@ class FeedsController < ApplicationController
     url = params[:url]
     return if url.blank?
     $redis.zincrby('read_articles', 1, url)
+    $redis.zincrby("read_articles_#{Date.today}", 1, url)
     render json: { status: 0 }
   end
 
   def top
-    render json: $redis.zrevrangebyscore('read_articles', '+inf', 0, with_scores: true)
+    recent_days = (params[:recent_days] || 7).to_i
+    recent_days = [recent_days, 30].min
+    n = (params[:n] || 10).to_i
+    n = [n, 10].min
+
+    today = Date.today
+    result_h = 0.upto(recent_days - 1).inject(Hash.new(0)) do |h, e|
+      date = today - e
+
+      a = $redis.zrevrangebyscore("read_articles_#{date}", '+inf', 0, limit: [0, n], with_scores: true)
+      a.each do |x|
+        h[x.first] += x.second
+      end
+      h
+    end
+
+    render json: result_h
   end
 
   def report_google_analytics(cid, title, ua, document_url)

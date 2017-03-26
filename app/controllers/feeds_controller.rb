@@ -17,7 +17,7 @@ class FeedsController < ApplicationController
 
     return unless @device_uid
 
-    Rails.logger.info("META: #{app_version}")
+    Rails.logger.info("META: #{request.user_agent}")
 
     Device.find_or_create_by(uid: @device_uid).update(
       push_token: @push_token,

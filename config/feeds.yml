@@ -32,8 +32,6 @@ production: &production
       :feed_url: http://nolboo.github.io/feed.xml
     - :author_name: 김대권
       :feed_url: http://blog.nacyot.com/feed.xml
-    - :author_name: 김대기
-      :feed_url: http://daegi.kim/feed
     - :author_name: 김덕홍
       :feed_url: http://insanehong.kr/rss.xml
     - :author_name: 김도균

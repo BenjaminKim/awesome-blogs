@@ -23,6 +23,7 @@ require 'capistrano/rails/migrations'
 require 'capistrano/puma'
 require 'capistrano/puma/workers'
 require 'capistrano/puma/nginx'
+require 'capistrano/upload-config'
 # require "capistrano/rails/migrations"
 # require "capistrano/passenger"
 

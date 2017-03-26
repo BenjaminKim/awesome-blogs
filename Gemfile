@@ -40,6 +40,7 @@ group :development do
   gem 'capistrano3-puma'
   gem 'capistrano-bundler'
   gem 'capistrano-rvm'
+  gem 'capistrano-upload-config'
   gem 'awesome_print'
   gem 'pry'
 end

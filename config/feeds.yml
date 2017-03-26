@@ -44,6 +44,8 @@ production: &production
       :feed_url: http://www.kmshack.kr/rss
     - :author_name: 김민장
       :feed_url: https://minjang.github.io/feed.xml
+    - :author_name: 김민준
+      :feed_url: https://velopert.com/feed
     - :author_name: 김범준
       :feed_url: http://bomjun.tistory.com/rss
     - :author_name: 김범진

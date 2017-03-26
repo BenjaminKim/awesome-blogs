@@ -82,8 +82,6 @@ production: &production
       :feed_url: https://kimws.wordpress.com/feed/
     - :author_name: 김우용
       :feed_url: https://brunch.co.kr/atom/@@13x1
-    - :author_name: 김우섭
-      :feed_url: https://brunch.co.kr/rss/@@tcN
     - :author_name: 김정환
       :feed_url: http://blog.jeonghwan.net/feed.xml
     - :author_name: 김원일

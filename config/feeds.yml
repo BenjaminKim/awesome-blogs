@@ -362,6 +362,8 @@ production: &production
       :feed_url: https://keunwoochoi.wordpress.com/feed/
     - :author_name: 최범균
       :feed_url: http://javacan.tistory.com/rss
+    - :author_name: 최승필
+      :feed_url: https://brunch.co.kr/rss/@@1iQC
     - :author_name: 최유석
       :feed_url: http://whitechoi.tistory.com/rss
     - :author_name: 최재훈

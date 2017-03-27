@@ -304,8 +304,8 @@ production: &production
       :feed_url: http://naleejang.tistory.com/rss
 #    - :author_name: 장혜식
 #      :feed_url: http://openlook.org/wp/feed/
-    - :author_name: 전규현
-      :feed_url: http://feeds.feedburner.com/allofsoftware?format=xml
+#    - :author_name: 전규현
+#      :feed_url: http://feeds.feedburner.com/allofsoftware?format=xml
     - :author_name: 전동규
       :feed_url: http://www.php5.me/blog/feed/
     - :author_name: 전호상
@@ -437,7 +437,7 @@ production: &production
     - :author_name: 조성문
       :feed_url: http://sungmooncho.com/feed/
     - :author_name: 박상훈
-      :feed_url: https://brunch.co.kr/rss/@sanghoonpak
+      :feed_url: https://brunch.co.kr/rss/@@v0n
     - :author_name: 최혁재
       :feed_url: https://brunch.co.kr/rss/@@kDx
     - :author_name: 쿠도

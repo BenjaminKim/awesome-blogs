@@ -418,6 +418,10 @@ production: &production
       :feed_url: https://pluu.github.io/feed.xml
     - :author_name: Leop0ld
       :feed_url: https://leop0ld.github.io/feed.xml
+    - :author_name: asbubam
+      :feed_url: https://blog.2dal.com/feed
+    - :author_name: Developer88
+      :feed_url: http://developer88.tistory.com/rss
 
   insightful:
     - :author_name: 김광현
@@ -432,6 +436,8 @@ production: &production
       :feed_url: http://feeds.feedburner.com/baenefit/slXh
     - :author_name: 이민석
       :feed_url: http://hl1itj.tistory.com/rss
+    - :author_name: 이장
+      :feed_url: https://brunch.co.kr/rss/@@2PLV
     - :author_name: 임정욱
       :feed_url: https://estimastory.com/feed/
     - :author_name: 임지훈

@@ -506,6 +506,8 @@ production: &production
       :feed_url: https://medium.com/feed/team-mangoplate
     - :author_name: 네이버캐스트 용어로보는 IT
       :feed_url: https://navercast.petabytes.org?cid=122
+    - :author_name: 메쉬코리아
+      :feed_url: https://meshlabs.ghost.io/rss/
 
   real_estate:
     - :author_name: 아기곰

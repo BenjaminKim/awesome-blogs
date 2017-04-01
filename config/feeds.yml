@@ -422,6 +422,8 @@ production: &production
       :feed_url: https://blog.2dal.com/feed
     - :author_name: Developer88
       :feed_url: http://developer88.tistory.com/rss
+    - :author_name: Rinae
+      :feed_url: https://emaren84.github.io/blog/feed.xml
 
   insightful:
     - :author_name: 김광현
@@ -527,6 +529,8 @@ development:
       :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
     - :author_name: 강대명
       :feed_url: https://charsyam.wordpress.com/feed/
+    - :author_name: 리네
+      :feed_url: https://emaren84.github.io/blog/feed.xml
   insightful:
     - :author_name: 김광현
       :feed_url: http://kwang82.hankyung.com/feeds/posts/default

@@ -450,6 +450,8 @@ production: &production
       :feed_url: https://estimastory.com/feed/
     - :author_name: 임지훈
       :feed_url: http://www.jimmyrim.com/rss
+    - :author_name: 장영학
+      :feed_url: https://brunch.co.kr/rss/@@1Wwt
     - :author_name: 조성문
       :feed_url: http://sungmooncho.com/feed/
     - :author_name: 최혁재

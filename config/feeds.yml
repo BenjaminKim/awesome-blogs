@@ -234,8 +234,8 @@ production: &production
       :feed_url: http://sarojaba.tumblr.com/rss
     - :author_name: 유동곤
       :feed_url: http://blog.rss.naver.com/ehdrhs1004.xml
-    - :author_name: 유동환
-      :feed_url: https://brunch.co.kr/rss/@@6dD
+#    - :author_name: 유동환
+#      :feed_url: https://brunch.co.kr/rss/@@6dD
     - :author_name: 유병후
       :feed_url: https://libsora.so/index.xml
     - :author_name: 유영재
@@ -434,6 +434,12 @@ production: &production
       :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
     - :author_name: 김현유
       :feed_url: http://www.mickeykim.com/rss
+    - :author_name: 김홍익
+      :feed_url: http://blog.rss.naver.com/sttora2.xml
+    - :author_name: 노정석
+      :feed_url: http://blog.rss.naver.com/chesterroh.xml
+    - :author_name: 박상훈
+      :feed_url: https://brunch.co.kr/rss/@@v0n
     - :author_name: 배기홍
       :feed_url: http://feeds.feedburner.com/baenefit/slXh
     - :author_name: 이민석
@@ -446,18 +452,14 @@ production: &production
       :feed_url: http://www.jimmyrim.com/rss
     - :author_name: 조성문
       :feed_url: http://sungmooncho.com/feed/
-    - :author_name: 박상훈
-      :feed_url: https://brunch.co.kr/rss/@@v0n
     - :author_name: 최혁재
       :feed_url: https://brunch.co.kr/rss/@@kDx
     - :author_name: 쿠도
       :feed_url: https://blog.kudokun.me/feed
     - :author_name: 행동촉발 노란초
       :feed_url: https://brunch.co.kr/rss/@@Utc
-    - :author_name: 김홍익
-      :feed_url: http://blog.rss.naver.com/sttora2.xml
-    - :author_name: 노정석
-      :feed_url: http://blog.rss.naver.com/chesterroh.xml
+    - :author_name: 허진호
+      :feed_url: https://medium.com/feed/@hur
 
   company:
     - :author_name: 카카오

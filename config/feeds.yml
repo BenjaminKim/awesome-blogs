@@ -424,6 +424,8 @@ production: &production
       :feed_url: http://developer88.tistory.com/rss
     - :author_name: Rinae
       :feed_url: https://emaren84.github.io/blog/feed.xml
+    - :author_name: Lava
+      :feed_url: http://astrod.github.io/feed.xml
 
   insightful:
     - :author_name: 김광현

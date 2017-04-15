@@ -516,6 +516,8 @@ production: &production
       :feed_url: https://navercast.petabytes.org?cid=122
     - :author_name: 메쉬코리아
       :feed_url: https://meshlabs.ghost.io/rss/
+    - :author_name: Rainist
+      :feed_url: https://medium.com/feed/rainist-engineering
 
   real_estate:
     - :author_name: 아기곰
@@ -528,6 +530,8 @@ production: &production
       :feed_url: http://blog.rss.naver.com/unimk
     - :author_name: 네이버캐스트 건축법
       :feed_url: https://navercast.petabytes.org?cid=2901
+    - :author_name: vw-lab
+      :feed_url: http://www.vw-lab.com/rss
 
 development:
   dev:

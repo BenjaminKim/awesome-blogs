@@ -272,6 +272,8 @@ production: &production
       :feed_url: http://blog.scaloid.org/feeds/posts/default
     - :author_name: 이세우
       :feed_url: http://blog.xcoda.net/rss
+    - :author_name: 이소은
+      :feed_url: https://medium.com/feed/@soeunlee
     - :author_name: 이수홍
       :feed_url: https://brunch.co.kr/rss/@@so6
     - :author_name: 이승현

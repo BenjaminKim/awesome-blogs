@@ -532,6 +532,8 @@ production: &production
       :feed_url: https://navercast.petabytes.org?cid=2901
     - :author_name: vw-lab
       :feed_url: http://www.vw-lab.com/rss
+    - :author_name: 서울휘
+      :feed_url: http://seoulwhi.com/rss
 
 development:
   dev:

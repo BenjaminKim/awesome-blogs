@@ -356,6 +356,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@2rV
     - :author_name: 찜토끼
       :feed_url: http://wlaxhrl.tistory.com/rss
+    - :author_name: 차민창
+      :feed_url: https://medium.com/feed/@minslovey
     - :author_name: 채수원
       :feed_url: http://blog.doortts.com/rss
     - :author_name: 최근우
@@ -426,6 +428,8 @@ production: &production
       :feed_url: https://emaren84.github.io/blog/feed.xml
     - :author_name: Lava
       :feed_url: http://astrod.github.io/feed.xml
+    - :author_name: Joshua
+      :feed_url: https://joshua1988.github.io/atom.xml
 
   insightful:
     - :author_name: 김광현

@@ -232,12 +232,8 @@ production: &production
       :feed_url: http://novafactory.net/feed
     - :author_name: 우준혁
       :feed_url: http://sarojaba.tumblr.com/rss
-#    - :author_name: 유동환
-#      :feed_url: https://brunch.co.kr/rss/@@6dD
     - :author_name: 유병후
       :feed_url: https://libsora.so/index.xml
-    - :author_name: 유영재
-      :feed_url: https://blog.asamaru.net/atom.xml
     - :author_name: 유진호
       :feed_url: https://brunch.co.kr/atom/@@z8s
     - :author_name: 윤석찬

@@ -384,14 +384,14 @@ production: &production
       :feed_url: http://jacking.tistory.com/rss
     - :author_name: 하호진
       :feed_url: http://feeds.feedburner.com/Smartmob
-    - :author_name: 한주영
-      :feed_url: https://medium.com/feed/@jooyunghan
     - :author_name: 한승훈
       :feed_url: http://kkamagui.tistory.com/rss
     - :author_name: 한정현
       :feed_url: http://blog.kazikai.net/?feed=rss2
-    - :author_name: 허준회
-      :feed_url: https://joone.wordpress.com/feed/
+    - :author_name: 한주영
+      :feed_url: https://medium.com/feed/@jooyunghan
+    - :author_name: 한재엽
+      :feed_url: https://jaeyeophan.github.io/feed.xml
     - :author_name: 홍민희
       :feed_url: http://blog.dahlia.kr/rss
     - :author_name: 홍성철

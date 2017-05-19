@@ -152,8 +152,6 @@ production: &production
       :feed_url: http://feeds.feedburner.com/junyoung?format=xml
     - :author_name: 배성혁
       :feed_url: http://debop.tumblr.com/rss
-    - :author_name: 배진호
-      :feed_url: https://medium.com/feed/@baejinho
     - :author_name: 백기선
       :feed_url: http://whiteship.me/?feed=rss2
     - :author_name: 백명석
@@ -520,6 +518,8 @@ production: &production
       :feed_url: https://meshlabs.ghost.io/rss/
     - :author_name: Rainist
       :feed_url: https://medium.com/feed/rainist-engineering
+    - :author_name: 멋쟁이사자처럼
+      :feed_url: https://brunch.co.kr/rss/@@2YH6
 
   real_estate:
     - :author_name: 아기곰

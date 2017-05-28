@@ -124,8 +124,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@FOY
     - :author_name: 문형환
       :feed_url: http://blog.lael.be/feed
-    - :author_name: 박경훈
-      :feed_url: http://hoonsbara.tistory.com/rss
     - :author_name: 박민근
       :feed_url: http://agebreak.blog.me/rss
     - :author_name: 박민우

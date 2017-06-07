@@ -430,6 +430,8 @@ production: &production
       :feed_url: http://kwang82.hankyung.com/feeds/posts/default
     - :author_name: 김국현
       :feed_url: http://feeds.feedburner.com/goodhyun
+    - :author_name: 김상훈
+      :feed_url: https://interpiler.com/feed
     - :author_name: 김창원
       :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
     - :author_name: 김현유

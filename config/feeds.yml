@@ -440,6 +440,8 @@ production: &production
       :feed_url: http://blog.rss.naver.com/sttora2.xml
     - :author_name: 노정석
       :feed_url: http://blog.rss.naver.com/chesterroh.xml
+    - :author_name: 류한
+      :feed_url: https://hahnryu.com/feed
     - :author_name: 박상훈
       :feed_url: https://brunch.co.kr/rss/@@v0n
     - :author_name: 배기홍

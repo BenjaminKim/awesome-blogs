@@ -526,6 +526,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@2YH6
     - :author_name: 레진
       :feed_url: http://tech.lezhin.com/rss
+    - :author_name: 로켓펀치
+      :feed_url: https://blog.rocketpunch.com/feed/
 
   real_estate:
     - :author_name: 아기곰

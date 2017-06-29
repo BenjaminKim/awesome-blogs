@@ -166,6 +166,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@2YE
     - :author_name: 서주영
       :feed_url: http://rss.egloos.com/blog/seoz
+    - :author_name: 성동찬
+      :feed_url: https://brunch.co.kr/rss/@@6oa
     - :author_name: 손영수
       :feed_url: https://arload.wordpress.com/feed/
     - :author_name: 송성광

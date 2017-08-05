@@ -60,8 +60,6 @@ production: &production
       :feed_url: http://www.se.or.kr/rss
     - :author_name: 김수보
       :feed_url: https://subokim.wordpress.com/feed/
-    - :author_name: 김순식
-      :feed_url: http://i-bada.blogspot.com/feeds/posts/default?alt=rss
     - :author_name: 김슬기
       :feed_url: http://blog.seulgi.kim/feeds/posts/default
     - :author_name: 김영재
@@ -122,8 +120,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@JJj
     - :author_name: 모상우
       :feed_url: https://brunch.co.kr/rss/@@FOY
-    - :author_name: 문형환
-      :feed_url: http://blog.lael.be/feed
     - :author_name: 박민근
       :feed_url: http://agebreak.blog.me/rss
     - :author_name: 박민우

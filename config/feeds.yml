@@ -150,6 +150,8 @@ production: &production
       :feed_url: http://whiteship.me/?feed=rss2
     - :author_name: 백명석
       :feed_url: https://brunch.co.kr/rss/@@2xm
+    - :author_name: 백재연
+      :feed_url: http://jybaek.tistory.com/rss
     - :author_name: 범이
       :feed_url: http://blog.daum.net/xml/rss/funfunction
     - :author_name: 변정훈

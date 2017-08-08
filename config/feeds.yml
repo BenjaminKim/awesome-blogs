@@ -108,6 +108,8 @@ production: &production
       :feed_url: http://rss.egloos.com/blog/greentec
     - :author_name: 김훈민
       :feed_url: http://huns.me/feed
+    - :author_name: 김형철
+      :feed_url: https://brunch.co.kr/rss/@@OS0
     - :author_name: 꼬젯
       :feed_url: https://cojette.github.io/feed.xml
     - :author_name: 도경태

@@ -140,6 +140,8 @@ production: &production
       :feed_url: https://jungwoon.github.io/feed.xml
     - :author_name: 박종명
       :feed_url: http://m.mkexdev.net/rss
+    - :author_name: 박준희
+      :feed_url: https://brunch.co.kr/rss/@@1YN0
     - :author_name: 박현우
       :feed_url: http://lqez.github.io/blog/feeds/all.atom.xml
     - :author_name: 방준영

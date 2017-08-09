@@ -450,6 +450,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@v0n
     - :author_name: 배기홍
       :feed_url: https://feeds.feedburner.com/baenefit/slXh
+    - :author_name: 서진호
+      :feed_url: https://brunch.co.kr/rss/@@Zvf
     - :author_name: 윤필구
       :feed_url: https://liveandventure.com/feed
     - :author_name: 이민석

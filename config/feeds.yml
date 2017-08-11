@@ -431,7 +431,7 @@ production: &production
 
   insightful:
     - :author_name: 김광현
-      :feed_url: http://kwang82.hankyung.com/feeds/posts/default
+      :feed_url: https://kwang82.blogspot.com/feeds/posts/default
     - :author_name: 김국현
       :feed_url: http://feeds.feedburner.com/goodhyun
     - :author_name: 김상훈
@@ -456,8 +456,6 @@ production: &production
       :feed_url: https://liveandventure.com/feed
     - :author_name: 이민석
       :feed_url: http://hl1itj.tistory.com/rss
-    - :author_name: 이장
-      :feed_url: https://brunch.co.kr/rss/@@2PLV
     - :author_name: 임정욱
       :feed_url: https://estimastory.com/feed/
     - :author_name: 임지훈
@@ -518,8 +516,8 @@ production: &production
       :feed_url: https://medium.com/feed/n42-corp
     - :author_name: 드라마앤컴퍼니
       :feed_url: http://blog.dramancompany.com/feed
-    - :author_name: 꿈많은청년들
-      :feed_url: https://blog.dreamyoungs.com/feed
+#    - :author_name: 꿈많은청년들
+#      :feed_url: https://blog.dreamyoungs.com/feed
     - :author_name: Realm
       :feed_url: https://realm.io/kr/news/feed.xml
     - :author_name: 망고플레이트

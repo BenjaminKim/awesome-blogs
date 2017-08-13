@@ -68,8 +68,6 @@ production: &production
       :feed_url: http://haruair.com/blog/feed
     - :author_name: 김용묵
       :feed_url: http://moogi.new21.org/tc/rss
-    - :author_name: 김용환
-      :feed_url: http://knight76.tistory.com/rss
     - :author_name: 김용현
       :feed_url: http://blog.rss.naver.com/drvoss.xml
     - :author_name: 김우섭

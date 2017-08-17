@@ -446,6 +446,8 @@ production: &production
       :feed_url: https://hahnryu.com/feed
     - :author_name: 박상훈
       :feed_url: https://brunch.co.kr/rss/@@v0n
+    - :author_name: 박태림
+      :feed_url: https://medium.com/feed/@TaerimPark_CEO
     - :author_name: 배기홍
       :feed_url: https://feeds.feedburner.com/baenefit/slXh
     - :author_name: 서진호

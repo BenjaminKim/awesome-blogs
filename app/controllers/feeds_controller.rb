@@ -4,6 +4,7 @@ require 'addressable/uri'
 
 class FeedsController < ApplicationController
   before_action :update_device_uid
+
   def update_device_uid
     headers = request.headers
     @access_token = headers['X-Access-Token']
@@ -28,7 +29,6 @@ class FeedsController < ApplicationController
   def index
     # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}
     group = params[:group] || 'dev'
-
 
     if group == 'all'
       feeds = Rails.configuration.feeds.inject([]) do |array, e|
@@ -135,7 +135,7 @@ class FeedsController < ApplicationController
       h
     end
 
-    render json: result_h
+    render json: result_h.sort_by { |_key, value| -value }.to_h
   end
 
   def report_google_analytics(cid, title, ua, document_url)

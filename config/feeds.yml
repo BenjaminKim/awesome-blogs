@@ -426,6 +426,8 @@ production: &production
       :feed_url: http://astrod.github.io/feed.xml
     - :author_name: Joshua
       :feed_url: https://joshua1988.github.io/atom.xml
+    - :author_name: USB
+      :feed_url: http://sdusb.blogspot.com/feeds/posts/default
 
   insightful:
     - :author_name: 김광현

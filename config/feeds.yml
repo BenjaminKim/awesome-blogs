@@ -82,6 +82,8 @@ production: &production
       :feed_url: http://androidkr.blogspot.com/feeds/posts/default
     - :author_name: 김재호
       :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
+    - :author_name: 김준형
+      :feed_url: https://medium.com/feed/@ghilbut
     - :author_name: 김진국
       :feed_url: http://forensic-proof.com/feed
     - :author_name: 김진욱

@@ -168,6 +168,8 @@ production: &production
       :feed_url: http://rss.egloos.com/blog/seoz
     - :author_name: 성동찬
       :feed_url: https://brunch.co.kr/rss/@@6oa
+    - :author_name: 성동찬
+      :feed_url: http://gywn.net/feed/
     - :author_name: 손영수
       :feed_url: https://arload.wordpress.com/feed/
     - :author_name: 송성광
@@ -280,12 +282,16 @@ production: &production
       :feed_url: http://daddycat.blogspot.com/feeds/posts/default
     - :author_name: 이재홍
       :feed_url: http://feeds.feedburner.com/pyrasis?format=xml
+    - :author_name: 이종립
+      :feed_url: https://johngrib.github.io/feed.xml
     - :author_name: 이준영
       :feed_url: https://brunch.co.kr/rss/@@QFh
     - :author_name: 이해영
       :feed_url: http://feeds.feedburner.com/haeyounglee
     - :author_name: 이현섭
       :feed_url: http://hyunseob.github.io/atom.xml
+    - :author_name: 이현주
+      :feed_url: https://wayhome25.github.io/atom.xml
     - :author_name: 장기효
       :feed_url: https://joshuajangblog.wordpress.com/feed/
     - :author_name: 장선진

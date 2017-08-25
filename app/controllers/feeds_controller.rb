@@ -44,8 +44,8 @@ class FeedsController < ApplicationController
 
     now = Time.zone.now.to_i
     @rss = RSS::Maker.make('atom') do |maker|
-      maker.channel.author = 'Benjamin'.freeze
-      maker.channel.about = '한국의 좋은 블로그 글들을 매일 배달해줍니다.'.freeze
+      maker.channel.author = '어썸블로그'.freeze
+      maker.channel.about = '국내의 좋은 블로그 글들을 매일 배달해줍니다.'.freeze
       maker.channel.title = channel_title(group)
 
       Parallel.each(feeds, in_threads: 30) do |feed_h|

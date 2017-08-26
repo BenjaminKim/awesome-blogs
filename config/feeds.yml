@@ -526,12 +526,12 @@ production: &production
       :feed_url: https://engineering.huiseoul.com/feed
     - :author_name: 당근마켓
       :feed_url: https://medium.com/feed/n42-corp
-    - :author_name: 드라마앤컴퍼니
-      :feed_url: http://blog.dramancompany.com/feed
+#    - :author_name: 드라마앤컴퍼니
+#      :feed_url: http://blog.dramancompany.com/feed
 #    - :author_name: 꿈많은청년들
 #      :feed_url: https://blog.dreamyoungs.com/feed
-    - :author_name: Realm
-      :feed_url: https://realm.io/kr/news/feed.xml
+#    - :author_name: Realm
+#      :feed_url: https://realm.io/kr/news/feed.xml
     - :author_name: 망고플레이트
       :feed_url: https://medium.com/feed/team-mangoplate
     - :author_name: 네이버캐스트 용어로보는 IT

@@ -120,9 +120,9 @@ class FeedsController < ApplicationController
 
   def top
     recent_days = (params[:recent_days] || 7).to_i
-    recent_days = [recent_days, 30].min
+    recent_days = [recent_days, 100].min
     n = (params[:n] || 10).to_i
-    n = [n, 10].min
+    n = [n, 30].min
 
     today = Date.today
     result_h = 0.upto(recent_days - 1).inject(Hash.new(0)) do |h, e|
@@ -135,7 +135,7 @@ class FeedsController < ApplicationController
       h
     end
 
-    render json: result_h.sort_by { |_key, value| -value }.to_h
+    render json: result_h.sort_by { |_key, value| -value }.first(n).to_h
   end
 
   def report_google_analytics(cid, title, ua, document_url)

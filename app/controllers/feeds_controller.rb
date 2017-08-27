@@ -42,7 +42,7 @@ class FeedsController < ApplicationController
       feeds = Rails.configuration.feeds[group]
     end
 
-    now = Time.zone.now.to_i
+    now = Time.zone.now
     @rss = RSS::Maker.make('atom') do |maker|
       maker.channel.author = '어썸블로그'.freeze
       maker.channel.about = '국내의 좋은 블로그 글들을 매일 배달해줍니다.'.freeze

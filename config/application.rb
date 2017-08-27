@@ -30,5 +30,6 @@ module AwesomeBlogs
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
     config.feeds = config_for(:feeds)
+    config.autoload_paths += %W(#{config.root}/lib #{config.root}/lib/tasks)
   end
 end

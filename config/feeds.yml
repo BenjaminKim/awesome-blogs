@@ -442,6 +442,8 @@ production: &production
       :feed_url: http://sdusb.blogspot.com/feeds/posts/default
     - :author_name: Leopold
       :feed_url: https://medium.com/feed/@joongwon
+    - :author_name: Zelon
+      :feed_url: http://blog.wimy.com/rss/
 
   insightful:
     - :author_name: 김광현

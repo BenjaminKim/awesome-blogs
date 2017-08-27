@@ -29,7 +29,7 @@ production: &production
     - :author_name: 권태환
       :feed_url: http://thdev.net/rss
     - :author_name: 김놀부
-      :feed_url: http://nolboo.github.io/feed.xml
+      :feed_url: https://nolboo.kim/feed.xml
     - :author_name: 김대권
       :feed_url: http://blog.nacyot.com/feed.xml
     - :author_name: 김덕홍
@@ -286,6 +286,8 @@ production: &production
       :feed_url: https://johngrib.github.io/feed.xml
     - :author_name: 이준영
       :feed_url: https://brunch.co.kr/rss/@@QFh
+    - :author_name: 이준범
+      :feed_url: https://beomi.github.io/feed.xml
     - :author_name: 이해영
       :feed_url: http://feeds.feedburner.com/haeyounglee
     - :author_name: 이현섭
@@ -438,6 +440,8 @@ production: &production
       :feed_url: https://joshua1988.github.io/atom.xml
     - :author_name: USB
       :feed_url: http://sdusb.blogspot.com/feeds/posts/default
+    - :author_name: Leopold
+      :feed_url: https://medium.com/feed/@joongwon
 
   insightful:
     - :author_name: 김광현
@@ -450,8 +454,6 @@ production: &production
       :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
     - :author_name: 김현유
       :feed_url: http://www.mickeykim.com/rss
-    - :author_name: 김홍익
-      :feed_url: http://blog.rss.naver.com/sttora2.xml
     - :author_name: 노정석
       :feed_url: http://blog.rss.naver.com/chesterroh.xml
     - :author_name: 류한

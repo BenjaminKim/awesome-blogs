@@ -224,16 +224,16 @@ production: &production
       :feed_url: https://only2sea.wordpress.com/feed/
     - :author_name: 오광신
       :feed_url: http://kwangshin.pe.kr/blog/feed/
-    - :author_name: 오동권
-      :feed_url: http://www.flowdas.com/blog/feeds/rss/
+#    - :author_name: 오동권
+#      :feed_url: http://www.flowdas.com/blog/feeds/rss/
     - :author_name: 오종빈
       :feed_url: http://feeds.feedburner.com/ohyecloudy-network?format=xml
     - :author_name: 오현석
       :feed_url: http://www.enshahar.me/feeds/posts/default
     - :author_name: 용현택
       :feed_url: http://yonght.tumblr.com/rss
-    - :author_name: 우연화
-      :feed_url: http://novafactory.net/feed
+#    - :author_name: 우연화
+#      :feed_url: http://novafactory.net/feed
     - :author_name: 우준혁
       :feed_url: http://sarojaba.tumblr.com/rss
     - :author_name: 유병후
@@ -376,8 +376,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@1iQC
     - :author_name: 최유석
       :feed_url: http://whitechoi.tistory.com/rss
-    - :author_name: 최재훈
-      :feed_url: https://andromedarabbit.net/feed
+#    - :author_name: 최재훈
+#      :feed_url: https://andromedarabbit.net/feed
     - :author_name: 최정대
       :feed_url: http://blog.woosum.net/feed
     - :author_name: 최준건

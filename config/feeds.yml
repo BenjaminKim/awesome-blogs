@@ -444,6 +444,8 @@ production: &production
       :feed_url: https://medium.com/feed/@joongwon
     - :author_name: Zelon
       :feed_url: http://blog.wimy.com/rss/
+    - :author_name: tech.ssut
+      :feed_url: https://tech.ssut.me/rss/
 
   insightful:
     - :author_name: 김광현
@@ -468,6 +470,8 @@ production: &production
       :feed_url: https://feeds.feedburner.com/baenefit/slXh
     - :author_name: 서진호
       :feed_url: https://brunch.co.kr/rss/@@Zvf
+    - :author_name: 실리콘밸리를 그리다
+      :feed_url: https://brunch.co.kr/rss/@@ZKB
     - :author_name: 윤필구
       :feed_url: https://liveandventure.com/feed
     - :author_name: 이민석

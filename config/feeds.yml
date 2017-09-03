@@ -1,7 +1,5 @@
 production: &production
   dev:
-    - :author_name: 강규영
-      :feed_url: http://www.ecogwiki.com/sp.posts?_type=atom
     - :author_name: 강대명
       :feed_url: https://charsyam.wordpress.com/feed/
     - :author_name: 강성일

@@ -136,8 +136,6 @@ production: &production
       :feed_url: http://feeds.feedburner.com/blogspot/ASpE
     - :author_name: 박정운
       :feed_url: https://jungwoon.github.io/feed.xml
-    - :author_name: 박종명
-      :feed_url: http://m.mkexdev.net/rss
     - :author_name: 박준희
       :feed_url: https://brunch.co.kr/rss/@@1YN0
     - :author_name: 박현우

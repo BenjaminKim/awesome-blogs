@@ -444,6 +444,10 @@ production: &production
       :feed_url: https://tech.ssut.me/rss/
     - :author_name: ZionPapa
       :feed_url: https://medium.com/feed/@isjang98_13477
+    - :author_name: rokt33r
+      :feed_url: https://rokt33r.github.io/atom.xml
+    - :author_name: totuworld
+      :feed_url: https://totuworld.github.io/feed.xml
 
   insightful:
     - :author_name: 김광현

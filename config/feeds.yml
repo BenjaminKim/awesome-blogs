@@ -50,6 +50,8 @@ production: &production
       :feed_url: http://kimbyeonghwan.tumblr.com/rss
     - :author_name: 김석준
       :feed_url: http://seokjun.kr/rss/
+    - :author_name: 김선영
+      :feed_url: https://sunyzero.tistory.com/rss
     - :author_name: 김성현
       :feed_url: http://greemate.tistory.com/rss
     - :author_name: 김성호
@@ -490,10 +492,14 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@kDx
     - :author_name: 쿠도
       :feed_url: https://blog.kudokun.me/feed
+    - :author_name: 한킴
+      :feed_url: https://hankim.tumblr.com/rss
     - :author_name: 행동촉발 노란초
       :feed_url: https://brunch.co.kr/rss/@@Utc
     - :author_name: 허진호
       :feed_url: https://medium.com/feed/@hur
+    - :author_name: uno
+      :feed_url: https://brunch.co.kr/atom/@@ZyX
 
   company:
     - :author_name: 카카오

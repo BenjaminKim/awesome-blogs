@@ -450,6 +450,8 @@ production: &production
       :feed_url: https://rokt33r.github.io/atom.xml
     - :author_name: totuworld
       :feed_url: https://totuworld.github.io/feed.xml
+    - :author_name: rhostem
+      :feed_url: https://rhostem.github.io/rss.xml
 
   insightful:
     - :author_name: 김광현

@@ -384,8 +384,6 @@ production: &production
       :feed_url: http://junegunn.kr/atom.xml
     - :author_name: 최창원
       :feed_url: http://qwefgh90.github.io/feed.xml
-    - :author_name: 최충엽
-      :feed_url: https://medium.com/feed/@albertseewhy
     - :author_name: 최흥배
       :feed_url: http://jacking.tistory.com/rss
     - :author_name: 하호진

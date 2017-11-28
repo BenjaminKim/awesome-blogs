@@ -452,6 +452,10 @@ production: &production
       :feed_url: https://totuworld.github.io/feed.xml
     - :author_name: rhostem
       :feed_url: https://rhostem.github.io/rss.xml
+    - :author_name: YodaCodd
+      :feed_url: https://medium.com/feed/@codesquad_yoda
+    - :author_name: kimkevin
+      :feed_url: https://blog.kimkevin.net/feed
 
   insightful:
     - :author_name: 김광현

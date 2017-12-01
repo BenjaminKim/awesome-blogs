@@ -328,8 +328,6 @@ production: &production
       :feed_url: http://www.sysnet.pe.kr/rss/getrss.aspx?boardId=635954948
     - :author_name: 정승욱
       :feed_url: https://medium.com/feed/@jsuch2362
-    - :author_name: 정재화
-      :feed_url: http://blrunner.com/rss
     - :author_name: 정윤성
       :feed_url: http://sadang-hobbits.github.io/atom.xml
     - :author_name: 정윤진

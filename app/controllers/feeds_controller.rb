@@ -3,7 +3,7 @@ require 'open-uri'
 require 'addressable/uri'
 
 class FeedsController < ApplicationController
-  before_action :update_device_uid
+  #before_action :update_device_uid
 
   def update_device_uid
     headers = request.headers

@@ -564,6 +564,8 @@ production: &production
       :feed_url: http://tech.lezhin.com/rss
     - :author_name: 로켓펀치
       :feed_url: https://blog.rocketpunch.com/feed/
+    - :author_name: 깃플
+      :feed_url: http://tech.gitple.io/atom.xml
 
   real_estate:
     - :author_name: 아기곰

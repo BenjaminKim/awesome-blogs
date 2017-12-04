@@ -496,6 +496,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@kDx
     - :author_name: 쿠도
       :feed_url: https://blog.kudokun.me/feed
+    - :author_name: 피터
+      :feed_url: https://brunch.co.kr/rss/@@19VB
     - :author_name: 한킴
       :feed_url: https://hankim.tumblr.com/rss
     - :author_name: 행동촉발 노란초

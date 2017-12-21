@@ -466,6 +466,8 @@ production: &production
       :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
     - :author_name: 김현유
       :feed_url: http://www.mickeykim.com/rss
+    - :author_name: 김형석
+      :feed_url: https://brunch.co.kr/rss/@@KW8
     - :author_name: 노정석
       :feed_url: http://blog.rss.naver.com/chesterroh.xml
     - :author_name: 류한

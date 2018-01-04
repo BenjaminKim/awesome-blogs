@@ -60,7 +60,7 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    capistrano-upload-config (0.8.1)
+    capistrano-upload-config (0.8.2)
       capistrano (>= 3.0)
     capistrano3-puma (3.1.1)
       capistrano (~> 3.7)
@@ -108,7 +108,7 @@ GEM
     mime-types-data (3.2016.0521)
     mini_mime (1.0.0)
     mini_portile2 (2.3.0)
-    minitest (5.10.3)
+    minitest (5.11.1)
     multi_json (1.12.2)
     multipart-post (2.0.0)
     mysql2 (0.4.10)
@@ -116,7 +116,7 @@ GEM
       net-ssh (>= 2.6.5)
     net-ssh (4.2.0)
     netrc (0.11.0)
-    nio4r (2.1.0)
+    nio4r (2.2.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
@@ -219,4 +219,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.16.0
+   1.16.1

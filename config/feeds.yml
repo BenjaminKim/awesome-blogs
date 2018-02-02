@@ -19,7 +19,7 @@ production: &production
     - :author_name: 권남
       :feed_url: http://rss.egloos.com/blog/kwon37xi
     - :author_name: 권민재
-      :feed_url: https://mingrammer.com/feed.xml
+      :feed_url: https://mingrammer.com/index.xml
     - :author_name: 권정혁
       :feed_url: http://feeds.feedburner.com/xguru?format=xml
     - :author_name: 권창현
@@ -56,18 +56,16 @@ production: &production
       :feed_url: http://greemate.tistory.com/rss
     - :author_name: 김성호
       :feed_url: http://raccoonyy.github.io/rss/index.rss
-    - :author_name: 김성훈
-      :feed_url: http://www.se.or.kr/rss
-    - :author_name: 김수보
-      :feed_url: https://subokim.wordpress.com/feed/
+#    - :author_name: 김성훈
+#      :feed_url: http://www.se.or.kr/rss
     - :author_name: 김슬기
       :feed_url: http://blog.seulgi.kim/feeds/posts/default
     - :author_name: 김영재
       :feed_url: https://youngjaekim.wordpress.com/feed/
     - :author_name: 김용균
       :feed_url: http://haruair.com/blog/feed
-    - :author_name: 김용묵
-      :feed_url: http://moogi.new21.org/tc/rss
+#    - :author_name: 김용묵
+#      :feed_url: http://moogi.new21.org/tc/rss
     - :author_name: 김용현
       :feed_url: http://blog.rss.naver.com/drvoss.xml
     - :author_name: 김우섭
@@ -244,8 +242,6 @@ production: &production
       :feed_url: http://feeds.feedburner.com/channy
     - :author_name: 윤영식
       :feed_url: http://mobicon.tistory.com/rss
-    - :author_name: 윤창석
-      :feed_url: http://changsuk.me/?feed=rss2
     - :author_name: 윤청하
       :feed_url: https://brunch.co.kr/rss/@@zav
     - :author_name: 이경원
@@ -276,8 +272,6 @@ production: &production
       :feed_url: https://medium.com/feed/@soeunlee
     - :author_name: 이수홍
       :feed_url: https://brunch.co.kr/rss/@@so6
-    - :author_name: 이승현
-      :feed_url: http://hamait.tistory.com/rss
     - :author_name: 이윤창
       :feed_url: http://daddycat.blogspot.com/feeds/posts/default
     - :author_name: 이재홍
@@ -296,8 +290,6 @@ production: &production
       :feed_url: https://wayhome25.github.io/atom.xml
     - :author_name: 장기효
       :feed_url: https://joshuajangblog.wordpress.com/feed/
-    - :author_name: 장선진
-      :feed_url: http://blog.java2game.com/rss
     - :author_name: 장성민
       :feed_url: http://feeds.feedburner.com/jangkunblog
     - :author_name: 장영철
@@ -411,7 +403,7 @@ production: &production
     - :author_name: Kunny
       :feed_url: http://kunny.github.io/feed.xml
     - :author_name: Haze Lee
-      :feed_url: http://realignist.me/feed.xml
+      :feed_url: https://realignist.me/feed
     - :author_name: Renn Seo
       :feed_url: http://seorenn.blogspot.com/feeds/posts/default
     - :author_name: jd
@@ -456,6 +448,10 @@ production: &production
       :feed_url: https://blog.kimkevin.net/feed
     - :author_name: Kun
       :feed_url: https://medium.com/feed/@1amb4a
+    - :author_name: 월급쟁이
+      :feed_url: https://brunch.co.kr/rss/@@19LF
+    - :author_name: erish
+      :feed_url: https://medium.com/feed/@erish
 
   insightful:
     - :author_name: 김광현

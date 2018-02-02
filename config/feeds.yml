@@ -434,8 +434,6 @@ production: &production
       :feed_url: http://blog.wimy.com/rss/
     - :author_name: tech.ssut
       :feed_url: https://tech.ssut.me/rss/
-    - :author_name: ZionPapa
-      :feed_url: https://medium.com/feed/@isjang98_13477
     - :author_name: rokt33r
       :feed_url: https://rokt33r.github.io/atom.xml
     - :author_name: totuworld
@@ -468,8 +466,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@KW8
     - :author_name: 노정석
       :feed_url: http://blog.rss.naver.com/chesterroh.xml
-    - :author_name: 류한
-      :feed_url: https://hahnryu.com/feed
     - :author_name: 박상훈
       :feed_url: https://brunch.co.kr/rss/@@v0n
     - :author_name: 박태림

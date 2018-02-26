@@ -160,6 +160,8 @@ production: &production
       :feed_url: http://blog.suminb.com/feed.xml
     - :author_name: 서광열
       :feed_url: http://gamecodingschool.org/feed/
+    - :author_name: 서민구
+      :feed_url: http://mkseo.pe.kr/blog/?feed=rss2
     - :author_name: 서오석
       :feed_url: https://brunch.co.kr/rss/@@2YE
     - :author_name: 서주영
@@ -472,8 +474,6 @@ production: &production
       :feed_url: https://medium.com/feed/@TaerimPark_CEO
     - :author_name: 배기홍
       :feed_url: https://feeds.feedburner.com/baenefit/slXh
-    - :author_name: 서진호
-      :feed_url: https://brunch.co.kr/rss/@@Zvf
     - :author_name: 실리콘밸리를 그리다
       :feed_url: https://brunch.co.kr/rss/@@ZKB
     - :author_name: 윤필구

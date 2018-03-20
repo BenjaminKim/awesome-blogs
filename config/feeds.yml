@@ -101,7 +101,7 @@ production: &production
     - :author_name: 김태기
       :feed_url: https://beyondj2ee.wordpress.com/feed/
     - :author_name: 김태호
-      :feed_url: http://androidhuman.com/rss
+      :feed_url: https://www.androidhuman.com/feed.xml
     - :author_name: 김태헌
       :feed_url: https://brunch.co.kr/rss/@@ydx
     - :author_name: 김환희
@@ -416,8 +416,6 @@ production: &production
       :feed_url: http://canapio.tistory.com/rss
     - :author_name: Pluu
       :feed_url: https://pluu.github.io/feed.xml
-    - :author_name: Leop0ld
-      :feed_url: https://leop0ld.github.io/feed.xml
     - :author_name: asbubam
       :feed_url: https://blog.2dal.com/feed
     - :author_name: Developer88

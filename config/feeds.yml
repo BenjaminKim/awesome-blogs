@@ -156,8 +156,6 @@ production: &production
       :feed_url: http://blog.daum.net/xml/rss/funfunction
     - :author_name: 변정훈
       :feed_url: http://feeds.feedburner.com/rss_outsider_dev?format=xml
-    - :author_name: 변수민
-      :feed_url: http://blog.suminb.com/feed.xml
     - :author_name: 서광열
       :feed_url: http://gamecodingschool.org/feed/
     - :author_name: 서민구
@@ -420,8 +418,6 @@ production: &production
       :feed_url: https://blog.2dal.com/feed
     - :author_name: Developer88
       :feed_url: http://developer88.tistory.com/rss
-    - :author_name: Rinae
-      :feed_url: https://emaren84.github.io/blog/feed.xml
     - :author_name: Lava
       :feed_url: http://astrod.github.io/feed.xml
     - :author_name: Joshua

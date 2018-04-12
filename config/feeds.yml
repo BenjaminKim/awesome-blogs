@@ -132,6 +132,8 @@ production: &production
       :feed_url: http://likejazz.com/rss
     - :author_name: 박상민
       :feed_url: https://sangminpark.wordpress.com/feed/
+    - :author_name: 박연오
+      :feed_url: http://feeds.feedburner.com/bakyeono
     - :author_name: 박일
       :feed_url: http://rss.egloos.com/blog/parkpd
     - :author_name: 박재호
@@ -276,8 +278,6 @@ production: &production
       :feed_url: http://daddycat.blogspot.com/feeds/posts/default
     - :author_name: 이재홍
       :feed_url: http://feeds.feedburner.com/pyrasis?format=xml
-    - :author_name: 이종립
-      :feed_url: https://johngrib.github.io/feed.xml
     - :author_name: 이준영
       :feed_url: https://brunch.co.kr/rss/@@QFh
     - :author_name: 이준범
@@ -346,8 +346,6 @@ production: &production
       :feed_url: http://blog.coderifleman.com/atom.xml
     - :author_name: 줌구
       :feed_url: https://wckhg89.github.io/feed.xml
-    - :author_name: 지국환
-      :feed_url: http://wlhermit.blog.me/rss/atom
     - :author_name: 진성주
       :feed_url: http://softwaregeeks.org/feed/
     - :author_name: 진용진

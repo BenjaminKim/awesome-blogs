@@ -444,6 +444,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@19LF
     - :author_name: erish
       :feed_url: https://medium.com/feed/@erish
+    - :author_name: landvibe
+      :feed_url: https://medium.com/feed/@ljs0705
 
   insightful:
     - :author_name: 김광현

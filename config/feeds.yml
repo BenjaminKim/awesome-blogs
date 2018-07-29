@@ -193,7 +193,7 @@ production: &production
     - :author_name: 신현식
       :feed_url: https://medium.com/feed/ics-lab
     - :author_name: 안성현
-      :feed_url: http://ash84.net/feed/
+      :feed_url: http://ash84.net/rss
     - :author_name: 안오균
       :feed_url: http://ohgyun.com/rss
     - :author_name: 안윤호

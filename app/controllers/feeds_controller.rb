@@ -61,7 +61,7 @@ class FeedsController < ApplicationController
           next if feed.nil?
 
           feed.entries.each do |entry|
-            if entry.published < now - 15.days
+            if entry.published < now - 15.days || entry.published.localtime > Time.now
               next
             end
             maker.items.new_item do |item|
@@ -86,7 +86,7 @@ class FeedsController < ApplicationController
               end
 
               item.title = entry.title
-              item.updated = entry.published.localtime > Time.now ? Time.now : entry.published.localtime
+              item.updated = entry.published.localtime
               item.summary = entry.content || entry.summary
               item.summary = replace_relative_image_url(item.summary, item.link)
               item.author = entry.author || feed_h[:author_name] || feed.title

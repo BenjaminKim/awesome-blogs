@@ -85,7 +85,7 @@ class FeedsController < ApplicationController
                 item.link += "##{now}"
               end
 
-              item.title = entry.title
+              item.title = entry.title || '제목 없음'
               item.updated = entry.published.localtime
               item.summary = entry.content || entry.summary
               item.summary = replace_relative_image_url(item.summary, item.link)

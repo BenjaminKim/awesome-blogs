@@ -18,8 +18,6 @@ production: &production
       :feed_url: http://feeds.feedburner.com/theyearlyprophet/GGGO?format=xml
     - :author_name: 권남
       :feed_url: http://rss.egloos.com/blog/kwon37xi
-    - :author_name: 권민재
-      :feed_url: https://mingrammer.com/index.xml
     - :author_name: 권정혁
       :feed_url: http://feeds.feedburner.com/xguru?format=xml
     - :author_name: 권창현
@@ -194,8 +192,6 @@ production: &production
       :feed_url: http://blog.rss.naver.com/saltynut.xml
     - :author_name: 안재하
       :feed_url: http://programmingsummaries.tistory.com/rss
-    - :author_name: 안정호
-      :feed_url: http://blog.ahnjungho.org/atom.xml
     - :author_name: 안정훈
       :feed_url: http://www.andrewahn.co/feed/
     - :author_name: 안종태
@@ -296,8 +292,6 @@ production: &production
 #      :feed_url: http://openlook.org/wp/feed/
 #    - :author_name: 전규현
 #      :feed_url: http://feeds.feedburner.com/allofsoftware?format=xml
-    - :author_name: 전동규
-      :feed_url: http://www.php5.me/blog/feed/
     - :author_name: 전호상
       :feed_url: http://guruble.com/?feed=rss2
     - :author_name: 전희원
@@ -354,8 +348,6 @@ production: &production
       :feed_url: http://whitechoi.tistory.com/rss
 #    - :author_name: 최재훈
 #      :feed_url: https://andromedarabbit.net/feed
-    - :author_name: 최정대
-      :feed_url: http://blog.woosum.net/feed
     - :author_name: 최준건
       :feed_url: http://junegunn.kr/atom.xml
     - :author_name: 최창원
@@ -421,7 +413,7 @@ production: &production
     - :author_name: totuworld
       :feed_url: https://totuworld.github.io/feed.xml
     - :author_name: rhostem
-      :feed_url: https://rhostem.github.io/rss.xml
+      :feed_url: https://blog.rhostem.com/rss.xml
     - :author_name: YodaCodd
       :feed_url: https://medium.com/feed/@codesquad_yoda
     - :author_name: kimkevin
@@ -540,8 +532,6 @@ production: &production
 #      :feed_url: https://realm.io/kr/news/feed.xml
     - :author_name: 망고플레이트
       :feed_url: https://medium.com/feed/team-mangoplate
-    - :author_name: 메쉬코리아
-      :feed_url: https://meshlabs.ghost.io/rss/
     - :author_name: Rainist
       :feed_url: https://medium.com/feed/rainist-engineering
     - :author_name: 멋쟁이사자처럼

@@ -498,6 +498,10 @@ production: &production
       :feed_url: https://medium.com/feed/@hur
     - :author_name: uno
       :feed_url: https://brunch.co.kr/atom/@@ZyX
+    - :author_name: John
+      :feed_url: https://john015.github.io/rss.xml
+    - :author_name: jbee
+      :feed_url: https://jbee.io/rss.xml
 
   company:
     - :author_name: 카카오
@@ -506,6 +510,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@1oU7
     - :author_name: 네이버
       :feed_url: http://d2.naver.com/d2.atom
+    - :author_name: 라인
+      :feed_url: https://engineering.linecorp.com/ko/feed/
     - :author_name: VCNC
       :feed_url: http://engineering.vcnc.co.kr/atom.xml
     - :author_name: 우아한형제들 기술 블로그

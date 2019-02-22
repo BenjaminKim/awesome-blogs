@@ -62,8 +62,6 @@ production: &production
       :feed_url: http://blog.seulgi.kim/feeds/posts/default
     - :author_name: 김영재
       :feed_url: https://youngjaekim.wordpress.com/feed/
-    - :author_name: 김용균
-      :feed_url: http://haruair.com/blog/feed
 #    - :author_name: 김용묵
 #      :feed_url: http://moogi.new21.org/tc/rss
     - :author_name: 김용현
@@ -82,8 +80,6 @@ production: &production
       :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
     - :author_name: 김준형
       :feed_url: https://medium.com/feed/@ghilbut
-    - :author_name: 김지혁
-      :feed_url: http://kimjihyok.info/feed/
     - :author_name: 김진국
       :feed_url: http://forensic-proof.com/feed
     - :author_name: 김진욱
@@ -192,8 +188,6 @@ production: &production
       :feed_url: http://hyeonseok.com/rss/
     - :author_name: 신현식
       :feed_url: https://medium.com/feed/ics-lab
-    - :author_name: 안성현
-      :feed_url: http://ash84.net/rss
     - :author_name: 안오균
       :feed_url: http://ohgyun.com/rss
     - :author_name: 안윤호
@@ -248,8 +242,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@zav
     - :author_name: 이경원
       :feed_url: http://blog.woniper.net/rss
-    - :author_name: 이경일
-      :feed_url: http://blog.leekyoungil.com/?feed=rss2
     - :author_name: 이규원
       :feed_url: https://justhackem.wordpress.com/feed/
     - :author_name: 이도현
@@ -346,8 +338,6 @@ production: &production
       :feed_url: http://blog.coderifleman.com/atom.xml
     - :author_name: 줌구
       :feed_url: https://wckhg89.github.io/feed.xml
-    - :author_name: 진성주
-      :feed_url: http://softwaregeeks.org/feed/
     - :author_name: 진용진
       :feed_url: https://brunch.co.kr/rss/@@2rV
     - :author_name: 찜토끼
@@ -500,8 +490,8 @@ production: &production
       :feed_url: https://brunch.co.kr/atom/@@ZyX
     - :author_name: John
       :feed_url: https://john015.github.io/rss.xml
-    - :author_name: jbee
-      :feed_url: https://jbee.io/rss.xml
+#    - :author_name: jbee
+#      :feed_url: https://jbee.io/rss.xml
 
   company:
     - :author_name: 카카오
@@ -540,8 +530,6 @@ production: &production
       :feed_url: http://googledevkr.blogspot.in//atom.xml
     - :author_name: 달리웍스
       :feed_url: http://techblog.daliworks.net/feed.xml
-    - :author_name: 조이코퍼레이션
-      :feed_url: https://medium.com/feed/zoyi-blog/tagged/technology
     - :author_name: 후이서울
       :feed_url: https://engineering.huiseoul.com/feed
     - :author_name: 당근마켓

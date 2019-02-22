@@ -37,7 +37,7 @@ production: &production
     - :author_name: 김명신
       :feed_url: http://rss.egloos.com/blog/himskim
     - :author_name: 김민수
-      :feed_url: http://www.kmshack.kr/rss
+      :feed_url: https://blog.kmshack.kr/feed.xml
     - :author_name: 김민장
       :feed_url: https://minjang.github.io/feed.xml
     - :author_name: 김민준
@@ -49,7 +49,7 @@ production: &production
     - :author_name: 김병환
       :feed_url: http://kimbyeonghwan.tumblr.com/rss
     - :author_name: 김석준
-      :feed_url: http://seokjun.kr/rss/
+      :feed_url: https://seokjun.kim/rss
     - :author_name: 김선영
       :feed_url: https://sunyzero.tistory.com/rss
     - :author_name: 김성현
@@ -144,8 +144,6 @@ production: &production
       :feed_url: http://feeds.feedburner.com/junyoung?format=xml
     - :author_name: 배성혁
       :feed_url: http://debop.tumblr.com/rss
-    - :author_name: 백기선
-      :feed_url: http://whiteship.me/?feed=rss2
     - :author_name: 백명석
       :feed_url: https://brunch.co.kr/rss/@@2xm
     - :author_name: 백재연

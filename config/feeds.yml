@@ -480,7 +480,9 @@ production: &production
       :feed_url: https://brunch.co.kr/atom/@@ZyX
     - :author_name: John
       :feed_url: https://john015.github.io/rss.xml
-#    - :author_name: jbee
+    - :author_name: 서비스기획자 도그냥
+      :feed_url: https://brunch.co.kr/rss/@@1oxf
+  #    - :author_name: jbee
 #      :feed_url: https://jbee.io/rss.xml
 
   company:

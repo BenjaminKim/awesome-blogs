@@ -525,7 +525,7 @@ production: &production
     - :author_name: 후이서울
       :feed_url: https://engineering.huiseoul.com/feed
     - :author_name: 당근마켓
-      :feed_url: https://medium.com/feed/n42-corp
+      :feed_url: https://medium.com/feed/daangn
     - :author_name: 드라마앤컴퍼니
       :feed_url: http://blog.dramancompany.com/feed/
 #    - :author_name: 꿈많은청년들

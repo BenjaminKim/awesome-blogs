@@ -544,6 +544,8 @@ production: &production
       :feed_url: https://blog.rocketpunch.com/feed/
     - :author_name: 깃플
       :feed_url: http://tech.gitple.io/atom.xml
+    - :author_name: 플라네타리움
+      :feed_url: https://snack.planetarium.dev/kor/index.xml
 
   real_estate:
     - :author_name: 아기곰

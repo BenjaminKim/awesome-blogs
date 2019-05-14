@@ -428,6 +428,8 @@ production: &production
       :feed_url: https://medium.com/feed/@ljs0705
     - :author_name: lazygyu
       :feed_url: https://lazygyu.net/rss/blog.xml
+    - :author_name: dongqui
+      :feed_url: https://dongqui.github.io/feed.xml
 
   insightful:
     - :author_name: 김광현

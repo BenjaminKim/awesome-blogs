@@ -49,7 +49,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rest-client'
-gem 'feedjira'
+gem 'feedjira', '~> 2.2'
 gem 'parallel'
 gem 'addressable'
 gem 'mysql2'

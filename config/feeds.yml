@@ -336,8 +336,6 @@ production: &production
       :feed_url: http://wlaxhrl.tistory.com/rss
     - :author_name: 차민창
       :feed_url: https://medium.com/feed/@minslovey
-    - :author_name: 채수원
-      :feed_url: http://blog.doortts.com/rss
     - :author_name: 최근우
       :feed_url: https://keunwoochoi.wordpress.com/feed/
     - :author_name: 최범균

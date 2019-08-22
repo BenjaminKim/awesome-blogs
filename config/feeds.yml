@@ -139,7 +139,7 @@ production: &production
     - :author_name: 박현우
       :feed_url: http://lqez.github.io/blog/feeds/all.atom.xml
     - :author_name: 방준영
-      :feed_url: http://feeds.feedburner.com/junyoung?format=xml
+      :feed_url: https://feeds.feedburner.com/github/bangjunyoung
     - :author_name: 배성혁
       :feed_url: http://debop.tumblr.com/rss
     - :author_name: 백명석

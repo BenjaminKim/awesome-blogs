@@ -526,10 +526,6 @@ production: &production
       :feed_url: https://medium.com/feed/daangn
     - :author_name: 드라마앤컴퍼니
       :feed_url: http://blog.dramancompany.com/feed/
-#    - :author_name: 꿈많은청년들
-#      :feed_url: https://blog.dreamyoungs.com/feed
-#    - :author_name: Realm
-#      :feed_url: https://realm.io/kr/news/feed.xml
     - :author_name: 망고플레이트
       :feed_url: https://medium.com/feed/team-mangoplate
     - :author_name: Rainist
@@ -538,8 +534,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@2YH6
     - :author_name: 레진
       :feed_url: http://tech.lezhin.com/rss
-    - :author_name: 로켓펀치
-      :feed_url: https://blog.rocketpunch.com/feed/
     - :author_name: 깃플
       :feed_url: http://tech.gitple.io/atom.xml
     - :author_name: 플라네타리움

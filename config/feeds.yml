@@ -122,8 +122,6 @@ production: &production
       :feed_url: http://earlybird.kr/feed
     - :author_name: 박상권
       :feed_url: http://gun0912.tistory.com/rss
-    - :author_name: 박상길
-      :feed_url: http://likejazz.com/rss
     - :author_name: 박상민
       :feed_url: https://sangminpark.wordpress.com/feed/
     - :author_name: 박연오
@@ -368,8 +366,6 @@ production: &production
       :feed_url: http://xrath.com/feed/
     - :author_name: 현승
       :feed_url: http://iam-hs.com/rss
-    - :author_name: 허준회
-      :feed_url: https://joone.net/feed/
     - :author_name: Harfang
       :feed_url: https://harfangk.github.io/feed_ko.xml
     - :author_name: Kunny
@@ -402,8 +398,6 @@ production: &production
       :feed_url: http://blog.wimy.com/rss/
     - :author_name: tech.ssut
       :feed_url: https://tech.ssut.me/rss/
-    - :author_name: rokt33r
-      :feed_url: https://rokt33r.github.io/atom.xml
     - :author_name: totuworld
       :feed_url: https://totuworld.github.io/feed.xml
     - :author_name: rhostem
@@ -485,9 +479,7 @@ production: &production
 
   company:
     - :author_name: 카카오
-      :feed_url: http://tech.kakao.com/rss
-    - :author_name: 카카오 정책지원팀
-      :feed_url: https://brunch.co.kr/rss/@@1oU7
+      :feed_url: https://tech.kakao.com/feed/
     - :author_name: 네이버
       :feed_url: http://d2.naver.com/d2.atom
     - :author_name: 라인

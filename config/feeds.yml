@@ -116,6 +116,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@JJj
     - :author_name: 모상우
       :feed_url: https://brunch.co.kr/rss/@@FOY
+    - :author_name: 문동욱
+      :feed_url: https://evan-moon.github.io/feed.xml
     - :author_name: 박민근
       :feed_url: http://agebreak.blog.me/rss
     - :author_name: 박민우

@@ -248,8 +248,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/surpreem
     - :author_name: 이성규
       :feed_url: http://www.shalomeir.com/feed/
-    - :author_name: 이성몽
-      :feed_url: http://blog.rss.naver.com/santalsm.xml?atom=0.3
     - :author_name: 이성호
       :feed_url: http://blog.scaloid.org/feeds/posts/default
     - :author_name: 이세우

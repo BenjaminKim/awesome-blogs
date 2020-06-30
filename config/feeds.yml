@@ -274,8 +274,6 @@ production: &production
       :feed_url: https://joshuajangblog.wordpress.com/feed/
     - :author_name: 장성민
       :feed_url: http://feeds.feedburner.com/jangkunblog
-    - :author_name: 장영철
-      :feed_url: http://dkdlel072.tistory.com/rss
     - :author_name: 장요셉
       :feed_url: http://blog.lastmind.io/feed
     - :author_name: 장용석
@@ -374,8 +372,6 @@ production: &production
       :feed_url: https://realignist.me/feed
     - :author_name: Renn Seo
       :feed_url: http://seorenn.blogspot.com/feeds/posts/default
-    - :author_name: jd
-      :feed_url: http://sunphiz.me/wp/feed
     - :author_name: tiii
       :feed_url: http://tiii.tistory.com/rss
     - :author_name: canapio 

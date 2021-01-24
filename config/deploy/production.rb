@@ -73,7 +73,11 @@ set :puma_env, fetch(:rack_env, fetch(:rails_env, 'production'))
 set :puma_threads, [3, 3]
 set :puma_workers, 4
 set :puma_worker_timeout, 30
-set :puma_init_active_record, true
+set :puma_init_active_record, false
 set :puma_preload_app, false
-set :puma_plugins, [:tmp_restart]  #accept array of plugins
+set :puma_daemonize, false
+set :puma_plugins, []  #accept array of plugins
+set :puma_tag, fetch(:application)
+set :puma_restart_command, 'bundle exec puma'
+set :puma_service_unit_name, "puma_#{fetch(:application)}_#{fetch(:stage)}"
 set :nginx_use_ssl, true

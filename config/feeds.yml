@@ -75,7 +75,7 @@ production: &production
     - :author_name: 김원일
       :feed_url: http://androidkr.blogspot.com/feeds/posts/default
     - :author_name: 김재호
-      :feed_url: http://feeds.feedburner.com/crazytazo?format=xml
+      :feed_url: https://v2.velog.io/rss/jeho
     - :author_name: 김준형
       :feed_url: https://medium.com/feed/@ghilbut
     - :author_name: 김진국

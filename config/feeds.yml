@@ -460,8 +460,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@19VB
     - :author_name: 한킴
       :feed_url: https://hankim.tumblr.com/rss
-    - :author_name: 행동촉발 노란초
-      :feed_url: https://brunch.co.kr/rss/@@Utc
     - :author_name: 허진호
       :feed_url: https://medium.com/feed/@hur
     - :author_name: uno

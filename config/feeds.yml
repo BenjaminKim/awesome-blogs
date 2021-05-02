@@ -424,8 +424,6 @@ production: &production
       :feed_url: http://feeds.feedburner.com/goodhyun
     - :author_name: 김상훈
       :feed_url: https://interpiler.com/feed
-    - :author_name: 김창원
-      :feed_url: http://www.memoriesreloaded.net/feeds/posts/default
     - :author_name: 김현유
       :feed_url: http://www.mickeykim.com/rss
     - :author_name: 김형석
@@ -438,8 +436,6 @@ production: &production
       :feed_url: https://medium.com/feed/@TaerimPark_CEO
     - :author_name: 배기홍
       :feed_url: https://feeds.feedburner.com/baenefit/slXh
-    - :author_name: 실리콘밸리를 그리다
-      :feed_url: https://brunch.co.kr/rss/@@ZKB
     - :author_name: 윤필구
       :feed_url: https://liveandventure.com/feed
     - :author_name: 이민석
@@ -448,24 +444,18 @@ production: &production
       :feed_url: https://estimastory.com/feed/
     - :author_name: 임지훈
       :feed_url: http://www.jimmyrim.com/rss
-    - :author_name: 장영학
-      :feed_url: https://brunch.co.kr/rss/@@1Wwt
     - :author_name: 조성문
       :feed_url: http://sungmooncho.com/feed/
     - :author_name: 최혁재
       :feed_url: https://brunch.co.kr/rss/@@kDx
     - :author_name: 쿠도
       :feed_url: https://blog.kudokun.me/feed
-    - :author_name: 피터
-      :feed_url: https://brunch.co.kr/rss/@@19VB
     - :author_name: 한킴
       :feed_url: https://hankim.tumblr.com/rss
     - :author_name: 허진호
       :feed_url: https://medium.com/feed/@hur
     - :author_name: uno
       :feed_url: https://brunch.co.kr/atom/@@ZyX
-    - :author_name: John
-      :feed_url: https://john015.github.io/rss.xml
     - :author_name: 서비스기획자 도그냥
       :feed_url: https://brunch.co.kr/rss/@@1oxf
   #    - :author_name: jbee
@@ -475,25 +465,19 @@ production: &production
     - :author_name: 카카오
       :feed_url: https://tech.kakao.com/feed/
     - :author_name: 네이버
-      :feed_url: http://d2.naver.com/d2.atom
+      :feed_url: https://d2.naver.com/d2.atom
     - :author_name: 라인
       :feed_url: https://engineering.linecorp.com/ko/feed/
     - :author_name: VCNC
-      :feed_url: http://engineering.vcnc.co.kr/atom.xml
+      :feed_url: https://engineering.vcnc.co.kr/atom.xml
     - :author_name: 우아한형제들 기술 블로그
       :feed_url: https://woowabros.github.io/feed.xml
-    - :author_name: SK플래닛
-      :feed_url: http://feeds.feedburner.com/skpreadme?format=xml
     - :author_name: 스타일쉐어
       :feed_url: https://styleshare.github.io/feed.xml
     - :author_name: Spoqa
       :feed_url: https://spoqa.github.io/rss
-    - :author_name: 이음소시어스
-      :feed_url: http://bigmatch.i-um.net/feed/
     - :author_name: 토스랩(잔디)
       :feed_url: https://tosslab.github.io/feed.xml
-    - :author_name: 굿닥 엔지니어링 블로그
-      :feed_url: http://dev.goodoc.co.kr/?feed=rss2
     - :author_name: 티몬
       :feed_url: http://tmondev.blog.me/rss
     - :author_name: 엠비안
@@ -512,32 +496,14 @@ production: &production
       :feed_url: https://medium.com/feed/daangn
     - :author_name: 드라마앤컴퍼니
       :feed_url: http://blog.dramancompany.com/feed/
-    - :author_name: 망고플레이트
-      :feed_url: https://medium.com/feed/team-mangoplate
     - :author_name: Rainist
       :feed_url: https://medium.com/feed/rainist-engineering
     - :author_name: 멋쟁이사자처럼
       :feed_url: https://brunch.co.kr/rss/@@2YH6
-    - :author_name: 레진
-      :feed_url: http://tech.lezhin.com/rss
     - :author_name: 깃플
       :feed_url: http://tech.gitple.io/atom.xml
     - :author_name: 플라네타리움
       :feed_url: https://snack.planetarium.dev/kor/index.xml
-
-  real_estate:
-    - :author_name: 아기곰
-      :feed_url: http://blog.rss.naver.com/a-cute-bear
-    - :author_name: 김학렬
-      :feed_url: http://blog.rss.naver.com/ppassong
-    - :author_name: 정지영
-      :feed_url: http://blog.rss.naver.com/iammentor
-    - :author_name: 구피생이
-      :feed_url: http://blog.rss.naver.com/unimk
-    - :author_name: vw-lab
-      :feed_url: http://www.vw-lab.com/rss
-    - :author_name: 서울휘
-      :feed_url: http://seoulwhi.com/rss
 
 development:
   dev:

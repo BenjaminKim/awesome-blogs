@@ -8,11 +8,14 @@
 ### 안드로이드 전용앱 다운로드
 <a href="https://play.google.com/store/apps/details?id=org.petabytes.awesomeblogs&referrer=utm_source%3Dgithub-server"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="20%"></a>
 
-### 안드로이드 코드 저장소
+### 안드로이드 코드 저장소(현재 앱 다운로드 불가)
 https://github.com/jungilhan/awesome-blogs-android
 
 ### 아이폰 전용앱 다운로드
-<a href="https://itunes.apple.com/us/app/%EC%96%B4%EC%8D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8/id1276023809?l=ko&amp;ls=1&amp;mt=8"><img src="https://github.com/tilltue/awesome-blogs-ios/raw/master/badge-download-on-the-app-store.png" style="max-width:100%;"></a>
+<a href="https://apps.apple.com/kr/app/%EC%96%B4%EC%8D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8/id1276023809"><img src="https://github.com/tilltue/awesome-blogs-ios/raw/master/badge-download-on-the-app-store.png" style="max-width:100%;"></a>
+
+### 아이폰 전용앱 다운로드 (SwiftUI 버전)
+<a href="https://apps.apple.com/kr/app/%EC%96%B4%EC%8D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%89%B4%EC%8A%A4/id1557176134"><img src="https://github.com/tilltue/awesome-blogs-ios/raw/master/badge-download-on-the-app-store.png" style="max-width:100%;"></a>
 
 ### 아이폰 코드 저장소
 https://github.com/tilltue/awesome-blogs-ios
@@ -29,10 +32,3 @@ https://awesome-blogs.petabytes.org/feeds?group=insightful
 
 ### 위의 모든 블로그들을 한 주소로 구독하고 싶다면
 https://awesome-blogs.petabytes.org/feeds?group=all
-
-## Experimental
-### 부동산 관련 블로그 피드 주소
-https://awesome-blogs.petabytes.org/feeds?group=real_estate
-
-###
-이 프로젝트는 우준혁님이 만드신 [awesome-devblog](https://github.com/sarojaba/awesome-devblog) 를 보고 초기 데이터를 참고하여 시작했습니다.

@@ -504,6 +504,8 @@ production: &production
       :feed_url: http://tech.gitple.io/atom.xml
     - :author_name: 플라네타리움
       :feed_url: https://snack.planetarium.dev/kor/index.xml
+    - :author_name: 마켓컬리
+      :feed_url: https://helloworld.kurly.com/feed.xml
 
 development:
   dev:

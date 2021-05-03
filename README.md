@@ -5,9 +5,6 @@
 이 프로젝트는 서버와 클라이언트 소스가 모두 공개 되어 있는 오픈소스 프로젝트입니다.
 아직 알려지지 않은 좋은 블로그들에 대한 피드백을 환영합니다. ^^  
 
-### 안드로이드 전용앱 다운로드
-<a href="https://play.google.com/store/apps/details?id=org.petabytes.awesomeblogs&referrer=utm_source%3Dgithub-server"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="20%"></a>
-
 ### 안드로이드 코드 저장소(현재 앱 다운로드 불가)
 https://github.com/jungilhan/awesome-blogs-android
 

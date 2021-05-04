@@ -458,6 +458,9 @@ production: &production
       :feed_url: https://brunch.co.kr/atom/@@ZyX
     - :author_name: 서비스기획자 도그냥
       :feed_url: https://brunch.co.kr/rss/@@1oxf
+    - :author_name: 개발자의 기쁨과 슬픔
+      :feed_url: https://benjaminessay.wordpress.com/feed/
+
   #    - :author_name: jbee
 #      :feed_url: https://jbee.io/rss.xml
 

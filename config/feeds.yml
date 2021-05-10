@@ -460,6 +460,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@1oxf
     - :author_name: 개발자의 기쁨과 슬픔
       :feed_url: https://benjaminessay.wordpress.com/feed/
+    - :author_name: 이동건(마이리얼트립)
+      :feed_url: https://brunch.co.kr/rss/@@19lv
 
   #    - :author_name: jbee
 #      :feed_url: https://jbee.io/rss.xml

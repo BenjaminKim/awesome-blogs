@@ -452,8 +452,6 @@ production: &production
       :feed_url: https://blog.kudokun.me/feed
     - :author_name: 한킴
       :feed_url: https://hankim.tumblr.com/rss
-    - :author_name: 허진호
-      :feed_url: https://medium.com/feed/@hur
     - :author_name: uno
       :feed_url: https://brunch.co.kr/atom/@@ZyX
     - :author_name: 서비스기획자 도그냥

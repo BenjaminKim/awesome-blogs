@@ -380,6 +380,8 @@ production: &production
       :feed_url: https://wormwlrm.github.io/feed.xml
     - :author_name: fernando
       :feed_url: https://fernando.kr/rss.xml
+    - :author_name: pilgwon
+      :feed_url: https://pilgwon.github.io/feed.xml
 
   insightful:
     - :author_name: 김광현

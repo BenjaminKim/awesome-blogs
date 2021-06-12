@@ -23,7 +23,7 @@ production: &production
     - :author_name: 권정혁
       :feed_url: https://feeds.feedburner.com/xguru?format=xml
     - :author_name: 권창현
-      :feed_url: http://thoughts.chkwon.net/feed/
+      :feed_url: https://thoughts.chkwon.net/feed/
     - :author_name: 권태환
       :feed_url: http://thdev.net/rss
     - :author_name: 김놀부
@@ -41,7 +41,7 @@ production: &production
     - :author_name: 김범진
       :feed_url: https://medium.com/feed/@beejei
     - :author_name: 김병환
-      :feed_url: http://kimbyeonghwan.tumblr.com/rss
+      :feed_url: https://kimbyeonghwan.tumblr.com/rss
     - :author_name: 김석준
       :feed_url: https://seokjun.kim/rss
     - :author_name: 김선영
@@ -49,7 +49,7 @@ production: &production
     - :author_name: 김성호
       :feed_url: https://raccoonyy.github.io/rss/
     - :author_name: 김슬기
-      :feed_url: http://blog.seulgi.kim/feeds/posts/default
+      :feed_url: https://blog.seulgi.kim/feeds/posts/default
     - :author_name: 김영재
       :feed_url: https://youngjaekim.wordpress.com/feed/
     - :author_name: 김용현
@@ -61,7 +61,7 @@ production: &production
     - :author_name: 김우용
       :feed_url: https://brunch.co.kr/atom/@@13x1
     - :author_name: 김원일
-      :feed_url: http://androidkr.blogspot.com/feeds/posts/default
+      :feed_url: https://androidkr.blogspot.com/feeds/posts/default
     - :author_name: 김재호
       :feed_url: https://v2.velog.io/rss/jeho
     - :author_name: 김준형
@@ -69,7 +69,7 @@ production: &production
     - :author_name: 김진국
       :feed_url: http://forensic-proof.com/feed
     - :author_name: 김진욱
-      :feed_url: http://feeds.feedburner.com/reinblog
+      :feed_url: https://feeds.feedburner.com/reinblog
     - :author_name: 김창준
       :feed_url: http://rss.egloos.com/blog/agile
     - :author_name: 김충섭
@@ -79,7 +79,7 @@ production: &production
     - :author_name: 김태곤
       :feed_url: http://taegon.kim/feed
     - :author_name: 김태균
-      :feed_url: http://feeds.feedburner.com/GaeraeBlog?format=xml
+      :feed_url: https://feeds.feedburner.com/GaeraeBlog?format=xml
     - :author_name: 김태기
       :feed_url: https://beyondj2ee.wordpress.com/feed/
     - :author_name: 김태호
@@ -129,7 +129,7 @@ production: &production
     - :author_name: 방준영
       :feed_url: https://feeds.feedburner.com/github/bangjunyoung
     - :author_name: 배성혁
-      :feed_url: http://debop.tumblr.com/rss
+      :feed_url: https://debop.tumblr.com/rss
     - :author_name: 백명석
       :feed_url: https://brunch.co.kr/rss/@@2xm
     - :author_name: 백재연
@@ -222,6 +222,8 @@ production: &production
       :feed_url: https://feeds.feedburner.com/sangwook?format=xml
     - :author_name: 이상주
       :feed_url: https://feeds.feedburner.com/surpreem
+    - :author_name: 이상현
+      :feed_url: https://iamsang.com/index.xml
     - :author_name: 이성규
       :feed_url: http://www.shalomeir.com/feed/
     - :author_name: 이세우
@@ -458,7 +460,7 @@ production: &production
     - :author_name: Mozilla 웹 기술 블로그
       :feed_url: http://hacks.mozilla.or.kr/feed/
     - :author_name: Google Developers Korea 블로그
-      :feed_url: http://googledevkr.blogspot.in//atom.xml
+      :feed_url: https://googledevkr.blogspot.in//atom.xml
     - :author_name: 달리웍스
       :feed_url: http://techblog.daliworks.net/feed.xml
     - :author_name: 후이서울
@@ -472,7 +474,7 @@ production: &production
     - :author_name: 멋쟁이사자처럼
       :feed_url: https://brunch.co.kr/rss/@@2YH6
     - :author_name: 깃플
-      :feed_url: http://tech.gitple.io/atom.xml
+      :feed_url: https://tech.gitple.io/atom.xml
     - :author_name: 플라네타리움
       :feed_url: https://snack.planetarium.dev/kor/index.xml
     - :author_name: 마켓컬리
@@ -488,13 +490,13 @@ development:
       :feed_url: https://emaren84.github.io/blog/feed.xml
   insightful:
     - :author_name: 김광현
-      :feed_url: http://kwang82.hankyung.com/feeds/posts/default
+      :feed_url: https://kwang82.blogspot.com/feeds/posts/default
     - :author_name: 김국현
       :feed_url: https://feeds.feedburner.com/goodhyun
   company:
     - :author_name: 게임개발포에버
       :feed_url: https://feeds.feedburner.com/gamedevforever?format=xml
     - :author_name: 네이버
-      :feed_url: http://helloworld.naver.com/rss
+      :feed_url: https://d2.naver.com/d2.atom
 #development:
 #  <<: *production

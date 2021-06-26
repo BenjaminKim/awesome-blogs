@@ -58,13 +58,6 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.redis_spec = {
-    host: 'localhost',
-    port: 6379,
-    db: 1,
-    timeout: 5,
-    driver: :hiredis,
-  }
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
 end

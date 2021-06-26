@@ -3,40 +3,13 @@ require 'open-uri'
 require 'addressable/uri'
 
 class FeedsController < ApplicationController
-  #before_action :update_device_uid
-
-  def update_device_uid
-    headers = request.headers
-    @access_token = headers['X-Access-Token']
-    @device_uid = headers['X-Device-Uid']
-    @push_token = headers['X-Push-Token']
-
-    Rails.logger.info("DEVICE_UID: #{@device_uid}")
-    Rails.logger.info("PUSH_TOKEN: #{@push_token}")
-    Rails.logger.info("ACCESS_TOKEN: #{@access_token}")
-    Rails.logger.info("USER_AGENT: #{request.user_agent}")
-
-    return unless @device_uid
-
-    Rails.logger.info("META: #{request.user_agent}")
-
-    Device.find_or_create_by(uid: @device_uid).update(
-      push_token: @push_token,
-      meta: request.user_agent
-    )
-  end
-
   def index
     # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}
     group = params[:group] || 'dev'
 
     if group == 'all'
       feeds = Rails.configuration.feeds.inject([]) do |array, e|
-        if e.first == 'real_estate'
-          array
-        else
-          array + e.second
-        end
+        array + e.second
       end
     else
       feeds = Rails.configuration.feeds[group]
@@ -111,31 +84,7 @@ class FeedsController < ApplicationController
   end
 
   def read
-    url = params[:url]
-    return if url.blank?
-    $redis.zincrby('read_articles', 1, url)
-    $redis.zincrby("read_articles_#{Date.today}", 1, url)
     render json: { status: 0 }
-  end
-
-  def top
-    recent_days = (params[:recent_days] || 7).to_i
-    recent_days = [recent_days, 100].min
-    n = (params[:n] || 10).to_i
-    n = [n, 30].min
-
-    today = Date.today
-    result_h = 0.upto(recent_days - 1).inject(Hash.new(0)) do |h, e|
-      date = today - e
-
-      a = $redis.zrevrangebyscore("read_articles_#{date}", '+inf', 0, limit: [0, n], with_scores: true)
-      a.each do |x|
-        h[x.first] += x.second
-      end
-      h
-    end
-
-    render json: result_h.sort_by { |_key, value| -value }.first(n).to_h
   end
 
   def report_google_analytics(cid, title, ua, document_url)
@@ -170,8 +119,6 @@ class FeedsController < ApplicationController
       'Korea Insightful Blogs'.freeze
     when 'all'
       'Korea Awesome Blogs'.freeze
-    when 'real_estate'
-      '부동산 어썸블로그'.freeze
     else
       raise ArgumentError.new
     end

@@ -248,8 +248,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/gogamza?format=xml
     - :author_name: 정도현
       :feed_url: https://www.moreagile.net/feeds/posts/default
-    - :author_name: 정성태
-      :feed_url: https://www.sysnet.pe.kr/rss/getrss.aspx?boardId=635954948
     - :author_name: 정승욱
       :feed_url: https://medium.com/feed/@jsuch2362
     - :author_name: 정윤성

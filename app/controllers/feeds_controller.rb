@@ -1,4 +1,3 @@
-require 'rss'
 require 'open-uri'
 require 'addressable/uri'
 

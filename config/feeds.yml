@@ -458,8 +458,6 @@ development:
       :feed_url: https://feeds.feedburner.com/crazytazo?format=xml
     - :author_name: 강대명
       :feed_url: https://charsyam.wordpress.com/feed/
-    - :author_name: 리네
-      :feed_url: https://emaren84.github.io/blog/feed.xml
   insightful:
     - :author_name: 김광현
       :feed_url: https://kwang82.blogspot.com/feeds/posts/default

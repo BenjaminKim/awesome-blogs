@@ -302,6 +302,8 @@ production: &production
       :feed_url: https://feeds.feedburner.com/fupfin/blog
     - :author_name: 황장호
       :feed_url: https://xrath.com/feed/
+    - :author_name: 황준일
+      :feed_url: https://junilhwang.github.io/TIL/feed.atom
     - :author_name: 현승
       :feed_url: https://iam-hs.com/rss
     - :author_name: Harfang

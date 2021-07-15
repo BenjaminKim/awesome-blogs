@@ -72,8 +72,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/GaeraeBlog?format=xml
     - :author_name: 김태기
       :feed_url: https://beyondj2ee.wordpress.com/feed/
-    - :author_name: 김태호
-      :feed_url: https://www.androidhuman.com/feed.xml
     - :author_name: 김태헌
       :feed_url: https://brunch.co.kr/rss/@@ydx
     - :author_name: 김환희
@@ -208,12 +206,12 @@ production: &production
       :feed_url: https://feeds.feedburner.com/surpreem
     - :author_name: 이상현
       :feed_url: https://iamsang.com/index.xml
-    - :author_name: 이성규
-      :feed_url: http://www.shalomeir.com/feed/
     - :author_name: 이세우
       :feed_url: https://blog.xcoda.net/rss
     - :author_name: 이소은
       :feed_url: https://medium.com/feed/@soeunlee
+    - :author_name: 이수진
+      :feed_url: https://lamanus.kr/feed
     - :author_name: 이수홍
       :feed_url: https://brunch.co.kr/rss/@@so6
     - :author_name: 이윤창
@@ -238,10 +236,6 @@ production: &production
       :feed_url: https://jojoldu.tistory.com/rss
     - :author_name: 장현정
       :feed_url: https://naleejang.tistory.com/rss
-#    - :author_name: 장혜식
-#      :feed_url: http://openlook.org/wp/feed/
-#    - :author_name: 전규현
-#      :feed_url: http://feeds.feedburner.com/allofsoftware?format=xml
     - :author_name: 전호상
       :feed_url: http://guruble.com/feed/
     - :author_name: 전희원
@@ -282,8 +276,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@1iQC
     - :author_name: 최유석
       :feed_url: https://whitechoi.tistory.com/rss
-#    - :author_name: 최재훈
-#      :feed_url: https://andromedarabbit.net/feed
     - :author_name: 최준건
       :feed_url: https://junegunn.kr/atom.xml
     - :author_name: 최창원
@@ -296,6 +288,8 @@ production: &production
       :feed_url: https://medium.com/feed/@jooyunghan
     - :author_name: 한재엽
       :feed_url: https://jaeyeophan.github.io/feed.xml
+    - :author_name: 한태웅
+      :feed_url: https://effectivesquid.tistory.com/rss
     - :author_name: 홍민희
       :feed_url: https://blog.hongminhee.org/feed.xml
     - :author_name: 홍성철
@@ -308,8 +302,6 @@ production: &production
       :feed_url: https://iam-hs.com/rss
     - :author_name: Harfang
       :feed_url: https://harfangk.github.io/feed_ko.xml
-    - :author_name: Kunny
-      :feed_url: https://kunny.github.io/feed.xml
     - :author_name: Haze Lee
       :feed_url: https://realignist.me/feed
     - :author_name: Renn Seo
@@ -360,6 +352,8 @@ production: &production
       :feed_url: https://fernando.kr/rss.xml
     - :author_name: pilgwon
       :feed_url: https://pilgwon.github.io/feed.xml
+    - :author_name: 커니
+      :feed_url: https://www.androidhuman.com/feed.xml
 
   insightful:
     - :author_name: 김광현
@@ -453,6 +447,10 @@ production: &production
       :feed_url: https://snack.planetarium.dev/kor/index.xml
     - :author_name: 마켓컬리
       :feed_url: https://helloworld.kurly.com/feed.xml
+    - :author_name: 어반베이스
+      :feed_url: https://tech.urbanbase.com/feed.xml
+    - :author_name: NHN Toast
+      :feed_url: https://ui.toast.com/rss.xml
 
 development:
   dev:

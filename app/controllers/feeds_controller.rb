@@ -46,9 +46,10 @@ class FeedsController < ApplicationController
                   uri = Addressable::URI.parse(link_uri)
                   uri.host ||= Addressable::URI.parse(feed_url).host
                   uri.scheme ||= Addressable::URI.parse(feed_url).scheme
+                  puts "LINK: #{uri.to_s} #{entry.inspect}"
                   item.link = uri.to_s
                 rescue Exception => e
-                  Rails.logger.error("ERROR!: #{item.link}")
+                  Rails.logger.error("ERROR!: #{item.link} #{e}")
                   item.link = link_uri
                 end
               end

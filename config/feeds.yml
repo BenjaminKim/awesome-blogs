@@ -47,7 +47,7 @@ production: &production
     - :author_name: 김영재
       :feed_url: https://youngjaekim.wordpress.com/feed/
     - :author_name: 김용현
-      :feed_url: http://blog.rss.naver.com/drvoss.xml
+      :feed_url: https://rss.blog.naver.com/drvoss.xml
     - :author_name: 김우섭
       :feed_url: https://brunch.co.kr/atom/@@tcN
     - :author_name: 김우승
@@ -171,7 +171,7 @@ production: &production
     - :author_name: 야곰
       :feed_url: https://blog.yagom.net/feed/
     - :author_name: 양병규
-      :feed_url: http://blog.rss.naver.com/delmadang.xml
+      :feed_url: https://rss.blog.naver.com/delmadang.xml
     - :author_name: 양준철
       :feed_url: https://brunch.co.kr/rss/@@lIP
     - :author_name: 엄태웅
@@ -367,7 +367,7 @@ production: &production
     - :author_name: 김형석
       :feed_url: https://brunch.co.kr/rss/@@KW8
     - :author_name: 노정석
-      :feed_url: http://blog.rss.naver.com/chesterroh.xml
+      :feed_url: https://rss.blog.naver.com/chesterroh.xml
     - :author_name: 박상훈
       :feed_url: https://brunch.co.kr/rss/@@v0n
     - :author_name: 박태림
@@ -380,8 +380,6 @@ production: &production
       :feed_url: https://hl1itj.tistory.com/rss
     - :author_name: 임정욱
       :feed_url: https://estimastory.com/feed/
-    - :author_name: 임지훈
-      :feed_url: http://www.jimmyrim.com/rss
     - :author_name: 조성문
       :feed_url: https://sungmooncho.com/feed/
     - :author_name: 최혁재
@@ -392,15 +390,10 @@ production: &production
       :feed_url: https://hankim.tumblr.com/rss
     - :author_name: uno
       :feed_url: https://brunch.co.kr/atom/@@ZyX
-    - :author_name: 개발자의 기쁨과 슬픔
-      :feed_url: https://benjaminessay.wordpress.com/feed/
     - :author_name: 이동건(마이리얼트립)
       :feed_url: https://brunch.co.kr/rss/@@19lv
     - :author_name: 건물주의 기쁨과 슬픔
       :feed_url: https://brunch.co.kr/rss/@@8eGH
-
-  #    - :author_name: jbee
-#      :feed_url: https://jbee.io/rss.xml
 
   company:
     - :author_name: 카카오
@@ -420,9 +413,9 @@ production: &production
     - :author_name: 토스랩(잔디)
       :feed_url: https://tosslab.github.io/feed.xml
     - :author_name: 티몬
-      :feed_url: http://tmondev.blog.me/rss
+      :feed_url: https://rss.blog.naver.com/tmondev.xml
     - :author_name: 엠비안
-      :feed_url: http://blog.embian.com/rss
+      :feed_url: https://blog.embian.com/rss
     - :author_name: 데일리호텔
       :feed_url: https://dailyhotel.io/feed
     - :author_name: Mozilla 웹 기술 블로그
@@ -436,7 +429,7 @@ production: &production
     - :author_name: 당근마켓
       :feed_url: https://medium.com/feed/daangn
     - :author_name: 드라마앤컴퍼니
-      :feed_url: http://blog.dramancompany.com/feed/
+      :feed_url: https://blog.dramancompany.com/feed/
     - :author_name: Rainist
       :feed_url: https://medium.com/feed/rainist-engineering
     - :author_name: 멋쟁이사자처럼

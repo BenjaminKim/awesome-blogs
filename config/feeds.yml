@@ -156,6 +156,8 @@ production: &production
       :feed_url: https://hyeonseok.com/rss/
     - :author_name: 신현식
       :feed_url: https://medium.com/feed/ics-lab
+    - :author_name: 안도형
+      :feed_url: https://rinae.dev/rss.xml
     - :author_name: 안오균
       :feed_url: https://ohgyun.com/rss
     - :author_name: 안윤호
@@ -178,8 +180,6 @@ production: &production
       :feed_url: https://t-robotics.blogspot.com/feeds/posts/default
     - :author_name: 염재현
       :feed_url: https://only2sea.wordpress.com/feed/
-    - :author_name: 오광신
-      :feed_url: http://kwangshin.pe.kr/blog/feed/
     - :author_name: 오종빈
       :feed_url: https://feeds.feedburner.com/ohyecloudy-network?format=xml
     - :author_name: 유병후

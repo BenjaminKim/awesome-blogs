@@ -98,6 +98,8 @@ production: &production
       :feed_url: https://agebreak.blog.me/rss
     - :author_name: 박민우
       :feed_url: https://earlybird.kr/feed
+    - :author_name: 박병일
+      :feed_url: https://practical.kr/?feed=rss2
     - :author_name: 박상권
       :feed_url: https://gun0912.tistory.com/rss
     - :author_name: 박상민

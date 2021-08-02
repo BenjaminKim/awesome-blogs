@@ -3,8 +3,9 @@ require 'addressable/uri'
 
 class FeedsController < ApplicationController
   def index
-    # x.scan(/xmlUrl=".*?"/).each {|x| puts x[7..-1] + ','}
     group = params[:group] || 'dev'
+
+    recent_days = 10.days
 
     if group == 'all'
       feeds = Rails.configuration.feeds.inject([]) do |array, e|
@@ -12,6 +13,12 @@ class FeedsController < ApplicationController
       end
     else
       feeds = Rails.configuration.feeds[group]
+
+      if group == 'dev'
+        recent_days = 7.days
+      elsif group == 'insight'
+        recent_days = 21.days
+      end
     end
 
     now = Time.zone.now
@@ -23,6 +30,8 @@ class FeedsController < ApplicationController
       Parallel.each(feeds, in_threads: 30) do |feed_h|
         begin
           feed_url = feed_h[:feed_url]
+          puts feed_h
+
           feed = Rails.cache.fetch(feed_url, expires_in: cache_expiring_time) do
             puts "cache missed: #{feed_url}"
             Timeout::timeout(3) {
@@ -33,7 +42,7 @@ class FeedsController < ApplicationController
           next if feed.nil?
 
           feed.entries.each do |entry|
-            if entry.published < now - 15.days || entry.published.localtime > Time.now
+            if entry.published < now - recent_days || entry.published.localtime > Time.now
               next
             end
             maker.items.new_item do |item|

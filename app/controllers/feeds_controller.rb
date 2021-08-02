@@ -16,7 +16,7 @@ class FeedsController < ApplicationController
 
       if group == 'dev'
         recent_days = 7.days
-      elsif group == 'insight'
+      elsif group == 'insightful'
         recent_days = 21.days
       end
     end

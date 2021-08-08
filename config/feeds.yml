@@ -356,6 +356,18 @@ production: &production
       :feed_url: https://www.androidhuman.com/feed.xml
     - :author_name: Changhui Lee
       :feed_url: https://xo.dev/rss.xml
+    - :author_name: immigration9
+      :feed_url: https://immigration9.github.io/feed.xml
+    - :author_name: novemberde
+      :feed_url: https://novemberde.github.io/feed.xml
+    - :author_name: jungkim
+      :feed_url: https://medium.com/feed/@jungkim
+    - :author_name: sjp38
+      :feed_url: https://sjp38.github.io/ko/index.xml
+    - :author_name: saturnsoft
+      :feed_url: https://feeds.feedburner.com/saturnsoft
+    - :author_name: city7310
+      :feed_url: https://v2.velog.io/rss/city7310
 
   insightful:
     - :author_name: 김광현
@@ -446,6 +458,10 @@ production: &production
       :feed_url: https://tech.urbanbase.com/feed.xml
     - :author_name: NHN Toast
       :feed_url: https://ui.toast.com/rss.xml
+    - :author_name: 쏘카
+      :feed_url: https://tech.socarcorp.kr/feed.xml
+    - :author_name: 유니크굿컴퍼니
+      :feed_url: https://medium.com/feed/uniquegood
 
 development:
   dev:

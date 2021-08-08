@@ -10,8 +10,6 @@ production: &production
       :feed_url: https://medium.com/feed/@shaynekang
     - :author_name: 강진우
       :feed_url: https://brunch.co.kr/rss/@@3Y0
-    - :author_name: 강진우
-      :feed_url: https://fallwalker.tistory.com/rss
     - :author_name: 고형호
       :feed_url: https://hhko.tistory.com/rss
     - :author_name: 구종만
@@ -57,7 +55,7 @@ production: &production
     - :author_name: 김원일
       :feed_url: https://androidkr.blogspot.com/feeds/posts/default
     - :author_name: 김재호
-      :feed_url: https://v2.velog.io/rss/jeho
+      :feed_url: https://jeho.page/feed.xml
     - :author_name: 김준형
       :feed_url: https://medium.com/feed/@ghilbut
     - :author_name: 김진욱

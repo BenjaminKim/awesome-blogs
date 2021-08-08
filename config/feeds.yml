@@ -354,6 +354,8 @@ production: &production
       :feed_url: https://pilgwon.github.io/feed.xml
     - :author_name: 커니
       :feed_url: https://www.androidhuman.com/feed.xml
+    - :author_name: Changhui Lee
+      :feed_url: https://xo.dev/rss.xml
 
   insightful:
     - :author_name: 김광현

@@ -368,6 +368,8 @@ production: &production
       :feed_url: https://feeds.feedburner.com/saturnsoft
     - :author_name: city7310
       :feed_url: https://v2.velog.io/rss/city7310
+    - :author_name: giantsol
+      :feed_url: https://giantsol.github.io/feed.xml
 
   insightful:
     - :author_name: 김광현

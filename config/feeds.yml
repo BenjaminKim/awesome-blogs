@@ -314,8 +314,6 @@ production: &production
       :feed_url: https://pluu.github.io/feed.xml
     - :author_name: asbubam
       :feed_url: https://blog.2dal.com/feed
-    - :author_name: Developer88
-      :feed_url: https://developer88.tistory.com/rss
     - :author_name: Lava
       :feed_url: https://astrod.github.io/feed.xml
     - :author_name: Joshua
@@ -370,6 +368,12 @@ production: &production
       :feed_url: https://v2.velog.io/rss/city7310
     - :author_name: giantsol
       :feed_url: https://giantsol.github.io/feed.xml
+    - :author_name: coffeewhale
+      :feed_url: https://coffeewhale.com/feed.xml
+    - :author_name: cheese10yun
+      :feed_url: https://cheese10yun.github.io/feed.xml
+    - :author_name: mytory
+      :feed_url: https://feeds.feedburner.com/mytory_tc
 
   insightful:
     - :author_name: 김광현
@@ -418,6 +422,8 @@ production: &production
       :feed_url: https://d2.naver.com/d2.atom
     - :author_name: 라인
       :feed_url: https://engineering.linecorp.com/ko/feed/
+    - :author_name: 토스
+      :feed_url: https://toss.tech/rss.xml
     - :author_name: VCNC
       :feed_url: https://engineering.vcnc.co.kr/atom.xml
     - :author_name: 우아한형제들 기술 블로그

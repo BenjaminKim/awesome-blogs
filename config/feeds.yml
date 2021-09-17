@@ -83,7 +83,7 @@ production: &production
     - :author_name: 도경태
       :feed_url: https://medium.com/feed/@keendev
     - :author_name: 류광
-      :feed_url: http://occamsrazr.net/tt/index.xml
+      :feed_url: https://feeds.feedburner.com/occamsrazr/blog
     - :author_name: 류종택
       :feed_url: https://ryulib.tistory.com/rss
     - :author_name: 마경욱
@@ -445,7 +445,7 @@ production: &production
     - :author_name: Google Developers Korea 블로그
       :feed_url: https://googledevkr.blogspot.in//atom.xml
     - :author_name: 달리웍스
-      :feed_url: http://techblog.daliworks.net/feed.xml
+      :feed_url: https://techblog.daliworks.net/feed.xml
     - :author_name: 후이서울
       :feed_url: https://engineering.huiseoul.com/feed
     - :author_name: 당근마켓
@@ -470,6 +470,10 @@ production: &production
       :feed_url: https://tech.socarcorp.kr/feed.xml
     - :author_name: 유니크굿컴퍼니
       :feed_url: https://medium.com/feed/uniquegood
+    - :author_name: 사람인HR
+      :feed_url: https://saramin.github.io/feed.xml
+    - :author_name: 무신사
+      :feed_url: https://medium.com/feed/musinsa-tech/tagged/tech-blog
 
 development:
   dev:

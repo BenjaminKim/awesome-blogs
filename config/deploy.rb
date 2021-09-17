@@ -34,3 +34,4 @@ set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 # set :rvm_ruby_version, '2.4.1'
 # Default value for keep_releases is 5
 set :keep_releases, 15
+set :puma_phased_restart, true

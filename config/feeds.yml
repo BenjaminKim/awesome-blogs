@@ -474,6 +474,8 @@ production: &production
       :feed_url: https://saramin.github.io/feed.xml
     - :author_name: 무신사
       :feed_url: https://medium.com/feed/musinsa-tech/tagged/tech-blog
+    - :author_name: 그린랩스
+      :feed_url: https://green-labs.github.io/rss.xml
 
 development:
   dev:

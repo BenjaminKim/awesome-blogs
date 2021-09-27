@@ -414,6 +414,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@19lv
     - :author_name: 건물주의 기쁨과 슬픔
       :feed_url: https://brunch.co.kr/rss/@@8eGH
+    - :author_name: 서점직원
+      :feed_url: https://brunch.co.kr/rss/@@4zJ
 
   company:
     - :author_name: 카카오

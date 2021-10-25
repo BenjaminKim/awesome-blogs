@@ -374,6 +374,8 @@ production: &production
       :feed_url: https://cheese10yun.github.io/feed.xml
     - :author_name: mytory
       :feed_url: https://feeds.feedburner.com/mytory_tc
+    - :author_name: 감자도스
+      :feed_url: https://blog.potados.com/feed.xml
 
   insightful:
     - :author_name: 김광현

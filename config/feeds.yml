@@ -376,6 +376,8 @@ production: &production
       :feed_url: https://feeds.feedburner.com/mytory_tc
     - :author_name: 감자도스
       :feed_url: https://blog.potados.com/feed.xml
+    - :author_name: 강동윤
+      :feed_url: https://kdy1.github.io/post/index.xml
 
   insightful:
     - :author_name: 김광현

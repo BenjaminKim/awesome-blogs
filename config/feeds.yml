@@ -378,6 +378,8 @@ production: &production
       :feed_url: https://blog.potados.com/feed.xml
     - :author_name: 강동윤
       :feed_url: https://kdy1.github.io/post/index.xml
+    - :author_name: 썰렁한 엔지니어
+      :feed_url: https://coolengineer.com/rss
 
   insightful:
     - :author_name: 김광현
@@ -420,6 +422,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@8eGH
     - :author_name: 서점직원
       :feed_url: https://brunch.co.kr/rss/@@4zJ
+    - :author_name: BUNDI
+      :feed_url: https://brunch.co.kr/rss/@@330j
 
   company:
     - :author_name: 카카오

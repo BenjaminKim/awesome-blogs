@@ -9,13 +9,7 @@
 https://github.com/jungilhan/awesome-blogs-android
 
 ### 아이폰 전용앱 다운로드
-<a href="https://apps.apple.com/kr/app/%EC%96%B4%EC%8D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8/id1276023809"><img src="https://github.com/tilltue/awesome-blogs-ios/raw/master/badge-download-on-the-app-store.png" style="max-width:100%;"></a>
-
-### 아이폰 전용앱 다운로드 (SwiftUI 버전)
 <a href="https://apps.apple.com/kr/app/%EC%96%B4%EC%8D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%89%B4%EC%8A%A4/id1557176134"><img src="https://github.com/tilltue/awesome-blogs-ios/raw/master/badge-download-on-the-app-store.png" style="max-width:100%;"></a>
-
-### 아이폰 코드 저장소
-https://github.com/tilltue/awesome-blogs-ios
 
 ## 피드리더기(Feedly 같은)를 통한 구독도 가능합니다
 ### 개발자 블로그 피드 모음 주소

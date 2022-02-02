@@ -380,6 +380,8 @@ production: &production
       :feed_url: https://kdy1.github.io/post/index.xml
     - :author_name: 썰렁한 엔지니어
       :feed_url: https://coolengineer.com/rss
+    - :author_name: plan9
+      :feed_url: https://plan9.kr/feed.xml
 
   insightful:
     - :author_name: 김광현

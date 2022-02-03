@@ -30,7 +30,7 @@ class FeedsController < ApplicationController
       Parallel.each(feeds, in_threads: 30) do |feed_h|
         begin
           feed_url = feed_h[:feed_url]
-          puts feed_h
+          #puts feed_h
 
           feed = Rails.cache.fetch(feed_url, expires_in: cache_expiring_time) do
             puts "cache missed: #{feed_url}"
@@ -47,24 +47,23 @@ class FeedsController < ApplicationController
             end
             maker.items.new_item do |item|
               link_uri = entry.url || entry.entry_id
-              Rails.logger.info("LINK: #{link_uri}") unless link_uri.start_with?('http')
               if link_uri.blank?
                 Rails.logger.error("ERROR - url shouldn't be null: #{entry.inspect}")
-              else
-                begin
-                  uri = Addressable::URI.parse(link_uri)
-                  uri.host ||= Addressable::URI.parse(feed_url).host
-                  uri.scheme ||= Addressable::URI.parse(feed_url).scheme
-                  puts "LINK: #{uri.to_s} #{entry.inspect}"
-                  item.link = uri.to_s
-                rescue Exception => e
-                  Rails.logger.error("ERROR!: #{item.link} #{e}")
-                  item.link = link_uri
-                end
+                next
               end
 
-              if Rails.env.development? && [1, 2].sample == 1
-                item.link += "##{now}"
+              begin
+                uri = Addressable::URI.parse(link_uri)
+                uri.host ||= Addressable::URI.parse(feed_url).host
+                uri.scheme ||= Addressable::URI.parse(feed_url).scheme
+                puts "LINK: #{uri.to_s}"
+
+                item.link = add_footprint(uri).to_s
+
+                puts item.link
+              rescue Exception => e
+                Rails.logger.error("ERROR!: #{item.link} #{e}")
+                item.link = link_uri
               end
 
               item.title = entry.title || '제목 없음'
@@ -83,40 +82,13 @@ class FeedsController < ApplicationController
       maker.channel.updated = maker.items.max_by { |x| x.updated.to_i }&.updated&.localtime || Time.now
     end
 
-    group = params[:group] || 'none'
-    report_google_analytics(@device_uid, group, request.user_agent, request.url)
-
     respond_to do |format|
       format.xml { render xml: @rss.to_xml }
       format.json
     end
   end
 
-  def read
-    render json: { status: 0 }
-  end
-
-  def report_google_analytics(cid, title, ua, document_url)
-    # https://developers.google.com/analytics/devguides/collection/protocol/v1/parameters
-    RestClient.post('http://www.google-analytics.com/collect',
-      {
-        # Protocol Version
-        v: '1',
-        # Tracking ID
-        tid: 'UA-90528160-1',
-        # Client ID
-        cid: cid || SecureRandom.uuid,
-        # Hit type
-        t: 'pageview',
-        # Document location URL
-        dl: document_url,
-        # Document Title
-        dt: title,
-        ua: ua,
-      },
-      user_agent: ua
-    )
-  end
+  private
 
   def channel_title(category)
     case category
@@ -171,8 +143,16 @@ class FeedsController < ApplicationController
     doc.to_html
   rescue Exception => e
     Rails.logger.error("ERROR: #{e.inspect}")
-    #Rails.logger.error("HTML: #{html_string}")
-    '글 읽으러 가기'
   end
 
+  def add_footprint(uri)
+    previous_h = uri.query_values || {}
+    uri.query_values = previous_h.merge(
+      utm_source: 'awesome-blogs',
+      utm_medium: 'blog',
+      utm_campaign: 'asb',
+    )
+
+    uri
+  end
 end

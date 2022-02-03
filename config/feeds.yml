@@ -492,7 +492,7 @@ production: &production
 development:
   dev:
     - :author_name: 김재호
-      :feed_url: https://feeds.feedburner.com/crazytazo?format=xml
+      :feed_url: https://jeho.page/feed.xml
     - :author_name: 강대명
       :feed_url: https://charsyam.wordpress.com/feed/
   insightful:

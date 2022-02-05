@@ -148,11 +148,18 @@ class FeedsController < ApplicationController
   def add_footprint(uri)
     previous_h = uri.query_values || {}
     uri.query_values = previous_h.merge(
-      utm_source: 'awesome-blogs',
+      utm_source: footprint_source,
       utm_medium: 'blog',
       utm_campaign: 'asb',
     )
 
     uri
+  end
+
+  def footprint_source
+    respond_to do |format|
+      format.xml { return "awesome-blogs.petabytes.org" }
+      format.json { return "awesome-blogs-app" }
+    end
   end
 end

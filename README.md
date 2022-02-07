@@ -5,8 +5,8 @@
 이 프로젝트는 서버와 클라이언트 소스가 모두 공개 되어 있는 오픈소스 프로젝트입니다.
 아직 알려지지 않은 좋은 블로그들에 대한 피드백을 환영합니다. ^^  
 
-### 안드로이드 코드 저장소(현재 앱 다운로드 불가)
-https://github.com/jungilhan/awesome-blogs-android
+### 안드로이드 전용앱 다운로드
+<a href="https://play.google.com/store/apps/details?id=blogs.awesome.android.awesome_blogs_flutter&hl=ko&referrer=utm_source%3Dgithub-server"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="20%"></a>
 
 ### 아이폰 전용앱 다운로드
 <a href="https://apps.apple.com/kr/app/%EC%96%B4%EC%8D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%89%B4%EC%8A%A4/id1557176134"><img src="https://github.com/tilltue/awesome-blogs-ios/raw/master/badge-download-on-the-app-store.png" style="max-width:100%;"></a>

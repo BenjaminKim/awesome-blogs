@@ -382,6 +382,8 @@ production: &production
       :feed_url: https://coolengineer.com/rss
     - :author_name: plan9
       :feed_url: https://plan9.kr/feed.xml
+    - :author_name: curogom
+      :feed_url: https://medium.com/feed/@curogom
 
   insightful:
     - :author_name: 김광현

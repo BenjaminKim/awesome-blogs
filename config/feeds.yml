@@ -428,6 +428,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@4zJ
     - :author_name: BUNDI
       :feed_url: https://brunch.co.kr/rss/@@330j
+    - :author_name: 우디
+      :feed_url: https://brunch.co.kr/rss/@@2hV3
 
   company:
     - :author_name: 카카오

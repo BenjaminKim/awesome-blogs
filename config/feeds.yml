@@ -384,6 +384,8 @@ production: &production
       :feed_url: https://plan9.kr/feed.xml
     - :author_name: curogom
       :feed_url: https://medium.com/feed/@curogom
+    - :author_name: 이한
+      :feed_url: https://blog.hanlee.io/rss.xml
 
   insightful:
     - :author_name: 김광현

@@ -494,6 +494,8 @@ production: &production
       :feed_url: https://medium.com/feed/musinsa-tech/tagged/tech-blog
     - :author_name: 그린랩스
       :feed_url: https://green-labs.github.io/rss.xml
+    - :author_name: 넷마블
+      :feed_url: https://netmarble.engineering/feed
 
 development:
   dev:

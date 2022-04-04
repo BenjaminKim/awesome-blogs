@@ -484,6 +484,8 @@ production: &production
       :feed_url: https://tech.urbanbase.com/feed.xml
     - :author_name: NHN Toast
       :feed_url: https://ui.toast.com/rss.xml
+    - :author_name: NHN Cloud
+      :feed_url: https://meetup.toast.com/rss
     - :author_name: 쏘카
       :feed_url: https://tech.socarcorp.kr/feed.xml
     - :author_name: 유니크굿컴퍼니
@@ -496,6 +498,18 @@ production: &production
       :feed_url: https://green-labs.github.io/rss.xml
     - :author_name: 넷마블
       :feed_url: https://netmarble.engineering/feed
+    - :author_name: 하이퍼커넥트
+      :feed_url: https://hyperconnect.github.io/feed.xml
+    - :author_name: 요기요
+      :feed_url: https://techblog.yogiyo.co.kr/feed
+    - :author_name: 브랜디
+      :feed_url: http://labs.brandi.co.kr/feed.xml
+    - :author_name: 줌
+      :feed_url: https://zuminternet.github.io/feed.xml
+    - :author_name: 리디
+      :feed_url: https://ridicorp.com/story-category/tech-blog/feed/
+
+
 
 development:
   dev:

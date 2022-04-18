@@ -458,8 +458,6 @@ production: &production
       :feed_url: https://blog.embian.com/rss
     - :author_name: 데일리호텔
       :feed_url: https://dailyhotel.io/feed
-    - :author_name: Mozilla 웹 기술 블로그
-      :feed_url: http://hacks.mozilla.or.kr/feed/
     - :author_name: Google Developers Korea 블로그
       :feed_url: https://googledevkr.blogspot.in//atom.xml
     - :author_name: 달리웍스
@@ -508,9 +506,17 @@ production: &production
       :feed_url: https://zuminternet.github.io/feed.xml
     - :author_name: 리디
       :feed_url: https://ridicorp.com/story-category/tech-blog/feed/
-
-
-
+    - :author_name: 네이버 플레이스
+      :feed_url: https://medium.com/feed/naver-place-dev
+    - :author_name: 29cm
+      :feed_url: https://medium.com/feed/29cm
+    - :author_name: 카카오엔터테인먼트
+      :feed_url: https://fe-developers.kakaoent.com/rss.xml
+    - :author_name: 더핑크퐁컴퍼니
+      :feed_url: https://medium.com/feed/pinkfong
+    - :author_name: 헤이딜러
+      :feed_url: https://medium.com/feed/prnd
+  ''
 development:
   dev:
     - :author_name: 김재호

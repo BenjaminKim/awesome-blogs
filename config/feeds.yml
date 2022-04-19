@@ -516,7 +516,9 @@ production: &production
       :feed_url: https://medium.com/feed/pinkfong
     - :author_name: 헤이딜러
       :feed_url: https://medium.com/feed/prnd
-  ''
+    - :author_name: 줌
+      :feed_url: 'https://zuminternet.github.io/feed'
+
 development:
   dev:
     - :author_name: 김재호

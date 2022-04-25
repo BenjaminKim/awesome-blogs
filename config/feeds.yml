@@ -250,8 +250,6 @@ production: &production
       :feed_url: https://kerberosj.tistory.com/rss
     - :author_name: 정창훈
       :feed_url: https://blog.iamseapy.com/feed
-    - :author_name: 조만석
-      :feed_url: https://manseok.blogspot.com/feeds/posts/default
     - :author_name: 조만영
       :feed_url: https://medium.com/feed/@manyoung
     - :author_name: 조병욱

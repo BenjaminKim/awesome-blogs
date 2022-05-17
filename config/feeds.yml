@@ -112,6 +112,8 @@ production: &production
       :feed_url: https://jungwoon.github.io/feed.xml
     - :author_name: 박준희
       :feed_url: https://brunch.co.kr/rss/@@1YN0
+    - :author_name: 박찬영
+      :feed_url: 'https://www.univdev.page/feed.xml'
     - :author_name: 박현우
       :feed_url: https://lqez.github.io/blog/feeds/all.atom.xml
     - :author_name: 방준영
@@ -129,7 +131,7 @@ production: &production
     - :author_name: 서광열
       :feed_url: https://gamecodingschool.org/feed/
     - :author_name: 서민구
-      :feed_url: http://mkseo.pe.kr/blog/?feed=rss2
+      :feed_url: https://mkseo.pe.kr/blog/?feed=rss2
     - :author_name: 서오석
       :feed_url: https://brunch.co.kr/rss/@@2YE
     - :author_name: 성동찬
@@ -163,7 +165,7 @@ production: &production
     - :author_name: 안윤호
       :feed_url: https://toyfab.tistory.com/rss
     - :author_name: 안재하
-      :feed_url: httsp://programmingsummaries.tistory.com/rss
+      :feed_url: https://programmingsummaries.tistory.com/rss
     - :author_name: 안정훈
       :feed_url: https://www.andrewahn.co/feed/
     - :author_name: 안중원
@@ -236,8 +238,6 @@ production: &production
       :feed_url: https://jojoldu.tistory.com/rss
     - :author_name: 장현정
       :feed_url: https://naleejang.tistory.com/rss
-    - :author_name: 전호상
-      :feed_url: http://guruble.com/feed/
     - :author_name: 전희원
       :feed_url: https://feeds.feedburner.com/gogamza?format=xml
     - :author_name: 정도현

@@ -72,8 +72,6 @@ production: &production
       :feed_url: https://beyondj2ee.wordpress.com/feed/
     - :author_name: 김태헌
       :feed_url: https://brunch.co.kr/rss/@@ydx
-    - :author_name: 김환희
-      :feed_url: http://rss.egloos.com/blog/greentec
     - :author_name: 김훈민
       :feed_url: https://huns.me/feed
     - :author_name: 김형철
@@ -92,6 +90,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@FOY
     - :author_name: 문동욱
       :feed_url: https://evan-moon.github.io/feed.xml
+    - :author_name: 문호연
+      :feed_url: 'https://www.hohyeonmoon.com/feed.rss'
     - :author_name: 박민근
       :feed_url: https://agebreak.blog.me/rss
     - :author_name: 박민우
@@ -104,8 +104,6 @@ production: &production
       :feed_url: https://sangminpark.wordpress.com/feed/
     - :author_name: 박연오
       :feed_url: https://feeds.feedburner.com/bakyeono
-    - :author_name: 박일
-      :feed_url: http://rss.egloos.com/blog/parkpd
     - :author_name: 박재호
       :feed_url: https://feeds.feedburner.com/blogspot/ASpE
     - :author_name: 박정운

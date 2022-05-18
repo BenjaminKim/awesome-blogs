@@ -113,7 +113,7 @@ production: &production
     - :author_name: 박준희
       :feed_url: https://brunch.co.kr/rss/@@1YN0
     - :author_name: 박찬영
-      :feed_url: 'https://www.univdev.page/feed.xml'
+      :feed_url: https://www.univdev.page/feed.xml
     - :author_name: 박현우
       :feed_url: https://lqez.github.io/blog/feeds/all.atom.xml
     - :author_name: 방준영
@@ -176,8 +176,6 @@ production: &production
       :feed_url: https://blog.yagom.net/feed/
     - :author_name: 양병규
       :feed_url: https://rss.blog.naver.com/delmadang.xml
-    - :author_name: 양준철
-      :feed_url: https://brunch.co.kr/rss/@@lIP
     - :author_name: 엄태웅
       :feed_url: https://t-robotics.blogspot.com/feeds/posts/default
     - :author_name: 염재현
@@ -384,6 +382,9 @@ production: &production
       :feed_url: https://medium.com/feed/@curogom
     - :author_name: 이한
       :feed_url: https://blog.hanlee.io/rss.xml
+    - :author_name: doosikbae
+      :feed_url: 'https://blog.doosikbae.com/rss'
+
 
   insightful:
     - :author_name: 김광현

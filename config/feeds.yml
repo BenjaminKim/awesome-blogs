@@ -382,7 +382,8 @@ production: &production
       :feed_url: https://blog.hanlee.io/rss.xml
     - :author_name: doosikbae
       :feed_url: 'https://blog.doosikbae.com/rss'
-
+    - :author_name: soojin.ro
+      :feed_url: 'https://soojin.ro/feed.xml'
 
   insightful:
     - :author_name: 김광현

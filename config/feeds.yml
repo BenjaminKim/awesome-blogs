@@ -384,6 +384,8 @@ production: &production
       :feed_url: 'https://blog.doosikbae.com/rss'
     - :author_name: soojin.ro
       :feed_url: 'https://soojin.ro/feed.xml'
+    - :author_name: 강웅석
+      :feed_url: 'https://nephtyws.github.io/feed.xml'
 
   insightful:
     - :author_name: 김광현

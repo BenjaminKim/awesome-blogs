@@ -45,3 +45,4 @@ gem 'parallel'
 gem 'addressable'
 gem 'rss'
 gem 'httparty'
+gem 'net-smtp', require: false

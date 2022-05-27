@@ -35,13 +35,16 @@ class FeedsController < ApplicationController
           feed = Rails.cache.fetch(feed_url, expires_in: cache_expiring_time) do
             puts "cache missed: #{feed_url}"
             Timeout::timeout(3) {
-              Feedjira::Feed.fetch_and_parse(feed_url)
+              xml = HTTParty.get(feed_url).body
+              Feedjira.parse(xml)
+              #Feedjira::Feed.fetch_and_parse(feed_url)
             }
           end
 
           next if feed.nil?
 
           feed.entries.each do |entry|
+            puts "ENTRY: #{entry.inspect}"
             if entry.published < now - recent_days || entry.published.localtime > Time.now
               next
             end

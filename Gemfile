@@ -40,7 +40,8 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'rest-client'
-gem 'feedjira', '~> 2.2'
+gem 'feedjira'
 gem 'parallel'
 gem 'addressable'
 gem 'rss'
+gem 'httparty'

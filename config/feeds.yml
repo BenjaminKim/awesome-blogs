@@ -20,8 +20,6 @@ production: &production
       :feed_url: https://thoughts.chkwon.net/feed/
     - :author_name: 권태환
       :feed_url: https://thdev.net/rss
-    - :author_name: 김놀부
-      :feed_url: https://nolboo.kim/feed.xml
     - :author_name: 김도균
       :feed_url: https://www.dokyun.pe.kr/rss
     - :author_name: 김민수
@@ -176,8 +174,6 @@ production: &production
       :feed_url: https://only2sea.wordpress.com/feed/
     - :author_name: 오종빈
       :feed_url: https://feeds.feedburner.com/ohyecloudy-network?format=xml
-    - :author_name: 유병후
-      :feed_url: https://libsora.so/index.xml
     - :author_name: 유진호
       :feed_url: https://brunch.co.kr/atom/@@z8s
     - :author_name: 윤석찬
@@ -318,8 +314,6 @@ production: &production
       :feed_url: https://totuworld.github.io/feed.xml
     - :author_name: rhostem
       :feed_url: https://blog.rhostem.com/rss.xml
-    - :author_name: kimkevin
-      :feed_url: https://blog.kimkevin.net/feed
     - :author_name: Kun
       :feed_url: https://medium.com/feed/@1amb4a
     - :author_name: 월급쟁이
@@ -469,7 +463,7 @@ production: &production
     - :author_name: 멋쟁이사자처럼
       :feed_url: https://brunch.co.kr/rss/@@2YH6
     - :author_name: 깃플
-      :feed_url: https://tech.gitple.io/atom.xml
+      :feed_url: https://tech.finset.io/atom.xml
     - :author_name: 플라네타리움
       :feed_url: https://snack.planetarium.dev/kor/index.xml
     - :author_name: 마켓컬리
@@ -488,8 +482,6 @@ production: &production
       :feed_url: https://saramin.github.io/feed.xml
     - :author_name: 무신사
       :feed_url: https://medium.com/feed/musinsa-tech/tagged/tech-blog
-    - :author_name: 그린랩스
-      :feed_url: https://green-labs.github.io/rss.xml
     - :author_name: 넷마블
       :feed_url: https://netmarble.engineering/feed
     - :author_name: 하이퍼커넥트

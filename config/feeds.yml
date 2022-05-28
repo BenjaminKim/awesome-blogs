@@ -10,8 +10,6 @@ production: &production
       :feed_url: https://medium.com/feed/@shaynekang
     - :author_name: 강진우
       :feed_url: https://brunch.co.kr/rss/@@3Y0
-    - :author_name: 고형호
-      :feed_url: https://hhko.tistory.com/rss
     - :author_name: 구종만
       :feed_url: https://feeds.feedburner.com/theyearlyprophet/GGGO?format=xml
     - :author_name: 권정혁
@@ -270,16 +268,12 @@ production: &production
       :feed_url: https://medium.com/feed/@jungil.han
     - :author_name: 한주영
       :feed_url: https://medium.com/feed/@jooyunghan
-    - :author_name: 한재엽
-      :feed_url: https://jaeyeophan.github.io/feed.xml
     - :author_name: 한태웅
       :feed_url: https://effectivesquid.tistory.com/rss
     - :author_name: 홍민희
       :feed_url: https://blog.hongminhee.org/feed.xml
     - :author_name: 홍성철
       :feed_url: https://feeds.feedburner.com/fupfin/blog
-    - :author_name: 황장호
-      :feed_url: https://xrath.com/feed/
     - :author_name: 황준일
       :feed_url: https://junilhwang.github.io/TIL/feed.atom
     - :author_name: 현승
@@ -299,7 +293,7 @@ production: &production
     - :author_name: asbubam
       :feed_url: https://blog.2dal.com/feed
     - :author_name: Lava
-      :feed_url: https://astrod.github.io/feed.xml
+      :feed_url: https://astrod.github.io/rss.xml
     - :author_name: Joshua
       :feed_url: https://joshua1988.github.io/atom.xml
     - :author_name: USB
@@ -328,8 +322,6 @@ production: &production
       :feed_url: https://dongqui.github.io/feed.xml
     - :author_name: wormwlrm
       :feed_url: https://wormwlrm.github.io/feed.xml
-    - :author_name: fernando
-      :feed_url: https://fernando.kr/rss.xml
     - :author_name: pilgwon
       :feed_url: https://pilgwon.github.io/feed.xml
     - :author_name: 커니
@@ -339,7 +331,7 @@ production: &production
     - :author_name: immigration9
       :feed_url: https://immigration9.github.io/feed.xml
     - :author_name: novemberde
-      :feed_url: https://novemberde.github.io/feed.xml
+      :feed_url: https://novemberde.github.io/index.xml
     - :author_name: jungkim
       :feed_url: https://medium.com/feed/@jungkim
     - :author_name: sjp38

@@ -92,12 +92,8 @@ production: &production
       :feed_url: https://evan-moon.github.io/feed.xml
     - :author_name: 문호연
       :feed_url: 'https://www.hohyeonmoon.com/feed.rss'
-    - :author_name: 박민근
-      :feed_url: https://agebreak.blog.me/rss
     - :author_name: 박민우
       :feed_url: https://earlybird.kr/feed
-    - :author_name: 박병일
-      :feed_url: https://practical.kr/?feed=rss2
     - :author_name: 박상권
       :feed_url: https://gun0912.tistory.com/rss
     - :author_name: 박상민
@@ -244,8 +240,6 @@ production: &production
       :feed_url: https://sadang-hobbits.github.io/atom.xml
     - :author_name: 정윤진
       :feed_url: https://kerberosj.tistory.com/rss
-    - :author_name: 정창훈
-      :feed_url: https://blog.iamseapy.com/feed
     - :author_name: 조만영
       :feed_url: https://medium.com/feed/@manyoung
     - :author_name: 조병욱

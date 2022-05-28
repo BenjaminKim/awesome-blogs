@@ -44,7 +44,7 @@ class FeedsController < ApplicationController
           next if feed.nil?
 
           feed.entries.each do |entry|
-            puts "ENTRY: #{entry.inspect}"
+            #puts "ENTRY: #{entry.inspect}"
             if entry.published < now - recent_days || entry.published.localtime > Time.now
               next
             end

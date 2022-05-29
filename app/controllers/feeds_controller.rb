@@ -77,8 +77,7 @@ class FeedsController < ApplicationController
             end
           end
         rescue => e
-          puts "ERROR: #{e.inspect}"
-          puts "ERROR: URL => #{feed_url}"
+          Rails.logger.error "ERROR: #{e.inspect} #{feed_url}"
           next
         end
       end

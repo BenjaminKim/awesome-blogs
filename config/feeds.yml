@@ -162,8 +162,6 @@ production: &production
       :feed_url: https://postgame.tistory.com/rss
     - :author_name: 안지성
       :feed_url: https://medium.com/feed/@narusas
-    - :author_name: 야곰
-      :feed_url: https://blog.yagom.net/feed/
     - :author_name: 양병규
       :feed_url: https://rss.blog.naver.com/delmadang.xml
     - :author_name: 엄태웅
@@ -498,8 +496,6 @@ production: &production
       :feed_url: https://medium.com/feed/prnd
     - :author_name: 줌
       :feed_url: 'https://zuminternet.github.io/feed'
-    - :author_name: 데브시스터즈
-      :feed_url: 'https://tech.devsisters.com/rss.xml'
 
 development:
   dev:

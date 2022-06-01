@@ -364,6 +364,12 @@ production: &production
       :feed_url: 'https://soojin.ro/feed.xml'
     - :author_name: 강웅석
       :feed_url: 'https://nephtyws.github.io/feed.xml'
+    - :author_name: 1ambda
+      :feed_url: 'https://1ambda.blog/feed/'
+    - :author_name: donghun
+      :feed_url: 'https://donghun.dev/feed.xml'
+    - :author_name: hamadevelop
+      :feed_url: 'https://www.hamadevelop.me/rss.xml'
 
   insightful:
     - :author_name: 김광현
@@ -412,6 +418,8 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@2hV3
     - :author_name: 쟁고
       :feed_url: 'https://rss.blog.naver.com/lein4d.xml'
+    - :author_name: 이바닥늬우스
+      :feed_url: 'https://ebadak.news/feed/'
 
   company:
     - :author_name: 카카오
@@ -425,7 +433,7 @@ production: &production
     - :author_name: VCNC
       :feed_url: https://engineering.vcnc.co.kr/atom.xml
     - :author_name: 우아한형제들 기술 블로그
-      :feed_url: https://woowabros.github.io/feed.xml
+      :feed_url: https://techblog.woowahan.com/feed/
     - :author_name: 스타일쉐어
       :feed_url: https://styleshare.github.io/feed.xml
     - :author_name: Spoqa

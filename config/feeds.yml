@@ -25,7 +25,7 @@ production: &production
     - :author_name: 김민장
       :feed_url: https://minjang.github.io/feed.xml
     - :author_name: 김민준
-      :feed_url: https://velopert.com/feed
+      :feed_url: https://v2.velog.io/rss/velopert
     - :author_name: 김범진
       :feed_url: https://medium.com/feed/@beejei
     - :author_name: 김병환
@@ -370,6 +370,8 @@ production: &production
       :feed_url: 'https://donghun.dev/feed.xml'
     - :author_name: hamadevelop
       :feed_url: 'https://www.hamadevelop.me/rss.xml'
+    - :author_name: xiniha
+      :feed_url: 'https://v2.velog.io/rss/xiniha'
 
   insightful:
     - :author_name: 김광현
@@ -504,6 +506,8 @@ production: &production
       :feed_url: https://medium.com/feed/prnd
     - :author_name: 줌
       :feed_url: 'https://zuminternet.github.io/feed'
+    - :author_name: 페이히어
+      :feed_url: 'https://blog.payhere.in/rss.xml'
 
 development:
   dev:

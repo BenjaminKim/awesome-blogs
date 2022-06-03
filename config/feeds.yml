@@ -96,8 +96,6 @@ production: &production
       :feed_url: https://sangminpark.wordpress.com/feed/
     - :author_name: 박연오
       :feed_url: https://feeds.feedburner.com/bakyeono
-    - :author_name: 박재호
-      :feed_url: https://feeds.feedburner.com/blogspot/ASpE
     - :author_name: 박정운
       :feed_url: https://jungwoon.github.io/feed.xml
     - :author_name: 박준희
@@ -372,6 +370,8 @@ production: &production
       :feed_url: 'https://www.hamadevelop.me/rss.xml'
     - :author_name: xiniha
       :feed_url: 'https://v2.velog.io/rss/xiniha'
+    - :author_name: hoseung
+      :feed_url: 'https://blog.hoseung.me/rss.xml'
 
   insightful:
     - :author_name: 김광현

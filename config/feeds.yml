@@ -264,8 +264,6 @@ production: &production
       :feed_url: https://blog.hongminhee.org/feed.xml
     - :author_name: 홍성철
       :feed_url: https://feeds.feedburner.com/fupfin/blog
-    - :author_name: 황준일
-      :feed_url: https://junilhwang.github.io/TIL/feed.atom
     - :author_name: 현승
       :feed_url: https://iam-hs.com/rss
     - :author_name: Harfang
@@ -428,8 +426,6 @@ production: &production
       :feed_url: 'https://minieetea.com/feed'
     - :author_name: 정혜윤
       :feed_url: 'https://brunch.co.kr/rss/@@79q'
-    - :author_name: 생각노트
-      :feed_url: 'https://insidestory.kr/feed'
     - :author_name: 김영준
       :feed_url: 'https://brunch.co.kr/rss/@@4rHO'
 

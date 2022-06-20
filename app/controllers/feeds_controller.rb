@@ -33,7 +33,7 @@ class FeedsController < ApplicationController
           #puts feed_h
 
           feed = Rails.cache.fetch(feed_url, expires_in: cache_expiring_time) do
-            puts "cache missed: #{feed_url}"
+            Rails.logger.debug "cache missed: #{feed_url}"
             Timeout::timeout(3) {
               xml = HTTParty.get(feed_url).body
               Feedjira.parse(xml)
@@ -59,11 +59,10 @@ class FeedsController < ApplicationController
                 uri = Addressable::URI.parse(link_uri)
                 uri.host ||= Addressable::URI.parse(feed_url).host
                 uri.scheme ||= Addressable::URI.parse(feed_url).scheme
-                puts "LINK: #{uri.to_s}"
 
                 item.link = add_footprint(uri).to_s
 
-                puts item.link
+                Rails.logger.debug item.link
               rescue Exception => e
                 Rails.logger.error("ERROR!: #{item.link} #{e}")
                 item.link = link_uri

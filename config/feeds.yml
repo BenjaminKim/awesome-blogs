@@ -370,6 +370,8 @@ production: &production
       :feed_url: 'https://cliearl.github.io/index.xml'
     - :author_name: imjhk03
       :feed_url: 'https://imjhk03.github.io/feed.xml'
+    - :author_name: typefully
+      :feed_url: 'https://typefully.com/dylayed/rss.xml'
 
   insightful:
     - :author_name: 김광현

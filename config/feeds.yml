@@ -16,8 +16,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/xguru?format=xml
     - :author_name: 권창현
       :feed_url: https://thoughts.chkwon.net/feed/
-    - :author_name: 권태환
-      :feed_url: https://thdev.net/rss
     - :author_name: 김도균
       :feed_url: https://www.dokyun.pe.kr/rss
     - :author_name: 김민수
@@ -370,6 +368,8 @@ production: &production
       :feed_url: 'https://blog.hoseung.me/rss.xml'
     - :author_name: 냉동코더
       :feed_url: 'https://cliearl.github.io/index.xml'
+    - :author_name: imjhk03
+      :feed_url: 'https://imjhk03.github.io/feed.xml'
 
   insightful:
     - :author_name: 김광현

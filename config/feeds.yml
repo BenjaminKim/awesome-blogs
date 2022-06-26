@@ -372,8 +372,6 @@ production: &production
       :feed_url: 'https://typefully.com/dylayed/rss.xml'
     - :author_name: 송요창
       :feed_url: 'https://medium.com/feed/@totuworld'
-    - :author_name: 종립
-      :feed_url: 'https://johngrib.github.io/feed.xml'
 
   insightful:
     - :author_name: 김광현

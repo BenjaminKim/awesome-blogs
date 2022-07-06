@@ -428,6 +428,8 @@ production: &production
       :feed_url: 'https://brunch.co.kr/rss/@@79q'
     - :author_name: 김영준
       :feed_url: 'https://brunch.co.kr/rss/@@4rHO'
+    - :author_name: 신현묵
+      :feed_url: 'https://v2.velog.io/rss/zetlos'
 
   company:
     - :author_name: 카카오

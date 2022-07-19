@@ -60,8 +60,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/GaeraeBlog?format=xml
     - :author_name: 김태기
       :feed_url: https://beyondj2ee.wordpress.com/feed/
-    - :author_name: 김태헌
-      :feed_url: https://brunch.co.kr/rss/@@ydx
     - :author_name: 김훈민
       :feed_url: https://huns.me/feed
     - :author_name: 김형철

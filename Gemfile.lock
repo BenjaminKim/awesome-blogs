@@ -202,7 +202,7 @@ GEM
       net-ssh (>= 2.8.0)
     thor (1.2.1)
     timeout (0.3.0)
-    tzinfo (2.0.4)
+    tzinfo (2.0.5)
       concurrent-ruby (~> 1.0)
     unf (0.1.4)
       unf_ext

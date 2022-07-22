@@ -201,7 +201,7 @@ production: &production
     - :author_name: 이현주
       :feed_url: https://wayhome25.github.io/atom.xml
     - :author_name: 장기효
-      :feed_url: https://joshuajangblog.wordpress.com/feed/
+      :feed_url: 'https://joshuajangblog.wordpress.com/feed/'
     - :author_name: 장성민
       :feed_url: https://feeds.feedburner.com/jangkunblog
     - :author_name: 장요셉
@@ -216,8 +216,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/gogamza?format=xml
     - :author_name: 정도현
       :feed_url: https://www.moreagile.net/feeds/posts/default
-    - :author_name: 정승욱
-      :feed_url: https://medium.com/feed/@jsuch2362
     - :author_name: 정윤성
       :feed_url: https://sadang-hobbits.github.io/atom.xml
     - :author_name: 정윤진
@@ -246,8 +244,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@1iQC
     - :author_name: 최유석
       :feed_url: https://whitechoi.tistory.com/rss
-    - :author_name: 최준건
-      :feed_url: https://junegunn.kr/atom.xml
     - :author_name: 최창원
       :feed_url: https://qwefgh90.github.io/feed.xml
     - :author_name: 한승훈

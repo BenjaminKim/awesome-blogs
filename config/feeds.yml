@@ -434,8 +434,8 @@ production: &production
       :feed_url: https://engineering.linecorp.com/ko/feed/
     - :author_name: 토스
       :feed_url: https://toss.tech/rss.xml
-    - :author_name: VCNC
-      :feed_url: https://engineering.vcnc.co.kr/atom.xml
+    - :author_name: 타다
+      :feed_url: 'https://blog-tech.tadatada.com/rss.xml'
     - :author_name: 우아한형제들 기술 블로그
       :feed_url: https://techblog.woowahan.com/feed/
     - :author_name: 스타일쉐어

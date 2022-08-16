@@ -508,6 +508,8 @@ production: &production
       :feed_url: 'https://blog.payhere.in/rss.xml'
     - :author_name: 데브시스터즈
       :feed_url: 'https://tech.devsisters.com/rss.xml'
+    - :author_name: 채널톡
+      :feed_url: 'https://channel.io/ko/blog/tag/tech'
 
 development:
   dev:

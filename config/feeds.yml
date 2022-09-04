@@ -362,6 +362,8 @@ production: &production
       :feed_url: 'https://medium.com/feed/@totuworld'
     - :author_name: 최건우
       :feed_url: 'https://medium.com/feed/@choi-geonu'
+    - :author_name: eddy_song
+      :feed_url: 'https://v2.velog.io/rss/eddy_song'
 
   insightful:
     - :author_name: 김광현

@@ -424,6 +424,8 @@ production: &production
       :feed_url: 'https://brunch.co.kr/rss/@@4rHO'
     - :author_name: 신현묵
       :feed_url: 'https://v2.velog.io/rss/zetlos'
+    - :author_name: 채수빈
+      :feed_url: 'https://www.canda.blog/rss/'
 
   company:
     - :author_name: 카카오

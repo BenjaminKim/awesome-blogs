@@ -510,6 +510,8 @@ production: &production
       :feed_url: 'https://blog.payhere.in/rss.xml'
     - :author_name: 데브시스터즈
       :feed_url: 'https://tech.devsisters.com/rss.xml'
+    - :author_name: 레몬베이스(lemonbase)
+      :feed_url: https://medium.com/feed/lemonbase
 
 development:
   dev:

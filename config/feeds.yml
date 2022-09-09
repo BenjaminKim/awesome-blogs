@@ -126,8 +126,6 @@ production: &production
       :feed_url: https://lovetoken.github.io/feed.xml
     - :author_name: 시나브로
       :feed_url: https://brunch.co.kr/rss/@@Zvf
-    - :author_name: 신영진
-      :feed_url: https://feeds.feedburner.com/codewiz
     - :author_name: 신용윤
       :feed_url: https://uni2u.tistory.com/rss
     - :author_name: 신현묵
@@ -440,8 +438,8 @@ production: &production
       :feed_url: https://techblog.woowahan.com/feed/
     - :author_name: 스타일쉐어
       :feed_url: https://styleshare.github.io/feed.xml
-    - :author_name: Spoqa
-      :feed_url: https://spoqa.github.io/rss
+    - :author_name: 스포카
+      :feed_url: https://spoqa.github.io/atom.xml
     - :author_name: 토스랩(잔디)
       :feed_url: https://tosslab.github.io/feed.xml
     - :author_name: 티몬

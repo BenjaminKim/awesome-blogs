@@ -34,6 +34,8 @@ production: &production
       :feed_url: https://sunyzero.tistory.com/rss
     - :author_name: 김성호
       :feed_url: https://raccoonyy.github.io/rss/
+    - :author_name: 김성훈
+      :feed_url: https://elky84.github.io/feed.xml
     - :author_name: 김슬기
       :feed_url: https://blog.seulgi.kim/feeds/posts/default
     - :author_name: 김영재

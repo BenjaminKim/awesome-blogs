@@ -104,8 +104,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@2xm
     - :author_name: 백재연
       :feed_url: https://jybaek.tistory.com/rss
-    - :author_name: 범이
-      :feed_url: https://blog.daum.net/xml/rss/funfunction
     - :author_name: 변정훈
       :feed_url: https://feeds.feedburner.com/rss_outsider_dev?format=xml
     - :author_name: 서광열
@@ -334,8 +332,6 @@ production: &production
       :feed_url: https://plan9.kr/feed.xml
     - :author_name: curogom
       :feed_url: https://medium.com/feed/@curogom
-    - :author_name: 이한
-      :feed_url: https://blog.hanlee.io/rss.xml
     - :author_name: doosikbae
       :feed_url: 'https://blog.doosikbae.com/rss'
     - :author_name: soojin.ro
@@ -491,7 +487,7 @@ production: &production
     - :author_name: 요기요
       :feed_url: https://techblog.yogiyo.co.kr/feed
     - :author_name: 브랜디
-      :feed_url: http://labs.brandi.co.kr/feed.xml
+      :feed_url: 'https://labs.brandi.co.kr/feed.xml'
     - :author_name: 줌
       :feed_url: https://zuminternet.github.io/feed.xml
     - :author_name: 리디

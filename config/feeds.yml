@@ -360,6 +360,8 @@ production: &production
       :feed_url: 'https://medium.com/feed/@choi-geonu'
     - :author_name: eddy_song
       :feed_url: 'https://v2.velog.io/rss/eddy_song'
+    - :author_name: jay-ji
+      :feed_url: 'https://jay-ji.tistory.com/rss'
 
   insightful:
     - :author_name: 김광현

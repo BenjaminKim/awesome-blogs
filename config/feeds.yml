@@ -367,7 +367,7 @@ production: &production
     - :author_name: 김광현
       :feed_url: https://kwang82.blogspot.com/feeds/posts/default
     - :author_name: 김국현
-      :feed_url: https://feeds.feedburner.com/goodhyun
+      :feed_url: 'https://goodhyun.wordpress.com/feed/'
     - :author_name: 김상훈
       :feed_url: https://interpiler.com/feed
     - :author_name: 김현유
@@ -523,7 +523,7 @@ development:
     - :author_name: 김광현
       :feed_url: https://kwang82.blogspot.com/feeds/posts/default
     - :author_name: 김국현
-      :feed_url: https://feeds.feedburner.com/goodhyun
+      :feed_url: 'https://goodhyun.wordpress.com/feed/'
   company:
     - :author_name: 게임개발포에버
       :feed_url: https://feeds.feedburner.com/gamedevforever?format=xml

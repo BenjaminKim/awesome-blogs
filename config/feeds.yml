@@ -10,8 +10,6 @@ production: &production
       :feed_url: https://medium.com/feed/@shaynekang
     - :author_name: 강진우
       :feed_url: https://brunch.co.kr/rss/@@3Y0
-    - :author_name: 구종만
-      :feed_url: https://feeds.feedburner.com/theyearlyprophet/GGGO?format=xml
     - :author_name: 권정혁
       :feed_url: https://feeds.feedburner.com/xguru?format=xml
     - :author_name: 권창현
@@ -42,8 +40,6 @@ production: &production
       :feed_url: https://youngjaekim.wordpress.com/feed/
     - :author_name: 김용현
       :feed_url: https://rss.blog.naver.com/drvoss.xml
-    - :author_name: 김우섭
-      :feed_url: https://brunch.co.kr/atom/@@tcN
     - :author_name: 김우승
       :feed_url: https://kimws.wordpress.com/feed/
     - :author_name: 김원일

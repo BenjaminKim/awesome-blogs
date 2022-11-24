@@ -430,6 +430,8 @@ production: &production
       :feed_url: https://toss.tech/rss.xml
     - :author_name: 우아한형제들 기술 블로그
       :feed_url: https://techblog.woowahan.com/feed/
+    - :author_name: 카카오페이
+      :feed_url: 'https://tech.kakaopay.com/rss'
     - :author_name: 스타일쉐어
       :feed_url: https://styleshare.github.io/feed.xml
     - :author_name: 스포카

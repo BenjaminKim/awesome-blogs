@@ -2,6 +2,8 @@ production: &production
   dev:
     - :author_name: 강대명
       :feed_url: https://charsyam.wordpress.com/feed/
+    - :author_name: 강석재
+      :feed_url: https://parodev.tistory.com/rss
     - :author_name: 강성일
       :feed_url: https://b.luavis.kr/feed.xml
     - :author_name: 강성훈

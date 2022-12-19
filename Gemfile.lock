@@ -89,7 +89,7 @@ GEM
       puma (>= 5.1, < 7.0)
     concurrent-ruby (1.1.10)
     crass (1.0.6)
-    date (3.3.2)
+    date (3.3.3)
     domain_name (0.5.20190701)
       unf (>= 0.0.5, < 1.0.0)
     erubi (1.11.0)

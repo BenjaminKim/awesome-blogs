@@ -162,8 +162,6 @@ production: &production
       :feed_url: https://blog.woniper.net/rss
     - :author_name: 이규원
       :feed_url: https://justhackem.wordpress.com/feed/
-    - :author_name: 이도현
-      :feed_url: https://genesis8.tistory.com/rss
     - :author_name: 이민호
       :feed_url: https://lumiamitie.github.io/feed.xml
     - :author_name: 이상욱

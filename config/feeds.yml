@@ -356,8 +356,12 @@ production: &production
       :feed_url: 'https://jay-ji.tistory.com/rss'
     - :author_name: eunbinn
       :feed_url: 'https://v2.velog.io/rss/eunbinn'
+    - :author_name: 여정민
+      :feed_url: 'https://v2.velog.io/rss/youngerjesus'
 
   insightful:
+    - :author_name: 메르
+      :feed_url: 'https://rss.blog.naver.com/ranto28.xml'
     - :author_name: 김광현
       :feed_url: https://kwang82.blogspot.com/feeds/posts/default
     - :author_name: 김국현
@@ -416,8 +420,7 @@ production: &production
       :feed_url: 'https://brunch.co.kr/rss/@@4rHO'
     - :author_name: 채수빈
       :feed_url: 'https://www.canda.blog/rss/'
-    - :author_name: 여정민
-      :feed_url: 'https://v2.velog.io/rss/youngerjesus'
+
 
   company:
     - :author_name: 카카오

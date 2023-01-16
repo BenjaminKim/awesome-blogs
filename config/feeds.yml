@@ -358,6 +358,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/eunbinn'
     - :author_name: 여정민
       :feed_url: 'https://v2.velog.io/rss/youngerjesus'
+    - :author_name: joosing
+      :feed_url: 'https://v2.velog.io/rss/joosing'
 
   insightful:
     - :author_name: 메르

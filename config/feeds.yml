@@ -422,7 +422,8 @@ production: &production
       :feed_url: 'https://brunch.co.kr/rss/@@4rHO'
     - :author_name: 채수빈
       :feed_url: 'https://www.canda.blog/rss/'
-
+    - :author_name: 알바트로스
+      :feed_url: 'https://rss.blog.naver.com/pillion21.xml'
 
   company:
     - :author_name: 카카오

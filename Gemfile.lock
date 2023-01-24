@@ -87,7 +87,7 @@ GEM
       capistrano (~> 3.7)
       capistrano-bundler
       puma (>= 5.1, < 7.0)
-    concurrent-ruby (1.1.10)
+    concurrent-ruby (1.2.0)
     crass (1.0.6)
     date (3.3.3)
     domain_name (0.5.20190701)
@@ -173,7 +173,7 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
-    rails-html-sanitizer (1.4.4)
+    rails-html-sanitizer (1.5.0)
       loofah (~> 2.19, >= 2.19.1)
     railties (6.1.7.1)
       actionpack (= 6.1.7.1)

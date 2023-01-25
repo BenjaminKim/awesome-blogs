@@ -390,8 +390,6 @@ production: &production
       :feed_url: https://estimastory.com/feed/
     - :author_name: 조성문
       :feed_url: https://sungmooncho.com/feed/
-    - :author_name: 천영록
-      :feed_url: https://rss.blog.naver.com/juliuschun.xml
     - :author_name: 최혁재
       :feed_url: https://brunch.co.kr/rss/@@kDx
     - :author_name: 쿠도

@@ -62,8 +62,6 @@ production: &production
       :feed_url: https://huns.me/feed
     - :author_name: 김형철
       :feed_url: https://brunch.co.kr/rss/@@OS0
-    - :author_name: 꼬젯
-      :feed_url: https://cojette.github.io/feed.xml
     - :author_name: 도경태
       :feed_url: https://medium.com/feed/@keendev
     - :author_name: 류광
@@ -512,8 +510,10 @@ production: &production
       :feed_url: 'https://blog.payhere.in/rss.xml'
     - :author_name: 데브시스터즈
       :feed_url: 'https://tech.devsisters.com/rss.xml'
-    - :author_name: 레몬베이스(lemonbase)
+    - :author_name: 레몬베이스
       :feed_url: https://medium.com/feed/lemonbase
+    - :author_name: 딜라이트룸
+      :feed_url: 'https://medium.com/feed/delightroom'
 
 development:
   dev:

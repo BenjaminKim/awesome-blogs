@@ -422,6 +422,8 @@ production: &production
       :feed_url: 'https://www.canda.blog/rss/'
     - :author_name: 알바트로스
       :feed_url: 'https://rss.blog.naver.com/pillion21.xml'
+    - :author_name: 심혜섭
+      :feed_url: 'https://rss.blog.naver.com/wlfvndxnwk.xml'
 
   company:
     - :author_name: 카카오

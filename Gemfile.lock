@@ -81,7 +81,7 @@ GEM
     capistrano-rvm (0.1.2)
       capistrano (~> 3.0)
       sshkit (~> 1.2)
-    capistrano-upload-config (0.8.2)
+    capistrano-upload-config (0.9.0)
       capistrano (>= 3.0)
     capistrano3-puma (6.0.0.beta.1)
       capistrano (~> 3.7)
@@ -149,7 +149,7 @@ GEM
       racc (~> 1.4)
     parallel (1.22.1)
     public_suffix (5.0.1)
-    puma (6.0.2)
+    puma (6.1.0)
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.6.2)
@@ -223,7 +223,7 @@ GEM
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
-    zeitwerk (2.6.6)
+    zeitwerk (2.6.7)
 
 PLATFORMS
   ruby

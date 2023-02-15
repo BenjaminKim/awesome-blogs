@@ -435,7 +435,7 @@ production: &production
     - :author_name: 카카오엔터테인먼트
       :feed_url: https://fe-developers.kakaoent.com/rss.xml
     - :author_name: 네이버
-      :feed_url: https://d2.naver.com/d2.atom
+#      :feed_url: https://d2.naver.com/d2.atom
     - :author_name: 네이버 플레이스
       :feed_url: https://medium.com/feed/naver-place-dev
     - :author_name: 라인
@@ -549,7 +549,7 @@ development:
   company:
     - :author_name: 게임개발포에버
       :feed_url: https://feeds.feedburner.com/gamedevforever?format=xml
-    - :author_name: 네이버
-      :feed_url: https://d2.naver.com/d2.atom
+    - :author_name: 토스
+      :feed_url: https://toss.tech/rss.xml
 #development:
 #  <<: *production

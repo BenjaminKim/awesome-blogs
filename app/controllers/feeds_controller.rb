@@ -136,7 +136,7 @@ class FeedsController < ApplicationController
             node[url_param] = uri.to_s
           end
         rescue Addressable::URI::InvalidURIError => _e
-          Rails.logger.error "ERROR: Uri #{_e.inspect} #{site_url}"
+          Rails.logger.debug "ERROR: Uri #{_e.inspect} #{site_url}"
         end
       end
     end

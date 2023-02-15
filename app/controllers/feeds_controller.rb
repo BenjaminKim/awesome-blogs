@@ -30,7 +30,7 @@ class FeedsController < ApplicationController
       Parallel.each(feeds, in_threads: 30) do |feed_h|
         begin
           feed_url = feed_h[:feed_url]
-          #puts feed_h
+          Rails.logger.debug("FEED_URL: #{feed_url}")
 
           feed = Rails.cache.fetch(feed_url, expires_in: cache_expiring_time) do
             Rails.logger.debug "cache missed: #{feed_url}"
@@ -44,7 +44,7 @@ class FeedsController < ApplicationController
           next if feed.nil?
 
           feed.entries.each do |entry|
-            #puts "ENTRY: #{entry.inspect}"
+            # Rails.logger.debug "ENTRY: #{entry.inspect}"
             if entry.published < now - recent_days || entry.published.localtime > Time.now
               next
             end
@@ -136,14 +136,14 @@ class FeedsController < ApplicationController
             node[url_param] = uri.to_s
           end
         rescue Addressable::URI::InvalidURIError => _e
-          #Rails.logger.error("ERROR: #{e.inspect}")
+          Rails.logger.error "ERROR: Uri #{_e.inspect} #{site_url}"
         end
       end
     end
 
     doc.to_html
   rescue Exception => e
-    Rails.logger.error("ERROR: #{e.inspect}")
+    Rails.logger.error "ERROR: #{e.inspect} #{site_url}"
   end
 
   def add_footprint(uri)

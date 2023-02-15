@@ -12,8 +12,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@3Y0
     - :author_name: 권정혁
       :feed_url: https://feeds.feedburner.com/xguru?format=xml
-    - :author_name: 권창현
-      :feed_url: https://thoughts.chkwon.net/feed/
     - :author_name: 김도균
       :feed_url: https://www.dokyun.pe.kr/rss
     - :author_name: 김민수
@@ -535,21 +533,21 @@ production: &production
     - :author_name: 이스트소프트
       :feed_url: 'https://blog.est.ai/feed.xml'
 
-development:
-  dev:
-    - :author_name: 김재호
-      :feed_url: https://jeho.page/feed.xml
-    - :author_name: 강대명
-      :feed_url: https://charsyam.wordpress.com/feed/
-  insightful:
-    - :author_name: 김광현
-      :feed_url: https://kwang82.blogspot.com/feeds/posts/default
-    - :author_name: 김국현
-      :feed_url: 'https://goodhyun.wordpress.com/feed/'
-  company:
-    - :author_name: 게임개발포에버
-      :feed_url: https://feeds.feedburner.com/gamedevforever?format=xml
-    - :author_name: 토스
-      :feed_url: https://toss.tech/rss.xml
 #development:
-#  <<: *production
+#  dev:
+#    - :author_name: 김재호
+#      :feed_url: https://jeho.page/feed.xml
+#    - :author_name: 강대명
+#      :feed_url: https://charsyam.wordpress.com/feed/
+#  insightful:
+#    - :author_name: 김광현
+#      :feed_url: https://kwang82.blogspot.com/feeds/posts/default
+#    - :author_name: 김국현
+#      :feed_url: 'https://goodhyun.wordpress.com/feed/'
+#  company:
+#    - :author_name: 게임개발포에버
+#      :feed_url: https://feeds.feedburner.com/gamedevforever?format=xml
+#    - :author_name: 토스
+#      :feed_url: https://toss.tech/rss.xml
+development:
+  <<: *production

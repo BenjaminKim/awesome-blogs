@@ -132,8 +132,6 @@ production: &production
       :feed_url: https://toyfab.tistory.com/rss
     - :author_name: 안재하
       :feed_url: https://programmingsummaries.tistory.com/rss
-    - :author_name: 안정훈
-      :feed_url: https://www.andrewahn.co/feed/
     - :author_name: 안중원
       :feed_url: https://postgame.tistory.com/rss
     - :author_name: 안지성
@@ -408,8 +406,6 @@ production: &production
       :feed_url: 'https://rss.blog.naver.com/lein4d.xml'
     - :author_name: 이바닥늬우스
       :feed_url: 'https://ebadak.news/feed/'
-    - :author_name: andrewahn
-      :feed_url: 'https://www.andrewahn.co/feed/'
     - :author_name: minieetea
       :feed_url: 'https://minieetea.com/feed'
     - :author_name: 정혜윤

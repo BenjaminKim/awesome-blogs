@@ -454,8 +454,6 @@ production: &production
       :feed_url: https://googledevkr.blogspot.in//atom.xml
     - :author_name: 달리웍스
       :feed_url: https://techblog.daliworks.net/feed.xml
-    - :author_name: 후이서울
-      :feed_url: https://engineering.huiseoul.com/feed
     - :author_name: 당근마켓
       :feed_url: https://medium.com/feed/daangn
     - :author_name: 드라마앤컴퍼니

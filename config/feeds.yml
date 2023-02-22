@@ -124,8 +124,6 @@ production: &production
       :feed_url: https://hyeonseok.com/rss/
     - :author_name: 신현식
       :feed_url: https://medium.com/feed/ics-lab
-    - :author_name: 안도형
-      :feed_url: https://rinae.dev/rss.xml
     - :author_name: 안오균
       :feed_url: https://ohgyun.com/rss
     - :author_name: 안윤호
@@ -328,8 +326,6 @@ production: &production
       :feed_url: 'https://1ambda.blog/feed/'
     - :author_name: donghun
       :feed_url: 'https://donghun.dev/feed.xml'
-    - :author_name: hamadevelop
-      :feed_url: 'https://www.hamadevelop.me/rss.xml'
     - :author_name: xiniha
       :feed_url: 'https://v2.velog.io/rss/xiniha'
     - :author_name: hoseung

@@ -2,8 +2,6 @@ production: &production
   dev:
     - :author_name: 강대명
       :feed_url: https://charsyam.wordpress.com/feed/
-    - :author_name: 강성일
-      :feed_url: https://b.luavis.kr/feed.xml
     - :author_name: 강성훈
       :feed_url: https://j.mearie.org/rss
     - :author_name: 강성희
@@ -352,8 +350,6 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/joosing'
     - :author_name: 연로그
       :feed_url: 'https://yeonyeon.tistory.com/rss'
-    - :author_name: Ykss
-      :feed_url: 'https://ykss.netlify.app/rss.xml'
 
   insightful:
     - :author_name: 메르

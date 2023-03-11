@@ -83,10 +83,10 @@ GEM
       sshkit (~> 1.2)
     capistrano-upload-config (0.9.0)
       capistrano (>= 3.0)
-    capistrano3-puma (6.0.0.beta.1)
+    capistrano3-puma (5.2.0)
       capistrano (~> 3.7)
       capistrano-bundler
-      puma (>= 5.1, < 7.0)
+      puma (>= 4.0, < 6.0)
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
@@ -127,7 +127,6 @@ GEM
       mime-types-data (~> 3.2015)
     mime-types-data (3.2023.0218.1)
     mini_mime (1.1.2)
-    mini_portile2 (2.8.1)
     minitest (5.18.0)
     multi_xml (0.6.0)
     net-imap (0.3.4)
@@ -144,12 +143,11 @@ GEM
     net-ssh (7.0.1)
     netrc (0.11.0)
     nio4r (2.5.8)
-    nokogiri (1.14.2)
-      mini_portile2 (~> 2.8.0)
+    nokogiri (1.14.2-x86_64-linux)
       racc (~> 1.4)
     parallel (1.22.1)
     public_suffix (5.0.1)
-    puma (6.1.1)
+    puma (5.6.5)
       nio4r (~> 2.0)
     racc (1.6.2)
     rack (2.2.6.3)
@@ -203,8 +201,7 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
-    sqlite3 (1.6.1)
-      mini_portile2 (~> 2.8.0)
+    sqlite3 (1.6.1-x86_64-linux)
     sshkit (1.21.4)
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
@@ -226,7 +223,7 @@ GEM
     zeitwerk (2.6.7)
 
 PLATFORMS
-  ruby
+  x86_64-linux
 
 DEPENDENCIES
   addressable
@@ -254,4 +251,4 @@ DEPENDENCIES
   web-console (>= 4.1.0)
 
 BUNDLED WITH
-   2.4.7
+   2.4.8

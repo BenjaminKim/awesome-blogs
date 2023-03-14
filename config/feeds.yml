@@ -350,6 +350,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/joosing'
     - :author_name: 연로그
       :feed_url: 'https://yeonyeon.tistory.com/rss'
+    - :author_name: 햄햄
+      :feed_url: 'https://v2.velog.io/rss/hyemin916'
 
   insightful:
     - :author_name: 메르

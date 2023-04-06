@@ -286,8 +286,6 @@ production: &production
       :feed_url: https://pilgwon.github.io/feed.xml
     - :author_name: 커니
       :feed_url: https://www.androidhuman.com/feed.xml
-    - :author_name: Changhui Lee
-      :feed_url: https://xo.dev/rss.xml
     - :author_name: immigration9
       :feed_url: https://immigration9.github.io/feed.xml
     - :author_name: novemberde

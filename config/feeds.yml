@@ -410,6 +410,8 @@ production: &production
       :feed_url: 'https://www.canda.blog/rss/'
     - :author_name: 심혜섭
       :feed_url: 'https://rss.blog.naver.com/wlfvndxnwk.xml'
+    - :author_name: 비즈카페
+      :feed_url: 'https://rss.blog.naver.com/bizucafe.xml?atom=0.3'
 
   company:
     - :author_name: 카카오

@@ -350,7 +350,9 @@ production: &production
       :feed_url: 'https://yeonyeon.tistory.com/rss'
     - :author_name: 햄햄
       :feed_url: 'https://v2.velog.io/rss/hyemin916'
-
+    - :author_name: 강동윤
+      :feed_url: 'https://dev.alliknow.info/index.xml'
+  
   insightful:
     - :author_name: 메르
       :feed_url: 'https://rss.blog.naver.com/ranto28.xml'

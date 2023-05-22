@@ -332,8 +332,6 @@ production: &production
       :feed_url: 'https://imjhk03.github.io/feed.xml'
     - :author_name: typefully
       :feed_url: 'https://typefully.com/dylayed/rss.xml'
-    - :author_name: 송요창
-      :feed_url: 'https://medium.com/feed/@totuworld'
     - :author_name: 최건우
       :feed_url: 'https://medium.com/feed/@choi-geonu'
     - :author_name: eddy_song
@@ -358,12 +356,12 @@ production: &production
   insightful:
     - :author_name: 메르
       :feed_url: 'https://rss.blog.naver.com/ranto28.xml'
-    - :author_name: 김광현
-      :feed_url: https://kwang82.blogspot.com/feeds/posts/default
     - :author_name: 김국현
       :feed_url: 'https://goodhyun.wordpress.com/feed/'
     - :author_name: 김상훈
       :feed_url: https://interpiler.com/feed
+    - :author_name: 김창원
+      :feed_url: 'https://www.changkim.me/category/korean-posts/feed/'
     - :author_name: 김형석
       :feed_url: https://brunch.co.kr/rss/@@KW8
     - :author_name: 노정석

@@ -352,6 +352,8 @@ production: &production
       :feed_url: 'https://dev.alliknow.info/index.xml'
     - :author_name: 박성범
       :feed_url: 'https://parksb.github.io/feed.xml'
+    - :author_name: iOYES
+      :feed_url: 'https://green1229.tistory.com/rss'
 
   insightful:
     - :author_name: 메르

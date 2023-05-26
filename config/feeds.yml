@@ -75,7 +75,7 @@ production: &production
     - :author_name: 박민우
       :feed_url: https://earlybird.kr/feed
     - :author_name: 박상권
-      :feed_url: https://gun0912.tistory.com/rss
+      :feed_url: 'https://medium.com/feed/@gun0912'
     - :author_name: 박상민
       :feed_url: https://sangminpark.wordpress.com/feed/
     - :author_name: 박연오
@@ -96,14 +96,8 @@ production: &production
       :feed_url: https://jybaek.tistory.com/rss
     - :author_name: 변정훈
       :feed_url: https://feeds.feedburner.com/rss_outsider_dev?format=xml
-    - :author_name: 서광열
-      :feed_url: https://gamecodingschool.org/feed/
     - :author_name: 서민구
       :feed_url: https://mkseo.pe.kr/blog/?feed=rss2
-    - :author_name: 서오석
-      :feed_url: https://brunch.co.kr/rss/@@2YE
-    - :author_name: 성동찬
-      :feed_url: https://brunch.co.kr/rss/@@6oa
     - :author_name: 성동찬
       :feed_url: https://gywn.net/feed/
     - :author_name: 손영수
@@ -151,7 +145,7 @@ production: &production
     - :author_name: 이경원
       :feed_url: https://blog.woniper.net/rss
     - :author_name: 이규원
-      :feed_url: https://justhackem.wordpress.com/feed/
+      :feed_url: 'https://gyuwon.github.io/feed'
     - :author_name: 이민호
       :feed_url: https://lumiamitie.github.io/feed.xml
     - :author_name: 이상욱
@@ -184,7 +178,7 @@ production: &production
       :feed_url: https://blog.lastmind.io/feed
     - :author_name: 장용석
       :feed_url: https://devyongsik.tistory.com/rss
-    - :author_name: 창천향로
+    - :author_name: 향로
       :feed_url: https://jojoldu.tistory.com/rss
     - :author_name: 장현정
       :feed_url: https://naleejang.tistory.com/rss

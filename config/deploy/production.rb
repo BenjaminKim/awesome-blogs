@@ -60,6 +60,8 @@ server 'awesome-blogs.petabytes.org', user: 'benjamin', roles: %w{app}
 #     # password: "please use keys"
 #   }
 set :puma_user, fetch(:user)
+set :puma_service_unit_env_file, nil
+set :puma_service_unit_env_vars, []
 set :puma_rackup, -> { File.join(current_path, 'config.ru') }
 set :puma_state, "#{shared_path}/tmp/pids/puma.state"
 set :puma_pid, "#{shared_path}/tmp/pids/puma.pid"
@@ -81,10 +83,5 @@ set :puma_plugins, []  #accept array of plugins
 set :puma_tag, fetch(:application)
 set :puma_restart_command, 'bundle exec puma'
 set :puma_service_unit_name, "puma_#{fetch(:application)}_#{fetch(:stage)}"
-set :puma_systemctl_user, :system # accepts :user
-set :puma_enable_lingering, fetch(:puma_systemctl_user) != :system # https://wiki.archlinux.org/index.php/systemd/User#Automatic_start-up_of_systemd_user_instances
-set :puma_lingering_user, fetch(:user)
-set :puma_service_unit_env_file, nil
-set :puma_service_unit_env_vars, []
 
 set :nginx_use_ssl, true

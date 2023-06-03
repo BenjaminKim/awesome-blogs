@@ -494,8 +494,6 @@ production: &production
       :feed_url: https://medium.com/feed/prnd
     - :author_name: 줌
       :feed_url: 'https://zuminternet.github.io/feed'
-    - :author_name: 페이히어
-      :feed_url: 'https://blog.payhere.in/rss.xml'
     - :author_name: 데브시스터즈
       :feed_url: 'https://tech.devsisters.com/rss.xml'
     - :author_name: 레몬베이스

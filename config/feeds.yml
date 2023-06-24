@@ -38,8 +38,6 @@ production: &production
       :feed_url: https://rss.blog.naver.com/drvoss.xml
     - :author_name: 김우승
       :feed_url: https://kimws.wordpress.com/feed/
-    - :author_name: 김원일
-      :feed_url: https://androidkr.blogspot.com/feeds/posts/default
     - :author_name: 김재호
       :feed_url: https://jeho.page/feed.xml
     - :author_name: 김준형

@@ -392,8 +392,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@330j
     - :author_name: 우디
       :feed_url: https://brunch.co.kr/rss/@@2hV3
-    - :author_name: 쟁고
-      :feed_url: 'https://rss.blog.naver.com/lein4d.xml'
     - :author_name: 이바닥늬우스
       :feed_url: 'https://ebadak.news/feed/'
     - :author_name: minieetea

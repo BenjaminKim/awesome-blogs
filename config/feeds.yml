@@ -466,7 +466,7 @@ production: &production
       :feed_url: https://tech.socarcorp.kr/feed.xml
     - :author_name: 유니크굿컴퍼니
       :feed_url: https://medium.com/feed/uniquegood
-    - :author_name: 사람인HR
+    - :author_name: 사람인
       :feed_url: https://saramin.github.io/feed.xml
     - :author_name: 무신사
       :feed_url: https://medium.com/feed/musinsa-tech/tagged/tech-blog

@@ -400,8 +400,6 @@ production: &production
       :feed_url: 'https://brunch.co.kr/rss/@@79q'
     - :author_name: 김영준
       :feed_url: 'https://brunch.co.kr/rss/@@4rHO'
-    - :author_name: 채수빈
-      :feed_url: 'https://www.canda.blog/rss/'
     - :author_name: 심혜섭
       :feed_url: 'https://rss.blog.naver.com/wlfvndxnwk.xml'
     - :author_name: 비즈카페

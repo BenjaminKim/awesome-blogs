@@ -346,6 +346,8 @@ production: &production
       :feed_url: 'https://parksb.github.io/feed.xml'
     - :author_name: iOYES
       :feed_url: 'https://green1229.tistory.com/rss'
+    - :author_name: 권태관
+      :feed_url: 'https://taetaetae.github.io/index.xml'
 
   insightful:
     - :author_name: 메르

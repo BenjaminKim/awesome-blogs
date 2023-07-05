@@ -514,6 +514,8 @@ production: &production
       :feed_url: 'https://techblog.yogiyo.co.kr/feed'
     - :author_name: 이스트소프트
       :feed_url: 'https://blog.est.ai/feed.xml'
+    - :author_name: 인프랩
+      :feed_url: 'https://tech.inflab.com/rss.xml'
 
 #development:
 #  dev:

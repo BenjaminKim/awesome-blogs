@@ -348,6 +348,8 @@ production: &production
       :feed_url: 'https://green1229.tistory.com/rss'
     - :author_name: 권태관
       :feed_url: 'https://taetaetae.github.io/index.xml'
+    - :author_name: 송동훈
+      :feed_url: 'https://donghoon-song.github.io/rss.xml'
 
   insightful:
     - :author_name: 메르
@@ -417,7 +419,7 @@ production: &production
     - :author_name: 카카오엔터테인먼트
       :feed_url: https://fe-developers.kakaoent.com/rss.xml
     - :author_name: 네이버
-#      :feed_url: https://d2.naver.com/d2.atom
+      :feed_url: 'https://d2.naver.com/d2.atom'
     - :author_name: 네이버 플레이스
       :feed_url: https://medium.com/feed/naver-place-dev
     - :author_name: 라인

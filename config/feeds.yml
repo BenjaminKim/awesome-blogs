@@ -350,6 +350,8 @@ production: &production
       :feed_url: 'https://taetaetae.github.io/index.xml'
     - :author_name: 송동훈
       :feed_url: 'https://donghoon-song.github.io/rss.xml'
+    - :author_name: 미량
+      :feed_url: 'https://miryang.dev/feed.xml'
 
   insightful:
     - :author_name: 메르

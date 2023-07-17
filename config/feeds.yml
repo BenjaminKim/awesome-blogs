@@ -352,6 +352,9 @@ production: &production
       :feed_url: 'https://donghoon-song.github.io/rss.xml'
     - :author_name: 미량
       :feed_url: 'https://miryang.dev/feed.xml'
+    - :author_name: HAENU
+      :feed_url: 'https://dokdo2013.tistory.com/rss'
+
 
   insightful:
     - :author_name: 메르

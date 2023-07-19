@@ -354,7 +354,8 @@ production: &production
       :feed_url: 'https://miryang.dev/feed.xml'
     - :author_name: HAENU
       :feed_url: 'https://dokdo2013.tistory.com/rss'
-
+    - :author_name: 다보
+      :feed_url: 'https://v2.velog.io/rss/adbr'
 
   insightful:
     - :author_name: 메르

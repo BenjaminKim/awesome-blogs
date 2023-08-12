@@ -11,6 +11,9 @@
 ### 아이폰 전용앱 다운로드
 <a href="https://apps.apple.com/kr/app/%EC%96%B4%EC%8D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%89%B4%EC%8A%A4/id1557176134"><img src="https://github.com/tilltue/awesome-blogs-ios/raw/master/badge-download-on-the-app-store.png" style="max-width:100%;"></a>
 
+### 윈도우 스토어 앱
+https://apps.microsoft.com/store/detail/%EC%96%B4%EC%8D%B8%EB%B8%94%EB%A1%9C%EA%B7%B8/9NSRPVLL4CG9?hl=ko-kr&gl=kr
+
 ## 피드리더기(Feedly 같은)를 통한 구독도 가능합니다
 ### 개발자 블로그 피드 모음 주소
 https://awesome-blogs.petabytes.org/feeds?group=dev

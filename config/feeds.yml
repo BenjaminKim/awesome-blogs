@@ -88,8 +88,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/github/bangjunyoung
     - :author_name: 배성혁
       :feed_url: https://debop.tumblr.com/rss
-    - :author_name: 백명석
-      :feed_url: https://brunch.co.kr/rss/@@2xm
     - :author_name: 백재연
       :feed_url: https://jybaek.tistory.com/rss
     - :author_name: 변정훈
@@ -98,8 +96,6 @@ production: &production
       :feed_url: https://mkseo.pe.kr/blog/?feed=rss2
     - :author_name: 성동찬
       :feed_url: https://gywn.net/feed/
-    - :author_name: 손영수
-      :feed_url: https://arload.wordpress.com/feed/
     - :author_name: 송영길
       :feed_url: https://youngsong.com/feed/
     - :author_name: 송영환

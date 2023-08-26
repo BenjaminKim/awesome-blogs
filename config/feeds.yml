@@ -248,8 +248,6 @@ production: &production
       :feed_url: https://sdusb.blogspot.com/feeds/posts/default
     - :author_name: Leopold
       :feed_url: https://medium.com/feed/@joongwon
-    - :author_name: Zelon
-      :feed_url: https://blog.wimy.com/rss/
     - :author_name: tech.ssut
       :feed_url: https://tech.ssut.me/rss/
     - :author_name: totuworld

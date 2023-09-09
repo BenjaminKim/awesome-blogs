@@ -350,6 +350,8 @@ production: &production
       :feed_url: 'https://dokdo2013.tistory.com/rss'
     - :author_name: 다보
       :feed_url: 'https://v2.velog.io/rss/adbr'
+    - :author_name: 박해선
+      :feed_url: 'https://tensorflow.blog/feed/'
 
   insightful:
     - :author_name: 메르
@@ -410,8 +412,8 @@ production: &production
       :feed_url: 'https://rss.blog.naver.com/bizucafe.xml?atom=0.3'
     - :author_name: 김은주
       :feed_url: 'https://rss.blog.naver.com/junedec369.xml'
-    - :author_name: 박해선
-      :feed_url: 'https://tensorflow.blog/feed/'
+    - :author_name: 둥글산돌
+      :feed_url: 'https://rss.blog.naver.com/roundpebble.xml?atom=0.3'
 
   company:
     - :author_name: 카카오

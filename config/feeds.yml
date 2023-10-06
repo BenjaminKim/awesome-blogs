@@ -110,8 +110,6 @@ production: &production
       :feed_url: https://hyeonseok.com/rss/
     - :author_name: 신현식
       :feed_url: https://medium.com/feed/ics-lab
-    - :author_name: 안오균
-      :feed_url: https://ohgyun.com/rss
     - :author_name: 안윤호
       :feed_url: https://toyfab.tistory.com/rss
     - :author_name: 안재하
@@ -148,8 +146,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/surpreem
     - :author_name: 이상현
       :feed_url: https://iamsang.com/index.xml
-    - :author_name: 이세우
-      :feed_url: https://blog.xcoda.net/rss
     - :author_name: 이소은
       :feed_url: https://medium.com/feed/@soeunlee
     - :author_name: 이수진
@@ -294,8 +290,6 @@ production: &production
       :feed_url: https://feeds.feedburner.com/mytory_tc
     - :author_name: 감자도스
       :feed_url: https://blog.potados.com/feed.xml
-    - :author_name: 썰렁한 엔지니어
-      :feed_url: https://coolengineer.com/rss
     - :author_name: plan9
       :feed_url: https://plan9.kr/feed.xml
     - :author_name: curogom
@@ -372,8 +366,6 @@ production: &production
       :feed_url: https://medium.com/feed/@TaerimPark_CEO
     - :author_name: 배기홍
       :feed_url: https://feeds.feedburner.com/baenefit/slXh
-    - :author_name: 윤필구
-      :feed_url: https://liveandventure.com/feed
     - :author_name: 이민석
       :feed_url: https://hl1itj.tistory.com/rss
     - :author_name: 임정욱

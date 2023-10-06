@@ -70,7 +70,7 @@ class FeedsController < ApplicationController
 
               item.title = entry.title || '제목 없음'
               item.updated = entry.published.localtime
-              item.summary = entry.content || entry.summary
+              item.summary = Nokogiri::HTML(entry.content).text
               item.summary = replace_relative_image_url(item.summary, item.link)
               item.author = entry.author || feed_h[:author_name] || feed.title
             end

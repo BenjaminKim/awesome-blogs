@@ -7,5 +7,5 @@ json.entries @rss.entries.sort_by {|x| -x.dc_date.to_i} do |entry|
   json.title entry.title.content
   json.link entry.link.href
   json.updated_at entry.dc_date
-  json.summary entry.summary.content
+  json.summary entry.content.content
 end

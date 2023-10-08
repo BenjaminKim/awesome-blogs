@@ -515,21 +515,21 @@ production: &production
     - :author_name: 인프랩
       :feed_url: 'https://tech.inflab.com/rss.xml'
 
-#development:
-#  dev:
-#    - :author_name: 김재호
-#      :feed_url: https://jeho.page/feed.xml
+development:
+  dev:
+    - :author_name: 김재호
+      :feed_url: https://jeho.page/feed.xml
 #    - :author_name: 강대명
 #      :feed_url: https://charsyam.wordpress.com/feed/
-#  insightful:
-#    - :author_name: 김광현
-#      :feed_url: https://kwang82.blogspot.com/feeds/posts/default
-#    - :author_name: 김국현
-#      :feed_url: 'https://goodhyun.wordpress.com/feed/'
-#  company:
-#    - :author_name: 게임개발포에버
-#      :feed_url: https://feeds.feedburner.com/gamedevforever?format=xml
-#    - :author_name: 토스
-#      :feed_url: https://toss.tech/rss.xml
-development:
-  <<: *production
+  insightful:
+    - :author_name: 김광현
+      :feed_url: https://kwang82.blogspot.com/feeds/posts/default
+    - :author_name: 김국현
+      :feed_url: 'https://goodhyun.wordpress.com/feed/'
+  company:
+    - :author_name: 게임개발포에버
+      :feed_url: https://feeds.feedburner.com/gamedevforever?format=xml
+    - :author_name: 토스
+      :feed_url: https://toss.tech/rss.xml
+#development:
+#  <<: *production

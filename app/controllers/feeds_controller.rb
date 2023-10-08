@@ -37,7 +37,7 @@ class FeedsController < ApplicationController
             Timeout::timeout(3) {
               xml = HTTParty.get(feed_url).body
               Feedjira.parse(xml)
-              #Feedjira::Feed.fetch_and_parse(feed_url)
+              # Feedjira::Feed.fetch_and_parse(feed_url)
             }
           end
 
@@ -70,8 +70,8 @@ class FeedsController < ApplicationController
 
               item.title = entry.title || '제목 없음'
               item.updated = entry.published.localtime
-              item.summary = Nokogiri::HTML(entry.content).text
-              item.summary = replace_relative_image_url(item.summary, item.link)
+              item.content.type = 'html'
+              item.content.content = replace_relative_image_url(entry.content, item.link)
               item.author = entry.author || feed_h[:author_name] || feed.title
             end
           end

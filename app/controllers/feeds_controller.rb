@@ -70,7 +70,8 @@ class FeedsController < ApplicationController
 
               item.title = entry.title || '제목 없음'
               item.updated = entry.published.localtime
-              item.description = Nokogiri::HTML(entry.content).text
+              item.summary = Nokogiri::HTML(entry.content).text
+              item.summary = replace_relative_image_url(item.summary, item.link)
               item.author = entry.author || feed_h[:author_name] || feed.title
             end
           end
@@ -111,6 +112,38 @@ class FeedsController < ApplicationController
     else
       2.minutes
     end
+  end
+
+  def replace_relative_image_url(html_string, site_url)
+    doc = Nokogiri::HTML(html_string)
+    tags = {
+      'img' => 'src',
+      'script' => 'src',
+      'a' => 'href'
+    }
+
+    base_uri = Addressable::URI.parse(site_url)
+    doc.search(tags.keys.join(',')).each do |node|
+      url_param = tags[node.name]
+
+      src = node[url_param]
+      unless src.blank?
+        begin
+          uri = Addressable::URI.parse(src)
+          if uri.host.blank? || uri.scheme.blank?
+            uri.scheme = base_uri.scheme
+            uri.host = base_uri.host
+            node[url_param] = uri.to_s
+          end
+        rescue Addressable::URI::InvalidURIError => _e
+          Rails.logger.debug "ERROR: Uri #{_e.inspect} #{site_url}"
+        end
+      end
+    end
+
+    doc.to_html
+  rescue Exception => e
+    Rails.logger.error "ERROR: #{e.inspect} #{site_url}"
   end
 
   def add_footprint(uri)

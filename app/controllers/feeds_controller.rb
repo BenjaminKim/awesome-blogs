@@ -72,6 +72,7 @@ class FeedsController < ApplicationController
               item.updated = entry.published.localtime
               item.content.type = 'html'
               item.content.content = replace_relative_image_url(entry.content, item.link)
+              item.summary = entry.summary
               item.author = entry.author || feed_h[:author_name] || feed.title
             end
           end

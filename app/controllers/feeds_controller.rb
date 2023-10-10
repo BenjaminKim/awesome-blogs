@@ -85,7 +85,15 @@ class FeedsController < ApplicationController
     end
 
     respond_to do |format|
-      format.xml { render xml: @rss.to_xml }
+      format.xml {
+        doc = Nokogiri::XML(@rss.to_xml)
+
+        doc.xpath('//xmlns:summary').each do |summary|
+          summary.set_attribute('type', 'html')
+        end
+
+        render xml: doc.to_xml
+      }
       format.json
     end
   end

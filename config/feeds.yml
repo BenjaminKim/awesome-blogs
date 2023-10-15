@@ -346,6 +346,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/adbr'
     - :author_name: 박해선
       :feed_url: 'https://tensorflow.blog/feed/'
+    - :author_name: teo.yu
+      :feed_url: 'https://v2.velog.io/rss/teo'
 
   insightful:
     - :author_name: 메르

@@ -211,7 +211,7 @@ production: &production
     - :author_name: 한정일
       :feed_url: https://medium.com/feed/@jungil.han
     - :author_name: 한정수
-      :feed_url: 'https://www.jobless.blog/rss/'
+      :feed_url: 'https://www.integer.blog/rss/'
     - :author_name: 한주영
       :feed_url: https://medium.com/feed/@jooyunghan
     - :author_name: 한태웅

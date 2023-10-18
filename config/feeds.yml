@@ -132,22 +132,14 @@ production: &production
       :feed_url: https://feeds.feedburner.com/channy
     - :author_name: 윤영식
       :feed_url: https://mobicon.tistory.com/rss
-    - :author_name: 윤청하
-      :feed_url: https://brunch.co.kr/rss/@@zav
-    - :author_name: 이경원
-      :feed_url: https://blog.woniper.net/rss
     - :author_name: 이규원
       :feed_url: 'https://gyuwon.github.io/feed'
-    - :author_name: 이민호
-      :feed_url: https://lumiamitie.github.io/feed.xml
     - :author_name: 이상욱
       :feed_url: https://feeds.feedburner.com/sangwook?format=xml
     - :author_name: 이상주
       :feed_url: https://feeds.feedburner.com/surpreem
     - :author_name: 이상현
       :feed_url: https://iamsang.com/index.xml
-    - :author_name: 이소은
-      :feed_url: https://medium.com/feed/@soeunlee
     - :author_name: 이수진
       :feed_url: https://lamanus.kr/feed
     - :author_name: 이수홍

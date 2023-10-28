@@ -340,6 +340,8 @@ production: &production
       :feed_url: 'https://tensorflow.blog/feed/'
     - :author_name: teo.yu
       :feed_url: 'https://v2.velog.io/rss/teo'
+    - :author_name: 이현호
+      :feed_url: 'https://v2.velog.io/rss/leehyunho2001'
 
   insightful:
     - :author_name: 메르

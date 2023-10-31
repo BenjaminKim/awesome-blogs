@@ -512,6 +512,8 @@ production: &production
       :feed_url: 'https://blog.est.ai/feed.xml'
     - :author_name: 인프랩
       :feed_url: 'https://tech.inflab.com/rss.xml'
+    - :author_name: 인포그랩
+      :feed_url: 'https://insight.infograb.net/blog/rss.xml'
 
 development:
   dev:

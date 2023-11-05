@@ -216,8 +216,6 @@ production: &production
       :feed_url: https://iam-hs.com/rss
     - :author_name: Harfang
       :feed_url: https://harfangk.github.io/feed_ko.xml
-    - :author_name: Haze Lee
-      :feed_url: https://realignist.me/feed
     - :author_name: Renn Seo
       :feed_url: https://seorenn.blogspot.com/feeds/posts/default
     - :author_name: tiii
@@ -342,6 +340,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/teo'
     - :author_name: 이현호
       :feed_url: 'https://v2.velog.io/rss/leehyunho2001'
+    - :author_name: 서지연
+      :feed_url: 'https://jiyeonseo.github.io/rss.xml'
 
   insightful:
     - :author_name: 메르

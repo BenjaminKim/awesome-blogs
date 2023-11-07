@@ -342,6 +342,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/leehyunho2001'
     - :author_name: 서지연
       :feed_url: 'https://jiyeonseo.github.io/rss.xml'
+    - :author_name: 이재용
+      :feed_url: 'https://jaeyo.github.io/index.xml'
 
   insightful:
     - :author_name: 메르

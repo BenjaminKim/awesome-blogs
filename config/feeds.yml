@@ -92,8 +92,6 @@ production: &production
       :feed_url: https://jybaek.tistory.com/rss
     - :author_name: 변정훈
       :feed_url: https://feeds.feedburner.com/rss_outsider_dev?format=xml
-    - :author_name: 서민구
-      :feed_url: https://mkseo.pe.kr/blog/?feed=rss2
     - :author_name: 성동찬
       :feed_url: https://gywn.net/feed/
     - :author_name: 송영길

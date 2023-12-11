@@ -404,6 +404,8 @@ production: &production
       :feed_url: 'https://rss.blog.naver.com/roundpebble.xml?atom=0.3'
     - :author_name: 김단테
       :feed_url: 'https://rss.blog.naver.com/mynameisdj.xml?atom=0.3'
+    - :author_name: 김동호
+      :feed_url: 'https://kelvinkim.net/feed/'
 
   company:
     - :author_name: 카카오

@@ -342,6 +342,8 @@ production: &production
       :feed_url: 'https://jaeyo.github.io/index.xml'
     - :author_name: 박진호
       :feed_url: 'https://v2.velog.io/rss/easylogic'
+    - :author_name: 김맥스
+      :feed_url: 'https://maxkim-j.github.io/rss.xml'
 
   insightful:
     - :author_name: 메르

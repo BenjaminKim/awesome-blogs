@@ -344,6 +344,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/easylogic'
     - :author_name: 김맥스
       :feed_url: 'https://maxkim-j.github.io/rss.xml'
+    - :author_name: 이제현
+      :feed_url: 'https://jehyunlee.github.io/rss2.xml'
 
   insightful:
     - :author_name: 메르

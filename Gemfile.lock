@@ -167,7 +167,15 @@ GEM
     net-ssh (7.2.1)
     netrc (0.11.0)
     nio4r (2.7.0)
+    nokogiri (1.16.0-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-arm-linux)
+      racc (~> 1.4)
     nokogiri (1.16.0-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.0-x86_64-darwin)
       racc (~> 1.4)
     nokogiri (1.16.0-x86_64-linux)
       racc (~> 1.4)
@@ -175,7 +183,7 @@ GEM
     psych (5.1.2)
       stringio
     public_suffix (5.0.4)
-    puma (6.4.0)
+    puma (6.4.1)
       nio4r (~> 2.0)
     racc (1.7.3)
     rack (3.0.8)
@@ -231,7 +239,11 @@ GEM
     ruby2_keywords (0.0.5)
     sax-machine (1.3.2)
     sd_notify (0.1.1)
+    sqlite3 (1.7.0-aarch64-linux)
+    sqlite3 (1.7.0-arm-linux)
     sqlite3 (1.7.0-arm64-darwin)
+    sqlite3 (1.7.0-x86-linux)
+    sqlite3 (1.7.0-x86_64-darwin)
     sqlite3 (1.7.0-x86_64-linux)
     sshkit (1.21.7)
       mutex_m
@@ -254,7 +266,11 @@ GEM
     zeitwerk (2.6.12)
 
 PLATFORMS
-  arm64-darwin-22
+  aarch64-linux
+  arm-linux
+  arm64-darwin
+  x86-linux
+  x86_64-darwin
   x86_64-linux
 
 DEPENDENCIES
@@ -265,7 +281,7 @@ DEPENDENCIES
   capistrano-rails
   capistrano-rvm
   capistrano-upload-config
-  capistrano3-puma
+  capistrano3-puma (~> 6.0.0.beta.1)
   debug
   feedjira
   httparty
@@ -282,4 +298,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.4.14
+   2.5.3

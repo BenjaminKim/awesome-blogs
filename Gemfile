@@ -30,7 +30,7 @@ group :development do
   gem 'web-console'
 
   gem 'capistrano-rails'
-  gem 'capistrano3-puma'
+  gem 'capistrano3-puma', '~> 6.0.0.beta.1'
   gem 'capistrano-bundler'
   gem 'capistrano-rvm'
   gem 'capistrano-upload-config'

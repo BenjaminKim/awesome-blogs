@@ -410,6 +410,8 @@ production: &production
       :feed_url: 'https://rss.blog.naver.com/mynameisdj.xml?atom=0.3'
     - :author_name: 김동호
       :feed_url: 'https://kelvinkim.net/feed/'
+    - :author_name: 박재욱
+      :feed_url: 'https://vcnc.tistory.com/rss'
 
   company:
     - :author_name: 카카오

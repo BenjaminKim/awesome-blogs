@@ -7,12 +7,14 @@ class FeedsController < ApplicationController
 
     recent_days = 10.days
 
+    feeds = Rails.application.config_for(:feeds)
+
     if group == 'all'
-      feeds = Rails.configuration.feeds.inject([]) do |array, e|
+      feeds = feeds.inject([]) do |array, e|
         array + e.second
       end
     else
-      feeds = Rails.configuration.feeds[group]
+      feeds = feeds[group]
 
       if group == 'dev'
         recent_days = 7.days

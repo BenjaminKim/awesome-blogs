@@ -41,6 +41,6 @@ module AwesomeBlogs
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = true
 
-    config.feeds = config_for(:feeds)
+
   end
 end

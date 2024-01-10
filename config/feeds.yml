@@ -522,6 +522,10 @@ production: &production
       :feed_url: 'https://tech.inflab.com/rss.xml'
     - :author_name: 인포그랩
       :feed_url: 'https://insight.infograb.net/blog/rss.xml'
+    - :author_name: GS리테일
+      :feed_url: 'https://gsretail.tistory.com/rss'
+    - :author_name: 토스페이먼츠
+      :feed_url: 'https://v2.velog.io/rss/tosspayments'
 
 development:
   dev:

@@ -22,8 +22,6 @@ production: &production
       :feed_url: https://medium.com/feed/@beejei
     - :author_name: 김병환
       :feed_url: https://kimbyeonghwan.tumblr.com/rss
-    - :author_name: 김석준
-      :feed_url: https://seokjun.kim/rss
     - :author_name: 김선영
       :feed_url: https://sunyzero.tistory.com/rss
     - :author_name: 김성호
@@ -216,16 +214,12 @@ production: &production
       :feed_url: https://harfangk.github.io/feed_ko.xml
     - :author_name: Renn Seo
       :feed_url: https://seorenn.blogspot.com/feeds/posts/default
-    - :author_name: tiii
-      :feed_url: https://tiii.tistory.com/rss
-    - :author_name: canapio 
+    - :author_name: canapio
       :feed_url: https://canapio.tistory.com/rss
     - :author_name: Pluu
       :feed_url: https://pluu.github.io/feed.xml
     - :author_name: asbubam
       :feed_url: https://blog.2dal.com/feed
-    - :author_name: Lava
-      :feed_url: https://astrod.github.io/rss.xml
     - :author_name: Joshua
       :feed_url: https://joshua1988.github.io/atom.xml
     - :author_name: USB

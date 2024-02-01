@@ -418,6 +418,8 @@ production: &production
   company:
     - :author_name: 카카오
       :feed_url: https://tech.kakao.com/feed/
+    - :author_name: 카카오뱅크
+      :feed_url: 'https://tech.kakaobank.com/categories/%EA%B8%B0%EC%88%A0-%EC%9D%B4%EC%95%BC%EA%B8%B0/index.xml'
     - :author_name: 카카오엔터프라이즈
       :feed_url: 'https://tech.kakaoenterprise.com/rss'
     - :author_name: 카카오페이

@@ -30,12 +30,6 @@ production: &production
       :feed_url: https://elky84.github.io/feed.xml
     - :author_name: 김슬기
       :feed_url: https://blog.seulgi.kim/feeds/posts/default
-    - :author_name: 김영재
-      :feed_url: https://youngjaekim.wordpress.com/feed/
-    - :author_name: 김용현
-      :feed_url: https://rss.blog.naver.com/drvoss.xml
-    - :author_name: 김우승
-      :feed_url: https://kimws.wordpress.com/feed/
     - :author_name: 김재호
       :feed_url: https://jeho.page/feed.xml
     - :author_name: 김준형
@@ -52,14 +46,10 @@ production: &production
       :feed_url: https://beyondj2ee.wordpress.com/feed/
     - :author_name: 김훈민
       :feed_url: https://huns.me/feed
-    - :author_name: 김형철
-      :feed_url: https://brunch.co.kr/rss/@@OS0
     - :author_name: 도경태
       :feed_url: https://medium.com/feed/@keendev
     - :author_name: 류광
       :feed_url: https://feeds.feedburner.com/occamsrazr/blog
-    - :author_name: 류종택
-      :feed_url: https://ryulib.tistory.com/rss
     - :author_name: 마경욱
       :feed_url: https://brunch.co.kr/rss/@@JJj
     - :author_name: 모상우

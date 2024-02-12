@@ -74,8 +74,6 @@ production: &production
       :feed_url: https://lqez.github.io/blog/feeds/all.atom.xml
     - :author_name: 방준영
       :feed_url: https://feeds.feedburner.com/github/bangjunyoung
-    - :author_name: 배성혁
-      :feed_url: https://debop.tumblr.com/rss
     - :author_name: 백재연
       :feed_url: https://jybaek.tistory.com/rss
     - :author_name: 변정훈
@@ -84,22 +82,14 @@ production: &production
       :feed_url: https://gywn.net/feed/
     - :author_name: 송영길
       :feed_url: https://youngsong.com/feed/
-    - :author_name: 송영환
-      :feed_url: https://purluno.wordpress.com/feed/
     - :author_name: 송효진
       :feed_url: https://lovetoken.github.io/feed.xml
     - :author_name: 시나브로
       :feed_url: https://brunch.co.kr/rss/@@Zvf
-    - :author_name: 신용윤
-      :feed_url: https://uni2u.tistory.com/rss
     - :author_name: 신현석
       :feed_url: https://hyeonseok.com/rss/
-    - :author_name: 신현식
-      :feed_url: https://medium.com/feed/ics-lab
     - :author_name: 안윤호
       :feed_url: https://toyfab.tistory.com/rss
-    - :author_name: 안재하
-      :feed_url: https://programmingsummaries.tistory.com/rss
     - :author_name: 안중원
       :feed_url: https://postgame.tistory.com/rss
     - :author_name: 안지성
@@ -134,8 +124,6 @@ production: &production
       :feed_url: https://daddycat.blogspot.com/feeds/posts/default
     - :author_name: 이준영
       :feed_url: https://brunch.co.kr/rss/@@QFh
-    - :author_name: 이현섭
-      :feed_url: https://hyunseob.github.io/atom.xml
     - :author_name: 이현주
       :feed_url: https://wayhome25.github.io/atom.xml
     - :author_name: 장기효
@@ -198,8 +186,6 @@ production: &production
       :feed_url: https://blog.hongminhee.org/feed.xml
     - :author_name: 홍성철
       :feed_url: https://feeds.feedburner.com/fupfin/blog
-    - :author_name: 현승
-      :feed_url: https://iam-hs.com/rss
     - :author_name: Harfang
       :feed_url: https://harfangk.github.io/feed_ko.xml
     - :author_name: Renn Seo

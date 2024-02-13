@@ -39,14 +39,18 @@ class FeedsController < ApplicationController
             Timeout::timeout(3) {
               xml = HTTParty.get(feed_url).body
               Feedjira.parse(xml)
-              # Feedjira::Feed.fetch_and_parse(feed_url)
             }
           end
 
           next if feed.nil?
 
+          if Rails.env.development?
+            if feed.entries.sort_by(&:published).last.published < 5.years.ago
+              puts "5년이 지난 피드를 출력합니다. #{feed.title} #{feed_url}"
+            end
+          end
+
           feed.entries.each do |entry|
-            # Rails.logger.debug "ENTRY: #{entry.inspect}"
             if entry.published < now - recent_days || entry.published.localtime > Time.now
               next
             end

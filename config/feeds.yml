@@ -272,6 +272,8 @@ production: &production
       :feed_url: 'https://jehyunlee.github.io/rss2.xml'
     - :author_name: Helia
       :feed_url: 'https://helia-17.tistory.com/rss'
+    - :author_name: black7375
+      :feed_url: 'https://black7375.tistory.com/rss'
 
   insightful:
     - :author_name: 메르

@@ -274,6 +274,8 @@ production: &production
       :feed_url: 'https://helia-17.tistory.com/rss'
     - :author_name: black7375
       :feed_url: 'https://black7375.tistory.com/rss'
+    - :author_name: 김혜성
+      :feed_url: 'https://blog.cometkim.kr/rss.xml'
 
   insightful:
     - :author_name: 메르

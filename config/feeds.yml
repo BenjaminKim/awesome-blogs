@@ -394,8 +394,6 @@ production: &production
       :feed_url: https://snack.planetarium.dev/kor/index.xml
     - :author_name: 마켓컬리
       :feed_url: https://helloworld.kurly.com/feed.xml
-    - :author_name: 어반베이스
-      :feed_url: https://tech.urbanbase.com/feed.xml
     - :author_name: NHN Toast
       :feed_url: https://ui.toast.com/rss.xml
     - :author_name: NHN Cloud
@@ -458,6 +456,8 @@ production: &production
       :feed_url: 'https://gsretail.tistory.com/rss'
     - :author_name: 토스페이먼츠
       :feed_url: 'https://v2.velog.io/rss/tosspayments'
+    - :author_name: 포트원
+      :feed_url: 'https://developers.portone.io/blog/rss.xml'
 
 #development:
 #  dev:

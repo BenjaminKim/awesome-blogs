@@ -278,6 +278,8 @@ production: &production
       :feed_url: 'https://blog.cometkim.kr/rss.xml'
     - :author_name: starrybleu
       :feed_url: 'https://medium.com/feed/@starrybleu'
+    - :author_name: 숑숑
+      :feed_url: 'https://v2.velog.io/rss/wisepine'
 
   insightful:
     - :author_name: 메르

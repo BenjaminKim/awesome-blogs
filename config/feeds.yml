@@ -346,6 +346,8 @@ production: &production
       :feed_url: 'https://kelvinkim.net/feed/'
     - :author_name: 박재욱
       :feed_url: 'https://vcnc.tistory.com/rss'
+    - :author_name: 서자영
+      :feed_url: 'https://jayoung.blog/rss/'
 
   company:
     - :author_name: 카카오

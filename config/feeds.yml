@@ -464,6 +464,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/tosspayments'
     - :author_name: 포트원
       :feed_url: 'https://developers.portone.io/blog/rss.xml'
+    - :author_name: 콴다
+      :feed_url: 'https://blog.mathpresso.com/feed'
 
 #development:
 #  dev:

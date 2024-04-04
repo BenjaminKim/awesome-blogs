@@ -280,6 +280,8 @@ production: &production
       :feed_url: 'https://medium.com/feed/@starrybleu'
     - :author_name: 숑숑
       :feed_url: 'https://v2.velog.io/rss/wisepine'
+    - :author_name: 나정휘
+      :feed_url: 'https://justicehui.github.io/rss/'
 
   insightful:
     - :author_name: 메르

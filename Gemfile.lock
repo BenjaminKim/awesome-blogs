@@ -109,7 +109,7 @@ GEM
     connection_pool (2.4.1)
     crass (1.0.6)
     date (3.3.4)
-    debug (1.9.1)
+    debug (1.9.2)
       irb (~> 1.10)
       reline (>= 0.3.8)
     domain_name (0.6.20240107)
@@ -163,9 +163,9 @@ GEM
       net-ssh (>= 2.6.5, < 8.0.0)
     net-sftp (4.0.0)
       net-ssh (>= 5.0.0, < 8.0.0)
-    net-smtp (0.4.0.1)
+    net-smtp (0.5.0)
       net-protocol
-    net-ssh (7.2.1)
+    net-ssh (7.2.3)
     netrc (0.11.0)
     nio4r (2.7.1)
     nokogiri (1.16.3-aarch64-linux)
@@ -183,7 +183,7 @@ GEM
     parallel (1.24.0)
     psych (5.1.2)
       stringio
-    public_suffix (5.0.4)
+    public_suffix (5.0.5)
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.7.3)
@@ -224,7 +224,7 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
-    rake (13.1.0)
+    rake (13.2.0)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
     reline (0.5.0)
@@ -245,7 +245,8 @@ GEM
     sqlite3 (1.7.3-x86-linux)
     sqlite3 (1.7.3-x86_64-darwin)
     sqlite3 (1.7.3-x86_64-linux)
-    sshkit (1.22.0)
+    sshkit (1.22.1)
+      base64
       mutex_m
       net-scp (>= 1.1.2)
       net-sftp (>= 2.1.2)
@@ -299,4 +300,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.5
+   2.5.7

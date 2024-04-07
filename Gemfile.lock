@@ -224,7 +224,7 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
-    rake (13.2.0)
+    rake (13.2.1)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
     reline (0.5.0)
@@ -300,4 +300,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.7
+   2.5.3

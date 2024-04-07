@@ -62,8 +62,6 @@ production: &production
       :feed_url: https://www.univdev.page/feed.xml
     - :author_name: 박현우
       :feed_url: https://lqez.github.io/blog/feeds/all.atom.xml
-    - :author_name: 방준영
-      :feed_url: https://feeds.feedburner.com/github/bangjunyoung
     - :author_name: 백재연
       :feed_url: https://jybaek.tistory.com/rss
     - :author_name: 변정훈
@@ -282,6 +280,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/wisepine'
     - :author_name: 나정휘
       :feed_url: 'https://justicehui.github.io/rss/'
+    - :author_name: 황성현
+      :feed_url: 'https://hwang.sh/rss.xml'
 
   insightful:
     - :author_name: 메르
@@ -382,8 +382,6 @@ production: &production
       :feed_url: https://rss.blog.naver.com/tmondev.xml
     - :author_name: 엠비안
       :feed_url: https://blog.embian.com/rss
-    - :author_name: 데일리호텔
-      :feed_url: https://dailyhotel.io/feed
     - :author_name: Google Developers Korea 블로그
       :feed_url: https://googledevkr.blogspot.in//atom.xml
     - :author_name: 달리웍스

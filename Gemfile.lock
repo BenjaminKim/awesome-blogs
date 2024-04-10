@@ -227,7 +227,7 @@ GEM
     rake (13.2.1)
     rdoc (6.6.3.1)
       psych (>= 4.0.0)
-    reline (0.5.0)
+    reline (0.5.1)
       io-console (~> 0.5)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
@@ -300,4 +300,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.3
+   2.5.7

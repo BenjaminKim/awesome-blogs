@@ -45,8 +45,8 @@ class FeedsController < ApplicationController
           next if feed.nil?
 
           if Rails.env.development?
-            if feed.entries.sort_by(&:published).last.published < 5.years.ago
-              puts "5년이 지난 피드를 출력합니다. #{feed.title} #{feed_url}"
+            if feed.entries.sort_by(&:published).last.published < 3.years.ago
+              Rails.logger.info "3년이 지난 피드: #{feed.title} #{feed_url}"
             end
           end
 
@@ -67,8 +67,6 @@ class FeedsController < ApplicationController
                 uri.scheme ||= Addressable::URI.parse(feed_url).scheme
 
                 item.link = add_footprint(uri).to_s
-
-                Rails.logger.debug item.link
               rescue Exception => e
                 Rails.logger.error("ERROR!: #{item.link} #{e}")
                 item.link = link_uri

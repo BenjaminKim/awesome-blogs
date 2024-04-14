@@ -10,20 +10,14 @@ production: &production
       :feed_url: https://feeds.feedburner.com/xguru?format=xml
     - :author_name: 김도균
       :feed_url: https://www.dokyun.pe.kr/rss
-    - :author_name: 김민수
-      :feed_url: https://blog.kmshack.kr/feed.xml
     - :author_name: 김민장
       :feed_url: https://minjang.github.io/feed.xml
     - :author_name: 김민준
       :feed_url: https://v2.velog.io/rss/velopert
     - :author_name: 김범진
       :feed_url: https://medium.com/feed/@beejei
-    - :author_name: 김병환
-      :feed_url: https://kimbyeonghwan.tumblr.com/rss
     - :author_name: 김선영
       :feed_url: https://sunyzero.tistory.com/rss
-    - :author_name: 김성호
-      :feed_url: https://raccoonyy.github.io/rss/
     - :author_name: 김성훈
       :feed_url: https://elky84.github.io/feed.xml
     - :author_name: 김슬기
@@ -80,8 +74,6 @@ production: &production
       :feed_url: https://postgame.tistory.com/rss
     - :author_name: 양병규
       :feed_url: https://rss.blog.naver.com/delmadang.xml
-    - :author_name: 엄태웅
-      :feed_url: https://t-robotics.blogspot.com/feeds/posts/default
     - :author_name: 염재현
       :feed_url: https://only2sea.wordpress.com/feed/
     - :author_name: 오종빈
@@ -94,8 +86,6 @@ production: &production
       :feed_url: https://mobicon.tistory.com/rss
     - :author_name: 이규원
       :feed_url: 'https://gyuwon.github.io/feed'
-    - :author_name: 이상욱
-      :feed_url: https://feeds.feedburner.com/sangwook?format=xml
     - :author_name: 이상주
       :feed_url: https://feeds.feedburner.com/surpreem
     - :author_name: 이상현
@@ -114,12 +104,8 @@ production: &production
       :feed_url: https://jojoldu.tistory.com/rss
     - :author_name: 장현정
       :feed_url: https://naleejang.tistory.com/rss
-    - :author_name: 전희원
-      :feed_url: https://feeds.feedburner.com/gogamza?format=xml
     - :author_name: 정도현
       :feed_url: https://www.moreagile.net/feeds/posts/default
-    - :author_name: 정윤진
-      :feed_url: https://kerberosj.tistory.com/rss
     - :author_name: 조병욱
       :feed_url: https://bcho.tistory.com/rss
     - :author_name: 조은
@@ -136,8 +122,6 @@ production: &production
       :feed_url: https://keunwoochoi.wordpress.com/feed/
     - :author_name: 최범균
       :feed_url: https://javacan.tistory.com/rss
-    - :author_name: 최창원
-      :feed_url: https://qwefgh90.github.io/feed.xml
     - :author_name: 한승훈
       :feed_url: https://kkamagui.tistory.com/rss
     - :author_name: 한정일
@@ -146,10 +130,6 @@ production: &production
       :feed_url: 'https://www.integer.blog/rss/'
     - :author_name: 한태웅
       :feed_url: https://effectivesquid.tistory.com/rss
-    - :author_name: 홍민희
-      :feed_url: https://blog.hongminhee.org/feed.xml
-    - :author_name: 홍성철
-      :feed_url: https://feeds.feedburner.com/fupfin/blog
     - :author_name: Harfang
       :feed_url: https://harfangk.dev/ko/atom.xml
     - :author_name: Pluu
@@ -190,8 +170,8 @@ production: &production
       :feed_url: https://feeds.feedburner.com/saturnsoft
     - :author_name: city7310
       :feed_url: https://v2.velog.io/rss/city7310
-    - :author_name: giantsol
-      :feed_url: https://giantsol.github.io/feed.xml
+    - :author_name: PlanB
+      :feed_url: 'https://jomingyu.github.io/feed.xml'
     - :author_name: coffeewhale
       :feed_url: https://coffeewhale.com/feed.xml
     - :author_name: cheese10yun
@@ -282,6 +262,10 @@ production: &production
       :feed_url: 'https://justicehui.github.io/rss/'
     - :author_name: 황성현
       :feed_url: 'https://hwang.sh/rss.xml'
+    - :author_name: sooopd
+      :feed_url: 'https://soooprmx.com/feed/'
+    - :author_name: 정겨울
+      :feed_url: 'https://www.winterjung.dev/rss.xml'
 
   insightful:
     - :author_name: 메르
@@ -350,6 +334,8 @@ production: &production
       :feed_url: 'https://vcnc.tistory.com/rss'
     - :author_name: 서자영
       :feed_url: 'https://jayoung.blog/rss/'
+    - :author_name: 안희종
+      :feed_url: 'https://ahnheejong.name/feed.xml'
 
   company:
     - :author_name: 카카오

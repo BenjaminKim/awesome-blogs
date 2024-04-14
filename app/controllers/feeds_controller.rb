@@ -36,7 +36,7 @@ class FeedsController < ApplicationController
 
           feed = Rails.cache.fetch(feed_url, expires_in: cache_expiring_time) do
             Rails.logger.debug "cache missed: #{feed_url}"
-            Timeout::timeout(3) {
+            Timeout::timeout(5) {
               xml = HTTParty.get(feed_url).body
               Feedjira.parse(xml)
             }

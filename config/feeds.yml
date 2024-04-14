@@ -266,6 +266,8 @@ production: &production
       :feed_url: 'https://soooprmx.com/feed/'
     - :author_name: 정겨울
       :feed_url: 'https://www.winterjung.dev/rss.xml'
+    - :author_name: scalalang2
+      :feed_url: 'https://medium.com/feed/@scalalang2'
 
   insightful:
     - :author_name: 메르

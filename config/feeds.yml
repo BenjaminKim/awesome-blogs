@@ -300,8 +300,6 @@ production: &production
       :feed_url: https://sungmooncho.com/feed/
     - :author_name: 최혁재
       :feed_url: https://brunch.co.kr/rss/@@kDx
-    - :author_name: 쿠도
-      :feed_url: https://blog.kudokun.me/feed
     - :author_name: 한킴
       :feed_url: https://hankim.tumblr.com/rss
     - :author_name: uno

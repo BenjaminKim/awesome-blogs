@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 7.1'
 # Use sqlite3 as the database for Active Record
 
-gem 'sqlite3'
+gem 'sqlite3', '~> 1.7.3'
 
 # Use Puma as the app server
 gem 'puma'

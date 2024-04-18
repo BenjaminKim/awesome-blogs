@@ -270,6 +270,8 @@ production: &production
       :feed_url: 'https://medium.com/feed/@scalalang2'
     - :author_name: fernando
       :feed_url: 'https://fernando.kr/rss.xml'
+    - :author_name: junah
+      :feed_url: 'https://medium.com/feed/@junah201'
 
   insightful:
     - :author_name: 메르
@@ -340,6 +342,8 @@ production: &production
       :feed_url: 'https://jayoung.blog/rss/'
     - :author_name: 안희종
       :feed_url: 'https://ahnheejong.name/feed.xml'
+    - :author_name: 박재한
+      :feed_url: 'https://jaymepark.tistory.com/rss'
 
   company:
     - :author_name: 카카오

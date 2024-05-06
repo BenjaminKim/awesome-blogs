@@ -270,6 +270,8 @@ production: &production
       :feed_url: 'https://fernando.kr/rss.xml'
     - :author_name: junah
       :feed_url: 'https://medium.com/feed/@junah201'
+    - :author_name: 이찬희
+      :feed_url: 'https://hiddenest.dev/rss.xml'
 
   insightful:
     - :author_name: 메르

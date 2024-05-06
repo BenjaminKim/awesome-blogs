@@ -108,8 +108,6 @@ production: &production
       :feed_url: https://www.moreagile.net/feeds/posts/default
     - :author_name: 조병욱
       :feed_url: https://bcho.tistory.com/rss
-    - :author_name: 조은
-      :feed_url: 'https://medium.com/feed/@euncho'
     - :author_name: 조인석
       :feed_url: https://brunch.co.kr/rss/@@102g
     - :author_name: 주우영

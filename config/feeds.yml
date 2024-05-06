@@ -42,8 +42,6 @@ production: &production
       :feed_url: https://evan-moon.github.io/feed.xml
     - :author_name: 문호연
       :feed_url: 'https://www.hohyeonmoon.com/feed.rss'
-    - :author_name: 박민우
-      :feed_url: https://earlybird.kr/feed
     - :author_name: 박상권
       :feed_url: 'https://medium.com/feed/@gun0912'
     - :author_name: 박상민

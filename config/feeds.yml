@@ -74,8 +74,6 @@ production: &production
       :feed_url: https://rss.blog.naver.com/delmadang.xml
     - :author_name: 염재현
       :feed_url: https://only2sea.wordpress.com/feed/
-    - :author_name: 오종빈
-      :feed_url: https://feeds.feedburner.com/ohyecloudy-network?format=xml
     - :author_name: 유진호
       :feed_url: https://brunch.co.kr/atom/@@z8s
     - :author_name: 윤석찬

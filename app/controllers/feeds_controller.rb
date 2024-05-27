@@ -45,12 +45,16 @@ class FeedsController < ApplicationController
           next if feed.nil?
 
           if Rails.env.development?
-            if feed.entries.sort_by(&:published).last.published < 3.years.ago
-              Rails.logger.info "3년이 지난 피드: #{feed.title} #{feed_url}"
+            last_published = feed.entries.sort_by(&:published).last&.published
+            if last_published
+              if last_published < 3.years.ago
+                Rails.logger.info "3년이 지난 피드: #{feed.title} #{feed_url}"
+              end
             end
           end
 
           feed.entries.each do |entry|
+            next unless entry.published
             if entry.published < now - recent_days || entry.published.localtime > Time.now
               next
             end

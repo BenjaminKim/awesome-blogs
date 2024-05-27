@@ -66,8 +66,6 @@ production: &production
       :feed_url: https://brunch.co.kr/rss/@@Zvf
     - :author_name: 신현석
       :feed_url: https://hyeonseok.com/rss/
-    - :author_name: 안윤호
-      :feed_url: https://toyfab.tistory.com/rss
     - :author_name: 안중원
       :feed_url: https://postgame.tistory.com/rss
     - :author_name: 양병규
@@ -140,8 +138,6 @@ production: &production
       :feed_url: https://blog.rhostem.com/rss.xml
     - :author_name: 월급쟁이
       :feed_url: https://brunch.co.kr/rss/@@19LF
-    - :author_name: landvibe
-      :feed_url: https://medium.com/feed/@ljs0705
     - :author_name: lazygyu
       :feed_url: https://lazygyu.net/rss/blog.xml
     - :author_name: dongqui
@@ -270,8 +266,6 @@ production: &production
   insightful:
     - :author_name: 메르
       :feed_url: 'https://rss.blog.naver.com/ranto28.xml'
-    - :author_name: 김국현
-      :feed_url: 'https://goodhyun.wordpress.com/feed/'
     - :author_name: 김상훈
       :feed_url: https://interpiler.com/feed
 #    - :author_name: 김창원
@@ -294,8 +288,6 @@ production: &production
       :feed_url: https://sungmooncho.com/feed/
     - :author_name: 최혁재
       :feed_url: https://brunch.co.kr/rss/@@kDx
-    - :author_name: 한킴
-      :feed_url: https://hankim.tumblr.com/rss
     - :author_name: uno
       :feed_url: https://brunch.co.kr/atom/@@ZyX
     - :author_name: 이동건(마이리얼트립)
@@ -358,26 +350,18 @@ production: &production
       :feed_url: https://toss.tech/rss.xml
     - :author_name: 우아한형제들 기술 블로그
       :feed_url: https://techblog.woowahan.com/feed/
-    - :author_name: 스타일쉐어
-      :feed_url: https://styleshare.github.io/feed.xml
     - :author_name: 스포카
       :feed_url: https://spoqa.github.io/atom.xml
-    - :author_name: 토스랩(잔디)
-      :feed_url: https://tosslab.github.io/feed.xml
     - :author_name: 티몬
       :feed_url: https://rss.blog.naver.com/tmondev.xml
-    - :author_name: 엠비안
-      :feed_url: https://blog.embian.com/rss
     - :author_name: Google Developers Korea 블로그
       :feed_url: https://googledevkr.blogspot.in//atom.xml
-    - :author_name: 달리웍스
-      :feed_url: https://techblog.daliworks.net/feed.xml
     - :author_name: 당근마켓
       :feed_url: https://medium.com/feed/daangn
     - :author_name: 드라마앤컴퍼니
       :feed_url: https://blog.dramancompany.com/feed/
-    - :author_name: Rainist
-      :feed_url: https://medium.com/feed/rainist-engineering
+    - :author_name: 뱅크샐러드
+      :feed_url: 'https://blog.banksalad.com/rss.xml'
     - :author_name: 멋쟁이사자처럼
       :feed_url: https://brunch.co.kr/rss/@@2YH6
     - :author_name: 깃플

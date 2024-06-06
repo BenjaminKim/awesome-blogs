@@ -128,8 +128,6 @@ production: &production
       :feed_url: https://pluu.github.io/feed.xml
     - :author_name: asbubam
       :feed_url: https://blog.2dal.com/feed
-    - :author_name: Joshua
-      :feed_url: https://joshua1988.github.io/atom.xml
     - :author_name: Leopold
       :feed_url: https://medium.com/feed/@joongwon
     - :author_name: tech.ssut
@@ -172,9 +170,9 @@ production: &production
       :feed_url: https://blog.potados.com/feed.xml
     - :author_name: plan9
       :feed_url: https://plan9.kr/feed.xml
-    - :author_name: curogom
+    - :author_name: 쿠로곰
       :feed_url: https://medium.com/feed/@curogom
-    - :author_name: soojin.ro
+    - :author_name: 노수진
       :feed_url: 'https://soojin.ro/feed.xml'
     - :author_name: 강웅석
       :feed_url: 'https://nephtyws.github.io/feed.xml'

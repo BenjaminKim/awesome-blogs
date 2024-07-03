@@ -260,6 +260,9 @@ production: &production
       :feed_url: 'https://medium.com/feed/@junah201'
     - :author_name: 이찬희
       :feed_url: 'https://hiddenest.dev/rss.xml'
+    - :author_name: 홍민희
+      :feed_url: 'https://writings.hongminhee.org/feed.ko-hang-kr.xml'
+
 
   insightful:
     - :author_name: 메르

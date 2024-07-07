@@ -262,7 +262,8 @@ production: &production
       :feed_url: 'https://hiddenest.dev/rss.xml'
     - :author_name: 홍민희
       :feed_url: 'https://writings.hongminhee.org/feed.ko-hang-kr.xml'
-
+    - :author_name: 프로그래밍좀비
+      :feed_url: 'https://soulduse.tistory.com/rss'
 
   insightful:
     - :author_name: 메르

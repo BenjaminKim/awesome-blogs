@@ -264,6 +264,8 @@ production: &production
       :feed_url: 'https://writings.hongminhee.org/feed.ko-hang-kr.xml'
     - :author_name: 프로그래밍좀비
       :feed_url: 'https://soulduse.tistory.com/rss'
+    - :author_name: 이경원
+      :feed_url: 'https://kyoungwon.me/feed.xml'
 
   insightful:
     - :author_name: 메르

@@ -266,6 +266,8 @@ production: &production
       :feed_url: 'https://soulduse.tistory.com/rss'
     - :author_name: 이경원
       :feed_url: 'https://kyoungwon.me/feed.xml'
+    - :author_name: heka1024
+      :feed_url: 'https://v2.velog.io/rss/heka1024'
 
   insightful:
     - :author_name: 메르

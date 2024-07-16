@@ -159,6 +159,7 @@ GEM
       date
       net-protocol
     net-pop (0.1.2)
+      net-protocol
     net-protocol (0.2.2)
       timeout
     net-scp (4.0.0)
@@ -189,7 +190,7 @@ GEM
     puma (6.4.2)
       nio4r (~> 2.0)
     racc (1.8.0)
-    rack (3.1.6)
+    rack (3.1.7)
     rack-session (2.0.0)
       rack (>= 3.0.0)
     rack-test (2.1.0)
@@ -236,7 +237,7 @@ GEM
       http-cookie (>= 1.0.2, < 2.0)
       mime-types (>= 1.16, < 4.0)
       netrc (~> 0.8)
-    rexml (3.3.1)
+    rexml (3.3.2)
       strscan
     rss (0.3.0)
       rexml
@@ -304,4 +305,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   2.5.14
+   2.5.15

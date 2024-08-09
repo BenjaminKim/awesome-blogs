@@ -268,6 +268,8 @@ production: &production
       :feed_url: 'https://v2.velog.io/rss/heka1024'
     - :author_name: 이준행
       :feed_url: 'https://rainygirl.github.io/feed.xml'
+    - :author_name: 장용석
+      :feed_url: 'https://yongseok.me/rss.xml'
 
   insightful:
     - :author_name: 메르

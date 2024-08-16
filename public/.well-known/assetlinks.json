@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "blogs.awesome.android.awesome_blogs_flutter",
+    "sha256_cert_fingerprints":
+    ["EA:DD:C9:26:B2:3A:4C:B5:0A:34:A1:E6:8D:AC:C2:F9:36:99:62:C5:40:E8:BA:AA:49:6D:50:C2:78:FC:26:85"]
+  }
+}]

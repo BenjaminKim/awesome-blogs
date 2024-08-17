@@ -270,6 +270,8 @@ production: &production
       :feed_url: 'https://rainygirl.github.io/feed.xml'
     - :author_name: 장용석
       :feed_url: 'https://yongseok.me/rss.xml'
+    - :author_name: Jeremy
+      :feed_url: 'https://sungjk.github.io/feed.xml'
 
   insightful:
     - :author_name: 메르

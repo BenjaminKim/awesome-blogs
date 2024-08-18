@@ -1,0 +1,40 @@
+<article class="mx-auto text-center">
+  <h1 class="text-xl">어썸블로그</h1>
+  <h2 class="text-gray-500">개발자들의 최신 뉴스</h2>
+
+  <p class="mt-6 text-sm">한국어로 된 좋은 개발 블로그들을 모아서 보여줘요.</p>
+
+  <% @articles.each do |article| %>
+    <div class="mt-4">
+      <h2 class="text-sm text-blue-500 underline">
+        <%= link_to article[:title], article[:url] %>
+      </h2>
+      <span class="ml-2 text-xs">
+        <%= article[:author] %>
+      </span>
+      <span class="ml-1 text-xs text-gray-500">
+        <%= article[:published].to_s.first(10) %>
+      </span>
+    </div>
+    <% end %>
+
+      <ul class="list-none mt-6">
+        <li class="border-b border-gray-200 py-2">
+          <a href="https://play.google.com/store/apps/details?id=blogs.awesome.android.awesome_blogs_flutter&hl=ko"
+            class="text-blue-500">
+            <i class="fab fa-android"></i> 안드로이드 앱
+          </a>
+        </li>
+        <li class="border-b border-gray-200 py-2">
+          <a href="https://apps.apple.com/kr/app/%EC%96%B4%EC%8D%B8-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%BD%94%EB%94%A9-%EB%89%B4%EC%8A%A4/id1557176134"
+            class="text-blue-500">
+            <i class="fab fa-apple"></i> 아이폰 앱
+          </a>
+        </li>
+        <li class="border-b border-gray-200 py-2">
+          <a href="https://apps.microsoft.com/detail/9nsrpvll4cg9?hl=ko-kr&gl=KR" class="text-blue-500">
+            <i class="fab fa-windows"></i> 윈도우 앱
+          </a>
+        </li>
+      </ul>
+</article>

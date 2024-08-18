@@ -1,9 +1,7 @@
 class Feed
   def self.last(n)
     articles = []
-
-    group = 'dev'
-    feeds = Rails.application.config_for(:feeds)[group]
+    feeds = Rails.application.config_for(:feeds)['dev']
 
     Parallel.each(feeds, in_threads: 30) do |feed_h|
       feed_url = feed_h[:feed_url]
@@ -20,7 +18,6 @@ class Feed
       recent_entries = feed.entries.sort_by(&:published).last(1)
 
       recent_entries.each do |entry|
-        ap entry
         articles << { title: entry.title, url: entry.url, published: entry.published, author: entry.author }
       end
     end

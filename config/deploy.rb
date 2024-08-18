@@ -31,4 +31,3 @@ append :linked_dirs, 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'public/syst
 # set :default_env, { path: "/opt/ruby/bin:$PATH" }
 set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 set :keep_releases, 30
-set :puma_phased_restart, true

@@ -66,5 +66,6 @@ gem 'addressable'
 gem 'rss'
 gem 'httparty'
 gem "tailwindcss-rails", "~> 2.7"
-gem 'sass-rails'
 gem 'vite_rails'
+gem 'dartsass-sprockets'
+gem "dartsass-rails", "~> 0.5.0"

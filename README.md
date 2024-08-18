@@ -1,9 +1,9 @@
 # 어썸블로그
-국내의 좋은 개발자 블로그들을 모아서 보여주는 뉴스앱입니다. 
+국내의 좋은 개발자 블로그들을 모아서 보여주는 뉴스앱입니다.
 [Feedly](https://feedly.com) 같은 RSS reader 에서도 사용할 수 있도록 설계했습니다.
 현재 제공되는 카테고리는 다음처럼 3가지가 있습니다. 모든 목록은 [이 곳](https://github.com/BenjaminKim/awesome-blogs/blob/master/config/feeds.yml)에서 확인하실 수 있습니다.  
 이 프로젝트는 서버와 클라이언트 소스가 모두 공개 되어 있는 오픈소스 프로젝트입니다.
-아직 알려지지 않은 좋은 블로그들에 대한 피드백을 환영합니다. ^^  
+아직 알려지지 않은 좋은 블로그들에 대한 피드백을 환영합니다. ^^
 
 ### 안드로이드 전용앱 다운로드
 <a href="https://play.google.com/store/apps/details?id=blogs.awesome.android.awesome_blogs_flutter&hl=ko&referrer=utm_source%3Dgithub-server"><img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="20%"></a>

@@ -11,7 +11,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
-
   get '/home', to: 'home#home'
 
   scope defaults: { format: :xml } do
@@ -21,5 +20,4 @@ Rails.application.routes.draw do
       end
     end
   end
-
 end

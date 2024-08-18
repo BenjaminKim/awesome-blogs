@@ -8,10 +8,14 @@ gem "sprockets-rails"
 gem "sqlite3", ">= 1.4"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
+# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
+gem "importmap-rails"
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
+# Use Tailwind CSS [https://github.com/rails/tailwindcss-rails]
+gem "tailwindcss-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 # Use Redis adapter to run Action Cable in production
@@ -44,14 +48,14 @@ group :development, :test do
 end
 
 group :development do
+  # Use console on exceptions pages [https://github.com/rails/web-console]
+  gem "web-console"
   gem 'capistrano-rails'
   gem 'capistrano3-puma', '~> 6.0.0.beta.1'
   gem 'capistrano-bundler'
   gem 'capistrano-rvm'
   gem 'capistrano-upload-config'
   gem 'awesome_print'
-  # Use console on exceptions pages [https://github.com/rails/web-console]
-  gem "web-console"
 end
 
 group :test do
@@ -60,12 +64,9 @@ group :test do
   gem "selenium-webdriver"
 end
 
+gem "dartsass-rails", "~> 0.5.1"
 gem 'feedjira'
 gem 'parallel'
 gem 'addressable'
 gem 'rss'
 gem 'httparty'
-gem "tailwindcss-rails", "~> 2.7"
-gem 'vite_rails'
-gem 'dartsass-sprockets'
-gem "dartsass-rails", "~> 0.5.0"

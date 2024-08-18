@@ -68,3 +68,5 @@ gem 'addressable'
 gem 'rss'
 gem 'httparty'
 gem "tailwindcss-rails", "~> 2.7"
+gem "font-awesome-sass"
+gem 'sassc'

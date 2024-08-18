@@ -25,7 +25,7 @@ install_plugin Capistrano::Puma::Systemd
 # require "capistrano/rbenv"
 # require "capistrano/chruby"
 require 'capistrano/bundler'
-require 'capistrano/rails/migrations'
+require 'capistrano/rails'
 require 'capistrano/upload-config'
 # require "capistrano/rails/migrations"
 # require "capistrano/passenger"

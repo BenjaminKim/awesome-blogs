@@ -104,8 +104,6 @@ production: &production
       :feed_url: https://bcho.tistory.com/rss
     - :author_name: 조인석
       :feed_url: https://brunch.co.kr/rss/@@102g
-    - :author_name: 진용진
-      :feed_url: https://brunch.co.kr/rss/@@2rV
     - :author_name: 찜토끼
       :feed_url: https://wlaxhrl.tistory.com/rss
     - :author_name: 최근우

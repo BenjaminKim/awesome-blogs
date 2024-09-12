@@ -272,6 +272,8 @@ production: &production
       :feed_url: 'https://sungjk.github.io/feed.xml'
     - :author_name: ashon
       :feed_url: 'https://blog.ashon.dev/feed.xml'
+    - :author_name: 토비
+      :feed_url: 'https://tobyepril.tistory.com/rss'
 
   insightful:
     - :author_name: 메르

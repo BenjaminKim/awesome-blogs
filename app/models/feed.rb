@@ -1,16 +1,16 @@
 class Feed
   def self.last(n)
     articles = []
-    feeds = Rails.application.config_for(:feeds)['dev']
+    feeds = Rails.application.config_for(:feeds)['dev'].sample(30)
 
     Parallel.each(feeds, in_threads: 30) do |feed_h|
       feed_url = feed_h[:feed_url]
 
       feed = Rails.cache.fetch(feed_url, expires_in: 10.minutes) do
-        Timeout::timeout(5) {
+        Timeout::timeout(1) {
           xml = HTTParty.get(feed_url).body
           Feedjira.parse(xml)
-        }
+        } rescue nil
       end
 
       next if feed.nil?

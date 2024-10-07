@@ -75,7 +75,7 @@ production: &production
     - :author_name: 유진호
       :feed_url: https://brunch.co.kr/atom/@@z8s
     - :author_name: 윤석찬
-      :feed_url: https://feeds.feedburner.com/channy
+      :feed_url: 'https://channy.creation.net/rss.xml'
     - :author_name: 윤영식
       :feed_url: https://mobicon.tistory.com/rss
     - :author_name: 이규원

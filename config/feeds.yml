@@ -276,6 +276,8 @@ production: &production
       :feed_url: 'https://tobyepril.tistory.com/rss'
     - :author_name: 한재엽
       :feed_url: 'https://jbee.io/rss.xml'
+    - :author_name: 오시영
+      :feed_url: 'https://siyoung.org/kr/index.xml'
 
   insightful:
     - :author_name: 메르

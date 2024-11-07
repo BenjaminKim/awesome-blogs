@@ -280,6 +280,8 @@ production: &production
       :feed_url: 'https://siyoung.org/kr/index.xml'
     - :author_name: 안샛별
       :feed_url: 'https://v2.velog.io/rss/typo'
+    - :author_name: whitelips
+      :feed_url: 'https://medium.com/feed/@whitelips'
 
   insightful:
     - :author_name: 메르

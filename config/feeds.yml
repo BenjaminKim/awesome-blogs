@@ -284,7 +284,9 @@ production: &production
       :feed_url: 'https://medium.com/feed/@whitelips'
     - :author_name: 혜욤이
       :feed_url: 'https://v2.velog.io/rss/khy2106'
-
+    - :author_name: 신영진
+      :feed_url: 'https://jiniya.net/rss.xml'
+        
   insightful:
     - :author_name: 메르
       :feed_url: 'https://rss.blog.naver.com/ranto28.xml'

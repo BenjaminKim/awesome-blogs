@@ -352,6 +352,8 @@ production: &production
       :feed_url: 'https://jayoung.blog/rss/'
     - :author_name: 박재한
       :feed_url: 'https://jaymepark.tistory.com/rss'
+    - :author_name: 하진우
+      :feed_url: 'https://medium.com/feed/@lionha'
 
   company:
     - :author_name: 카카오

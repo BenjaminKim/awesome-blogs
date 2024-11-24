@@ -74,8 +74,6 @@ production: &production
       :feed_url: https://only2sea.wordpress.com/feed/
     - :author_name: 유진호
       :feed_url: https://brunch.co.kr/atom/@@z8s
-    - :author_name: 윤석찬
-      :feed_url: 'https://channy.creation.net/rss.xml'
     - :author_name: 윤영식
       :feed_url: https://mobicon.tistory.com/rss
     - :author_name: 이규원
@@ -178,8 +176,6 @@ production: &production
       :feed_url: 'https://donghun.dev/feed.xml'
     - :author_name: xiniha
       :feed_url: 'https://v2.velog.io/rss/xiniha'
-    - :author_name: hoseung
-      :feed_url: 'https://blog.hoseung.me/rss.xml'
     - :author_name: 냉동코더
       :feed_url: 'https://cliearl.github.io/index.xml'
     - :author_name: imjhk03
